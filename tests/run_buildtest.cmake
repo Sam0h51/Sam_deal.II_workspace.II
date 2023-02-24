@@ -1,0 +1,6 @@
+IF("${TRACK}" STREQUAL "")
+  SET(TRACK "Build Tests")
+ENDIF()
+SET(DEAL_II_COMPILE_EXAMPLES TRUE)
+SET(TEST_PICKUP_REGEX "^do_not_run_any_tests")
+INCLUDE(${CMAKE_CURRENT_LIST_DIR}/run_testsuite.cmake)

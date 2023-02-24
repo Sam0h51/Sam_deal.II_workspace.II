@@ -1,0 +1,58 @@
+// ---------------------------------------------------------------------
+//
+// Copyright (C) 2002 - 2018 by the deal.II authors
+//
+// This file is part of the deal.II library.
+//
+// The deal.II library is free software; you can use it, redistribute
+// it, and/or modify it under the terms of the GNU Lesser General
+// Public License as published by the Free Software Foundation; either
+// version 2.1 of the License, or (at your option) any later version.
+// The full text of the license can be found in the file LICENSE.md at
+// the top level directory of deal.II.
+//
+// ---------------------------------------------------------------------
+
+
+// make sure that we write boundary lines marked with a non-zero boundary
+// indicator correctly in UCD format
+
+#include <deal.II/base/geometry_info.h>
+
+#include <deal.II/dofs/dof_handler.h>
+
+#include <deal.II/grid/grid_generator.h>
+#include <deal.II/grid/grid_out.h>
+#include <deal.II/grid/manifold_lib.h>
+#include <deal.II/grid/tria.h>
+#include <deal.II/grid/tria_accessor.h>
+#include <deal.II/grid/tria_iterator.h>
+
+#include "../tests.h"
+
+template <int dim>
+void
+test()
+{
+  Triangulation<dim> tria;
+  GridGenerator::hyper_cube(tria);
+  tria.begin_active()->line(0)->set_boundary_id(1);
+  tria.begin_active()->face(2 * dim - 1)->set_boundary_id(2);
+
+  GridOut           grid_out;
+  GridOutFlags::Ucd flags;
+  flags.write_lines = flags.write_faces = true;
+  grid_out.set_flags(flags);
+  grid_out.write_ucd(tria, deallog.get_file_stream());
+}
+
+
+int
+main()
+{
+  initlog();
+  deallog << std::setprecision(2);
+
+  test<2>();
+  test<3>();
+}
