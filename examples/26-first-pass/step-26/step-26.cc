@@ -102,7 +102,7 @@ namespace Step26
   public:
     RightHandSide()
       : Function<spacedim>()
-      , period(0.2)
+      , period(0.1)
     {}
 
     virtual double value(const Point<spacedim> & p,
@@ -124,24 +124,100 @@ namespace Step26
 
     const double time = this->get_time();
     const double point_within_period =
-      (time / period - std::floor(time / period));
+      ((time / period) - std::floor(time / period));
 
-    if ((point_within_period >= 0.0) && (point_within_period <= 0.2))
+    /* std::cout << 2*std::sin(2*3.14159265358*point_within_period)
+              << "\t"
+              << 4*std::sin(2*3.14159265358*point_within_period)
+              << "\t"
+              << 2*std::cos(2*3.14159265358*point_within_period)
+              << "\t"
+              << 4*std::cos(2*3.14159265358*point_within_period)
+              << std::endl
+              << 4*std::sin(2*3.14159265358*point_within_period)
+              << "\t"
+              << 2*std::sin(2*3.14159265358*point_within_period)
+              << "\t"
+              << 2*std::cos(2*3.14159265358*point_within_period)
+              << "\t"
+              << 4*std::cos(2*3.14159265358*point_within_period)
+              << std::endl
+              << 2*std::sin(2*3.14159265358*point_within_period)
+              << "\t"
+              << 4*std::sin(2*3.14159265358*point_within_period)
+              << "\t"
+              << 4*std::cos(2*3.14159265358*point_within_period)
+              << "\t"
+              << 2*std::cos(2*3.14159265358*point_within_period)
+              << std::endl
+              << 4*std::sin(2*3.14159265358*point_within_period)
+              << "\t"
+              << 2*std::sin(2*3.14159265358*point_within_period)
+              << "\t"
+              << 4*std::cos(2*3.14159265358*point_within_period)
+              << "\t"
+              << 2*std::cos(2*3.14159265358*point_within_period)
+              << std::endl << std::endl; */
+
+    if(point_within_period <= .25)
+    {
+      if ((1.5*std::sin(2*3.14159265358*point_within_period) <= p(0)) &&
+        (4.5*std::sin(2*3.14159265358*point_within_period) >= p(0)) &&
+        (1.5*std::cos(2*3.14159265358*point_within_period) <= p(2)) &&
+        (4.5*std::cos(2*3.14159265358*point_within_period) >= p(2))){
+          return 1;
+        }
+      else
+        return -.05;
+    }
+    else if(point_within_period >=.25 && point_within_period <=.5){
+      if ((1.5*std::sin(2*3.14159265358*point_within_period) <= p(0)) &&
+        (4.5*std::sin(2*3.14159265358*point_within_period) >= p(0)) &&
+        (4.5*std::cos(2*3.14159265358*point_within_period) <= p(2)) &&
+        (1.5*std::cos(2*3.14159265358*point_within_period) >= p(2))){
+          return 1;
+        }
+      else
+        return -.05;
+    }
+    else if (point_within_period >= .5 && point_within_period <= .75){
+      if ((4.5*std::sin(2*3.14159265358*point_within_period) <= p(0)) &&
+        (1.5*std::sin(2*3.14159265358*point_within_period) >= p(0)) &&
+        (4.5*std::cos(2*3.14159265358*point_within_period) <= p(2)) &&
+        (1.5*std::cos(2*3.14159265358*point_within_period) >= p(2))){
+          return 1;
+        }
+      else
+        return -.05;
+    }
+    else{
+      if ((4.5*std::sin(2*3.14159265358*point_within_period) <= p(0)) &&
+        (1.5*std::sin(2*3.14159265358*point_within_period) >= p(0)) &&
+        (1.5*std::cos(2*3.14159265358*point_within_period) <= p(2)) &&
+        (4.5*std::cos(2*3.14159265358*point_within_period) >= p(2))){
+          return 1;
+        }
+      else
+        return -.05;
+    };
+
+
+    /* if ((point_within_period >= 0.0) && (point_within_period <= 0.2))
       {
         if ((p[0] > 1) && (p[2] > 1))
           return 1;
         else
-          return 0;
+          return -1;
       }
     else if ((point_within_period >= 0.5) && (point_within_period <= 0.7))
       {
         if ((p[0] < -1) && (p[2] < -1))
           return 1;
         else
-          return 0;
+          return -1;
       }
     else
-      return 0;
+      return 0; */
   }
 
 
@@ -330,8 +406,8 @@ void HeatEquation<dim, spacedim>::torus()
 
     GridRefinement::refine_and_coarsen_fixed_fraction(triangulation,
                                                       estimated_error_per_cell,
-                                                      0.6,
-                                                      0.4);
+                                                      0.5,
+                                                      0.5);
 
     if (triangulation.n_levels() > max_grid_level)
       for (const auto &cell :
@@ -360,8 +436,8 @@ void HeatEquation<dim, spacedim>::torus()
   template <int dim, int spacedim>
   void HeatEquation<dim, spacedim>::run()
   {
-    const unsigned int initial_global_refinement       = 2;
-    const unsigned int n_adaptive_pre_refinement_steps = 4;
+    const unsigned int initial_global_refinement       = 1;
+    const unsigned int n_adaptive_pre_refinement_steps = 6;
 
     generate_mesh();
     triangulation.refine_global(initial_global_refinement);
