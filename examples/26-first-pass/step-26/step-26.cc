@@ -159,7 +159,44 @@ namespace Step26
               << 2*std::cos(2*3.14159265358*point_within_period)
               << std::endl << std::endl; */
 
-    if(point_within_period <= .25)
+
+    double theta = 2*3.14159265358*point_within_period;
+
+    if(point_within_period <= .125 || point_within_period >= .875){
+      if(std::abs(p(2) - (std::tan(theta)*(p(0) - 2*std::cos(theta)) + 2*std::sin(theta))) <= 1e-1){
+        return 1;
+      }
+      else{
+        return 0;
+      }
+    }
+    else if(point_within_period >= .125 && point_within_period <= .375){
+      if(std::abs(p(0) - ((std::cos(theta)/std::sin(theta))*(p(2) - 2*std::sin(theta)) + 2*std::cos(theta))) <= 1e-1){
+        return 1;
+      }
+      else{
+        return 0;
+      }
+    }
+    else if(point_within_period >= .375 && point_within_period <= .625){
+      if(std::abs(p(2) - (std::tan(theta)*(p(0) - 2*std::cos(theta)) + 2*std::sin(theta))) <= 1e-1){
+        return 1;
+      }
+      else{
+        return 0;
+      }
+    }
+    else{
+      if(std::abs(p(0) - ((std::cos(theta)/std::sin(theta))*(p(2) - 2*std::sin(theta)) + 2*std::cos(theta))) <= 1e-1){
+        return 1;
+      }
+      else{
+        return 0;
+      }
+    }
+
+    
+    /* if(point_within_period <= .25)
     {
       if ((1.5*std::sin(2*3.14159265358*point_within_period) <= p(0)) &&
         (4.5*std::sin(2*3.14159265358*point_within_period) >= p(0)) &&
@@ -199,7 +236,7 @@ namespace Step26
         }
       else
         return -.05;
-    };
+    }; */
 
 
     /* if ((point_within_period >= 0.0) && (point_within_period <= 0.2))
