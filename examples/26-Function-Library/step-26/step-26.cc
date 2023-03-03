@@ -109,6 +109,14 @@ namespace Step26
     virtual double value(const Point<spacedim> & p,
                          const unsigned int component = 0) const override;
 
+    virtual double linearly_changing_point_source(const Point<spacedim> &p, 
+                                                  const Point<spacedim> &center,
+                                                  const double time,
+                                                  const double max_time,
+                                                  const double initial_value = 0.,
+                                                  const double final_value = 1.,
+                                                  const double radius =1e-1);
+
   private:
     const double period;
   };
@@ -119,6 +127,37 @@ namespace Step26
   double RightHandSide<spacedim>::value(const Point<spacedim> & p,
                                    const unsigned int component) const
   {
+    const Point<spacedim> center(0, 0);
+    const double time = this->get_time();
+    const double max_time = .5;
+    const double initial_value = 0.;
+    const double final_value = 1.;
+    const double radius = 1e-1;
+
+
+
+    const double time_fraction = time/max_time;
+
+    double distance = 0.;
+
+    for(int i = 0; i < spacedim; ++i){
+      distance += (p(i) - center(i))*(p(i) - center(i));
+    }
+
+    distance = std::sqrt(distance);
+
+    if(distance <= radius){
+      return initial_value*(1 - time_fraction) + final_value*time_fraction;
+    }
+    else{
+      return 0;
+    }
+
+
+
+
+
+
     (void)component;
     AssertIndexRange(component, 1);
     // Assert(dim == 2, ExcNotImplemented());
@@ -129,8 +168,6 @@ namespace Step26
     else{
       second_coordinate = 2;
     }
-
-    const double time = this->get_time();
     const double point_within_period =
       ((time / period) - std::floor(time / period));
 
@@ -251,6 +288,70 @@ namespace Step26
     else
       return 0; */
   }
+
+  template<int spacedim>
+  double RightHandSide<spacedim>::linearly_changing_point_source(const Point<spacedim> &p, 
+                                                  const Point<spacedim> &center,
+                                                  const double time,
+                                                  const double max_time,
+                                                  const double initial_value,
+                                                  const double final_value,
+                                                  const double radius)
+  {
+    const double time_fraction = time/max_time;
+
+    double distance = 0.;
+
+    for(int i = 0; i < spacedim; ++i){
+      distance += (p(i) - center(i))*(p(i) - center(i));
+    }
+
+    distance = std::sqrt(distance);
+
+    if(distance <= radius){
+      return initial_value*(1 - time_fraction) + final_value*time_fraction;
+    }
+    else{
+      return 0;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
