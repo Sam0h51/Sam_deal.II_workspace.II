@@ -109,14 +109,6 @@ namespace Step26
     virtual double value(const Point<spacedim> & p,
                          const unsigned int component = 0) const override;
 
-    virtual double linearly_changing_point_source(const Point<spacedim> &p, 
-                                                  const Point<spacedim> &center,
-                                                  const double time,
-                                                  const double max_time,
-                                                  const double initial_value = 0.,
-                                                  const double final_value = 1.,
-                                                  const double radius =1e-1);
-
   private:
     const double period;
   };
@@ -127,41 +119,13 @@ namespace Step26
   double RightHandSide<spacedim>::value(const Point<spacedim> & p,
                                    const unsigned int component) const
   {
-    const Point<spacedim> center(0, 0);
-    const double time = this->get_time();
-    const double max_time = .5;
-    const double initial_value = 0.;
-    const double final_value = 1.;
-    const double radius = 1e-1;
-
-
-
-    const double time_fraction = time/max_time;
-
-    double distance = 0.;
-
-    for(int i = 0; i < spacedim; ++i){
-      distance += (p(i) - center(i))*(p(i) - center(i));
-    }
-
-    distance = std::sqrt(distance);
-
-    if(distance <= radius){
-      return initial_value*(1 - time_fraction) + final_value*time_fraction;
-    }
-    else{
-      return 0;
-    }
-
-
-
-
-
-
     (void)component;
     AssertIndexRange(component, 1);
     // Assert(dim == 2, ExcNotImplemented());
     unsigned int second_coordinate = 0;
+
+    const double time = this->get_time();
+
     if(spacedim == 2){
       second_coordinate = 1;
     }
@@ -289,15 +253,73 @@ namespace Step26
       return 0; */
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   template<int spacedim>
-  double RightHandSide<spacedim>::linearly_changing_point_source(const Point<spacedim> &p, 
-                                                  const Point<spacedim> &center,
-                                                  const double time,
-                                                  const double max_time,
-                                                  const double initial_value,
-                                                  const double final_value,
-                                                  const double radius)
+  class LinearlyChangingPointSource : public Function<spacedim>
   {
+    public:
+      LinearlyChangingPointSource(const Point<spacedim> &center,
+                                  const double max_time,
+                                  const double initial_value = 0.,
+                                  const double final_value = 1.,
+                                  const double radius = 1e-1)
+      {
+        this->center = center;
+        this->max_time = max_time;
+        this->initial_value = initial_value;
+        this->final_value = final_value;
+        this->radius = radius;
+      }
+
+      virtual double value(const Point<spacedim> &p,
+                           const unsigned int component = 0) const override;
+    
+    private:
+      double max_time;
+      double initial_value;
+      double final_value;
+      double radius;
+      Point<spacedim> center;
+  };
+
+  
+  template<int spacedim>
+  double LinearlyChangingPointSource<spacedim>::value(const Point<spacedim> &p,
+                                                      const unsigned int component) const
+  {
+    const double time = this->get_time();
+
     const double time_fraction = time/max_time;
 
     double distance = 0.;
@@ -326,41 +348,181 @@ namespace Step26
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  template <int spacedim>
-  class BoundaryValues : public Function<spacedim>
-  {
+template<int spacedim>
+class LinearlyExpandingPointSource : public Function<spacedim>
+{
   public:
-    virtual double value(const Point<spacedim> & p,
-                         const unsigned int component = 0) const override;
+    LinearlyExpandingPointSource(const Point<spacedim> &center,
+                                  const double max_time,
+                                  const double initial_radius = 1e-1,
+                                  const double final_radius = 1.,
+                                  const double source_value = 1)
+    {
+      this->center = center;
+      this->max_time = max_time;
+      this->initial_radius = initial_radius;
+      this->final_radius = final_radius;
+      this->source_value = source_value;
+    }
+
+    virtual double value (const Point<spacedim> &p,
+                          const unsigned int component = 0) const override;
+  
+  private:
+    Point<spacedim> center;
+    double max_time;
+    double initial_radius;
+    double final_radius;
+    double source_value;
+};
+
+
+template<int spacedim>
+double LinearlyExpandingPointSource<spacedim>::value(const Point<spacedim> &p, const unsigned int componenet) const
+{
+  const double time = this->get_time();
+
+  const double time_fraction = time/max_time;
+
+   double distance = 0.;
+
+   for(int i = 0; i < spacedim; ++i){
+    distance += (p(i) - center(i))*(p(i) - center(i));
+   }
+
+   distance = std::sqrt(distance);
+
+   const double current_radius = initial_radius*(1-time_fraction) + final_radius*(time_fraction);
+
+   if(distance <= current_radius){
+    return source_value;
+   }
+   else{
+    return 0;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+template<int spacedim>
+class RHS_Function_holder
+{
+private:
+  RightHandSide<spacedim> right_hand_side;
+  LinearlyChangingPointSource<spacedim> linearly_changing_point_source;
+  LinearlyExpandingPointSource<spacedim> linearly_expanding_point_source;
+
+public:
+  RHS_Function_holder(const Point<spacedim> center, const double max_time) :
+  linearly_changing_point_source(center, max_time),
+  linearly_expanding_point_source(center, max_time)
+  {};
+
+  ~RHS_Function_holder();
+  RightHandSide<spacedim> get_right_hand_side();
+  LinearlyChangingPointSource<spacedim> get_linearly_changing_point_source();
+  LinearlyExpandingPointSource<spacedim> get_linearly_expanding_point_source();
+
+
+  void set_time(double time);
+};
+
+
+
+
+
+
+
+template<int spacedim>
+RHS_Function_holder<spacedim>::~RHS_Function_holder()
+{
+}
+
+template <int spacedim>
+RightHandSide<spacedim> RHS_Function_holder<spacedim>::get_right_hand_side()
+{
+  return right_hand_side;
+}
+
+template<int spacedim>
+LinearlyChangingPointSource<spacedim> RHS_Function_holder<spacedim>::get_linearly_changing_point_source()
+{
+  return linearly_changing_point_source;
+}
+
+template <int spacedim>
+LinearlyExpandingPointSource<spacedim> RHS_Function_holder<spacedim>::get_linearly_expanding_point_source()
+{
+  return linearly_expanding_point_source;
+}
+
+
+
+template <int spacedim>
+void RHS_Function_holder<spacedim>::set_time(double time)
+{
+  right_hand_side.set_time(time);
+  linearly_changing_point_source.set_time(time);
+  linearly_expanding_point_source.set_time(time);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+template <int spacedim>
+class BoundaryValues : public Function<spacedim>
+{
+public:
+  virtual double value(const Point<spacedim> &p,
+                       const unsigned int     component = 0) const override;
   };
 
 
@@ -576,7 +738,7 @@ void HeatEquation<dim, spacedim>::hyper_cube()
   void HeatEquation<dim, spacedim>::run()
   {
     unsigned int initial_global_refinement       = 3;
-    const unsigned int n_adaptive_pre_refinement_steps = 4;
+    // const unsigned int n_adaptive_pre_refinement_steps = 4;
 
     if(dim ==2){
       initial_global_refinement = 5;
@@ -587,12 +749,12 @@ void HeatEquation<dim, spacedim>::hyper_cube()
 
     setup_system();
 
-    unsigned int pre_refinement_step = 0;
+    // unsigned int pre_refinement_step = 0;
 
     /* Vector<double> tmp;
     Vector<double> forcing_terms; */
 
-  start_time_iteration:
+  // start_time_iteration:
 
     time            = 0.0;
     timestep_number = 0;
@@ -620,9 +782,20 @@ void HeatEquation<dim, spacedim>::hyper_cube()
 
         // laplace_matrix.vmult(tmp, old_solution);
         // system_rhs.add(-(1 - theta) * time_step, tmp);
+        
+        Point<spacedim> center;
 
-        RightHandSide<spacedim> rhs_function;
-        rhs_function.set_time(time);
+        if(spacedim ==2){
+          const Point<spacedim> tmp(0, 0);
+          center = tmp;
+        }
+        else{
+          const Point<spacedim> tmp(0, 0, 0);
+          center = tmp;
+        }
+
+        RHS_Function_holder<spacedim> rhs_function_holder(center, 0.5);
+        rhs_function_holder.set_time(time);
         /* VectorTools::create_right_hand_side(dof_handler,
                                             QGauss<dim>(fe.degree + 1),
                                             rhs_function,
@@ -630,10 +803,9 @@ void HeatEquation<dim, spacedim>::hyper_cube()
         forcing_terms = tmp;
         forcing_terms *= time_step * theta; */
 
-        rhs_function.set_time(time - time_step);
         VectorTools::create_right_hand_side(dof_handler,
                                             QGauss<dim>(fe.degree + 1),
-                                            rhs_function,
+                                            rhs_function_holder.get_linearly_expanding_point_source(),
                                             solution);
 
         /* forcing_terms.add(time_step * (1 - theta), tmp);
