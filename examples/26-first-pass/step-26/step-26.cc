@@ -165,53 +165,53 @@ namespace Step26
     if(point_within_period <= .125 || point_within_period >= .875){
       if(std::abs(p(2) - (std::tan(theta)*(p(0) - 2*std::cos(theta)) + 2*std::sin(theta))) <= 1e-1 &&
          p(0) >= 0){
-        return 20;
+        return 1;
       }
       else if(std::abs(p(2) - (std::tan(theta)*(p(0) - 2*std::cos(theta)) + 2*std::sin(theta))) <= 1e-1 &&
          p(0) <= 0){
-        return -20;
+        return -.1;
       }
       else{
-        return 0;
+        return -.1;
       }
     }
     else if(point_within_period >= .125 && point_within_period <= .375){
       if(std::abs(p(0) - ((std::cos(theta)/std::sin(theta))*(p(2) - 2*std::sin(theta)) + 2*std::cos(theta))) <= 1e-1
          && p(2) >= 0){
-        return 20;
+        return 1;
       }
       else if(std::abs(p(0) - ((std::cos(theta)/std::sin(theta))*(p(2) - 2*std::sin(theta)) + 2*std::cos(theta))) <= 1e-1
          && p(2) <= 0){
-        return -20;
+        return -.1;
       }
       else{
-        return 0;
+        return -.1;
       }
     }
     else if(point_within_period >= .375 && point_within_period <= .625){
       if(std::abs(p(2) - (std::tan(theta)*(p(0) - 2*std::cos(theta)) + 2*std::sin(theta))) <= 1e-1 &&
          p(0) <= 0){
-        return 20;
+        return 1;
       }
       else if(std::abs(p(2) - (std::tan(theta)*(p(0) - 2*std::cos(theta)) + 2*std::sin(theta))) <= 1e-1 &&
          p(0) >= 0){
-        return -20;
+        return -.1;
       }
       else{
-        return 0;
+        return -.1;
       }
     }
     else{
       if(std::abs(p(0) - ((std::cos(theta)/std::sin(theta))*(p(2) - 2*std::sin(theta)) + 2*std::cos(theta))) <= 1e-1
          && p(2) <= 0){
-        return 20;
+        return 1;
       }
       else if(std::abs(p(0) - ((std::cos(theta)/std::sin(theta))*(p(2) - 2*std::sin(theta)) + 2*std::cos(theta))) <= 1e-1
          && p(2) >= 0){
-        return -20;
+        return -.1;
       }
       else{
-        return 0;
+        return -.1;
       }
     }
 
@@ -493,7 +493,7 @@ void HeatEquation<dim, spacedim>::torus()
   template <int dim, int spacedim>
   void HeatEquation<dim, spacedim>::run()
   {
-    const unsigned int initial_global_refinement       = 4;
+    const unsigned int initial_global_refinement       = 5;
     const unsigned int n_adaptive_pre_refinement_steps = 6;
 
     generate_mesh();
