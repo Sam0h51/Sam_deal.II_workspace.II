@@ -493,7 +493,7 @@ void HeatEquation<dim, spacedim>::torus()
   template <int dim, int spacedim>
   void HeatEquation<dim, spacedim>::run()
   {
-    const unsigned int initial_global_refinement       = 5;
+    const unsigned int initial_global_refinement       = 6;
     const unsigned int n_adaptive_pre_refinement_steps = 6;
 
     generate_mesh();
