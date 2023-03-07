@@ -165,7 +165,7 @@ namespace Step26
     if(point_within_period <= .125 || point_within_period >= .875){
       if(std::abs(p(2) - (std::tan(theta)*(p(0) - 2*std::cos(theta)) + 2*std::sin(theta))) <= 1e-1 &&
          p(0) >= 0){
-        return 1;
+        return 20;
       }
       else if(std::abs(p(2) - (std::tan(theta)*(p(0) - 2*std::cos(theta)) + 2*std::sin(theta))) <= 1e-1 &&
          p(0) <= 0){
@@ -178,7 +178,7 @@ namespace Step26
     else if(point_within_period >= .125 && point_within_period <= .375){
       if(std::abs(p(0) - ((std::cos(theta)/std::sin(theta))*(p(2) - 2*std::sin(theta)) + 2*std::cos(theta))) <= 1e-1
          && p(2) >= 0){
-        return 1;
+        return 20;
       }
       else if(std::abs(p(0) - ((std::cos(theta)/std::sin(theta))*(p(2) - 2*std::sin(theta)) + 2*std::cos(theta))) <= 1e-1
          && p(2) <= 0){
@@ -191,7 +191,7 @@ namespace Step26
     else if(point_within_period >= .375 && point_within_period <= .625){
       if(std::abs(p(2) - (std::tan(theta)*(p(0) - 2*std::cos(theta)) + 2*std::sin(theta))) <= 1e-1 &&
          p(0) <= 0){
-        return 1;
+        return 20;
       }
       else if(std::abs(p(2) - (std::tan(theta)*(p(0) - 2*std::cos(theta)) + 2*std::sin(theta))) <= 1e-1 &&
          p(0) >= 0){
@@ -204,7 +204,7 @@ namespace Step26
     else{
       if(std::abs(p(0) - ((std::cos(theta)/std::sin(theta))*(p(2) - 2*std::sin(theta)) + 2*std::cos(theta))) <= 1e-1
          && p(2) <= 0){
-        return 1;
+        return 20;
       }
       else if(std::abs(p(0) - ((std::cos(theta)/std::sin(theta))*(p(2) - 2*std::sin(theta)) + 2*std::cos(theta))) <= 1e-1
          && p(2) >= 0){
