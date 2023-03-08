@@ -1,0 +1,10 @@
+/home/ubuntu/deal.II/dealii/examples/26-Week-8-Project/step-26/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/deal.II/dealii/examples/26-Week-8-Project/step-26/CMakeFiles/info.dir
+/home/ubuntu/deal.II/dealii/examples/26-Week-8-Project/step-26/CMakeFiles/distclean.dir
+/home/ubuntu/deal.II/dealii/examples/26-Week-8-Project/step-26/CMakeFiles/runclean.dir
+/home/ubuntu/deal.II/dealii/examples/26-Week-8-Project/step-26/CMakeFiles/release.dir
+/home/ubuntu/deal.II/dealii/examples/26-Week-8-Project/step-26/CMakeFiles/debug.dir
+/home/ubuntu/deal.II/dealii/examples/26-Week-8-Project/step-26/CMakeFiles/run.dir
+/home/ubuntu/deal.II/dealii/examples/26-Week-8-Project/step-26/CMakeFiles/edit_cache.dir
+/home/ubuntu/deal.II/dealii/examples/26-Week-8-Project/step-26/CMakeFiles/strip_comments.dir
+/home/ubuntu/deal.II/dealii/examples/26-Week-8-Project/step-26/CMakeFiles/step-26.dir
