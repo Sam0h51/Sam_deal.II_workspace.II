@@ -161,6 +161,80 @@ namespace Step26
     return 0;
   }
 
+  template<int spacedim>
+  class InitialConditions : public Function<spacedim>
+  {
+  private:
+    /* data */
+  public:
+
+    virtual double value(const Point<spacedim> &p,
+                         const unsigned int component = 0) const override;
+  };
+
+  template<int spacedim>
+  double InitialConditions<spacedim>::value(const Point<spacedim> &p,
+                                     const unsigned int component) const
+  {
+    double rad_1 = std::pow((p(0) - 4), 2) + std::pow(p(1), 2) + std::pow(p(2), 2);
+    double rad_2 = std::pow((p(0) + 4), 2) + std::pow(p(1), 2) + std::pow(p(2), 2);
+    if(rad_1 < 1e-1){
+      return 1;
+    }
+
+    if(rad_2 < 1e-1){
+      return -1;
+    }
+
+    return 0;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   template <int dim, int spacedim>
@@ -318,9 +392,11 @@ namespace Step26
     tmp.reinit(solution.size());
     forcing_terms.reinit(solution.size());
 
+    InitialConditions<spacedim> initial_conditions;
+
 
     VectorTools::interpolate(dof_handler,
-                             Functions::ZeroFunction<spacedim>(),
+                             initial_conditions,
                              old_solution);
     solution = old_solution;
 
@@ -340,8 +416,8 @@ namespace Step26
         const QGauss<dim> quadrature_formula(fe.degree + 1);
 
         FEValues<dim, spacedim> fe_values(fe, quadrature_formula, 
-                                          update_values, update_gradients, 
-                                          update_quadrature_points, update_JxW_values);
+                                          update_values | update_gradients |
+                                          update_quadrature_points | update_JxW_values);
         
         const unsigned int dofs_per_cell = fe.n_dofs_per_cell();
 
@@ -362,7 +438,7 @@ namespace Step26
 
           for(const unsigned int q_index : fe_values.quadrature_point_indices()){
             Un1 = 0;
-            for(const unsigned int i : fe_values.dof_indices){
+            for(const unsigned int i : fe_values.dof_indices()){
               Un1 += old_solution(local_dof_indices[i])*fe_values.shape_value(i, q_index);
             }
 
