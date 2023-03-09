@@ -88,6 +88,7 @@ namespace Step26
     const double theta;
     const double r;
     const double g1;
+    const double k;
   };
 
 
@@ -185,11 +186,11 @@ namespace Step26
     double rad_1 = std::pow((p(0) - 4), 2) + std::pow(p(1), 2) + std::pow(p(2), 2);
     double rad_2 = std::pow((p(0) + 4), 2) + std::pow(p(1), 2) + std::pow(p(2), 2);
     if(rad_1 < 1e-1){
-      return 1;
+      return 1e-12;
     }
 
     if(rad_2 < 1e-1){
-      return -1;
+      return -1e-12;
     }
 
     return 0;
@@ -249,9 +250,55 @@ namespace Step26
     , dof_handler(triangulation)
     , time_step(1. / 500)
     , theta(0.5)
-    , r(0.5)
-    , g1(0.5)
+    , r(0.)
+    , g1(0.)
+    , k(1.)
   {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -379,7 +426,7 @@ namespace Step26
   template <int dim, int spacedim>
   void HeatEquation<dim, spacedim>::run()
   {
-    const unsigned int initial_global_refinement = 0;
+    const unsigned int initial_global_refinement = 4;
 
     GridGenerator::torus(triangulation, 3., 1.);
     triangulation.refine_global(initial_global_refinement);
@@ -414,7 +461,7 @@ namespace Step26
                   << std::endl;
 
         system_matrix.copy_from(laplace_matrix);
-        system_matrix.add((1+time_step*(1-r))/time_step, mass_matrix);
+        system_matrix.add((1-r) + 1/time_step, mass_matrix);
 
         const QGauss<dim> quadrature_formula(fe.degree + 1);
 
@@ -446,7 +493,8 @@ namespace Step26
             }
 
             for(const unsigned int i : fe_values.dof_indices()){
-              cell_rhs(i) += (((1/time_step)*Un1) + g1*std::pow(Un1, 2) - std::pow(Un1, 3))*fe_values.shape_value(i, q_index)*fe_values.JxW(q_index);
+              cell_rhs(i) += (((1/time_step)*Un1) + g1*std::pow(Un1, 2) - k*std::pow(Un1, 3))
+                              *fe_values.shape_value(i, q_index)*fe_values.JxW(q_index);
             }
           }
 
