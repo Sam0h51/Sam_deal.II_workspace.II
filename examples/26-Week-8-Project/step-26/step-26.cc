@@ -176,6 +176,12 @@ namespace Step26
   double InitialConditions<spacedim>::value(const Point<spacedim> &p,
                                      const unsigned int component) const
   {
+    /*NOTE: This code is here just so I don't get warnings
+            about an unused componenet*/
+    (void)component;
+    AssertIndexRange(component, 1);
+
+
     double rad_1 = std::pow((p(0) - 4), 2) + std::pow(p(1), 2) + std::pow(p(2), 2);
     double rad_2 = std::pow((p(0) + 4), 2) + std::pow(p(1), 2) + std::pow(p(2), 2);
     if(rad_1 < 1e-1){
@@ -373,15 +379,12 @@ namespace Step26
   template <int dim, int spacedim>
   void HeatEquation<dim, spacedim>::run()
   {
-    const unsigned int initial_global_refinement       = 4;
-    const unsigned int n_adaptive_pre_refinement_steps = 4;
+    const unsigned int initial_global_refinement = 0;
 
     GridGenerator::torus(triangulation, 3., 1.);
     triangulation.refine_global(initial_global_refinement);
 
     setup_system();
-
-    unsigned int pre_refinement_step = 0;
 
     Vector<double> tmp;
     Vector<double> forcing_terms;
