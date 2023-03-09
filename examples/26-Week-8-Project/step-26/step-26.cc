@@ -86,6 +86,8 @@ namespace Step26
     unsigned int timestep_number;
 
     const double theta;
+    const double r;
+    const double g1;
   };
 
 
@@ -167,6 +169,8 @@ namespace Step26
     , dof_handler(triangulation)
     , time_step(1. / 500)
     , theta(0.5)
+    , r(0.5)
+    , g1(0.5)
   {}
 
 
@@ -295,7 +299,7 @@ namespace Step26
   template <int dim, int spacedim>
   void HeatEquation<dim, spacedim>::run()
   {
-    const unsigned int initial_global_refinement       = 2;
+    const unsigned int initial_global_refinement       = 4;
     const unsigned int n_adaptive_pre_refinement_steps = 4;
 
     GridGenerator::torus(triangulation, 3., 1.);
@@ -330,34 +334,47 @@ namespace Step26
         std::cout << "Time step " << timestep_number << " at t=" << time
                   << std::endl;
 
-        mass_matrix.vmult(system_rhs, old_solution);
+        system_matrix.copy_from(laplace_matrix);
+        system_matrix.add((1+time_step*(1-r))/time_step, mass_matrix);
 
-        laplace_matrix.vmult(tmp, old_solution);
-        system_rhs.add(-(1 - theta) * time_step, tmp);
+        const QGauss<dim> quadrature_formula(fe.degree + 1);
 
-        RightHandSide<spacedim> rhs_function;
-        rhs_function.set_time(time);
-        VectorTools::create_right_hand_side(dof_handler,
-                                            QGauss<dim>(fe.degree + 1),
-                                            rhs_function,
-                                            tmp);
-        forcing_terms = tmp;
-        forcing_terms *= time_step * theta;
+        FEValues<dim, spacedim> fe_values(fe, quadrature_formula, 
+                                          update_values, update_gradients, 
+                                          update_quadrature_points, update_JxW_values);
+        
+        const unsigned int dofs_per_cell = fe.n_dofs_per_cell();
 
-        rhs_function.set_time(time - time_step);
-        VectorTools::create_right_hand_side(dof_handler,
-                                            QGauss<dim>(fe.degree + 1),
-                                            rhs_function,
-                                            tmp);
+        FullMatrix<double> cell_matrix(dofs_per_cell, dofs_per_cell);
+        Vector<double> cell_rhs(dofs_per_cell);
 
-        forcing_terms.add(time_step * (1 - theta), tmp);
+        std::vector<types::global_dof_index> local_dof_indices(dofs_per_cell);
 
-        system_rhs += forcing_terms;
+        double Un1 = 0;
 
-        system_matrix.copy_from(mass_matrix);
-        system_matrix.add(theta * time_step, laplace_matrix);
+        for(const auto &cell : dof_handler.active_cell_iterators()){
+          cell_matrix = 0;
+          cell_rhs = 0;
 
-        constraints.condense(system_matrix, system_rhs);
+          fe_values.reinit(cell);
+
+          cell->get_dof_indices(local_dof_indices);
+
+          for(const unsigned int q_index : fe_values.quadrature_point_indices()){
+            Un1 = 0;
+            for(const unsigned int i : fe_values.dof_indices){
+              Un1 += old_solution(local_dof_indices[i])*fe_values.shape_value(i, q_index);
+            }
+
+            for(const unsigned int i : fe_values.dof_indices()){
+              cell_rhs(i) += (((1/time_step)*Un1) + g1*std::pow(Un1, 2) - std::pow(Un1, 3))*fe_values.shape_value(i, q_index)*fe_values.JxW(q_index);
+            }
+          }
+
+          for(unsigned int i : fe_values.dof_indices()){
+            system_rhs(local_dof_indices[i]) += cell_rhs(i);
+          }
+        }
 
         {
           BoundaryValues<spacedim> boundary_values_function;
