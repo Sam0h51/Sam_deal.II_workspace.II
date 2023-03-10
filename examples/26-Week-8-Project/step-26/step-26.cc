@@ -186,11 +186,11 @@ namespace Step26
     double rad_1 = std::pow((p(0) - 4), 2) + std::pow(p(1), 2) + std::pow(p(2), 2);
     double rad_2 = std::pow((p(0) + 4), 2) + std::pow(p(1), 2) + std::pow(p(2), 2);
     if(rad_1 < 1e-1){
-      return 1e-12;
+      return 1.;
     }
 
     if(rad_2 < 1e-1){
-      return -1e-12;
+      return -1.;
     }
 
     return 0;
@@ -248,10 +248,10 @@ namespace Step26
   HeatEquation<dim, spacedim>::HeatEquation()
     : fe(1)
     , dof_handler(triangulation)
-    , time_step(1. / 500)
+    , time_step(1. / 1500)
     , theta(0.5)
-    , r(0.)
-    , g1(0.)
+    , r(0.5)
+    , g1(0.5)
     , k(1.)
   {}
 
@@ -426,7 +426,7 @@ namespace Step26
   template <int dim, int spacedim>
   void HeatEquation<dim, spacedim>::run()
   {
-    const unsigned int initial_global_refinement = 4;
+    const unsigned int initial_global_refinement = 6;
 
     GridGenerator::torus(triangulation, 3., 1.);
     triangulation.refine_global(initial_global_refinement);
