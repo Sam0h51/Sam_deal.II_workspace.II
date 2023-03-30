@@ -57,7 +57,14 @@ namespace Step26
   {
   public:
     HeatEquation();
+    HeatEquation(double time_step_denominator
+                , unsigned int ref_num
+                , double r_constant = 0.5
+                , double g1_constant = 0.5
+                , double k_constant = 1.);
     void run();
+
+    void test_matrices();
 
   private:
     void setup_system();
@@ -84,6 +91,8 @@ namespace Step26
     double       time;
     double       time_step;
     unsigned int timestep_number;
+    unsigned int timestep_denominator;
+    unsigned int refinement_number;
 
     const double theta;
     const double r;
@@ -182,6 +191,10 @@ namespace Step26
     (void)component;
     AssertIndexRange(component, 1);
 
+    // return 2.;
+
+    return 2;
+
 
     double rad_1 = std::pow((p(0) - 4), 2) + std::pow(p(1), 2) + std::pow(p(2), 2);
     double rad_2 = std::pow((p(0) + 4), 2) + std::pow(p(1), 2) + std::pow(p(2), 2);
@@ -249,12 +262,30 @@ namespace Step26
     : fe(1)
     , dof_handler(triangulation)
     , time_step(1. / 1500)
+    , timestep_denominator(1500)
+    , refinement_number(4)
     , theta(0.5)
     , r(0.5)
     , g1(0.5)
     , k(1.)
   {}
 
+  template <int dim, int spacedim>
+  HeatEquation<dim, spacedim>::HeatEquation(double       time_step_denominator,
+                                            unsigned int ref_num,
+                                            double       r_constant,
+                                            double       g1_constant,
+                                            double       k_constant)
+    : fe(1)
+    , dof_handler(triangulation)
+    , time_step(1. / time_step_denominator)
+    , timestep_denominator(time_step_denominator)
+    , refinement_number(ref_num)
+    , theta(0.5)
+    , r(r_constant)
+    , g1(g1_constant)
+    , k(k_constant)
+  {}
 
 
 
@@ -374,8 +405,16 @@ namespace Step26
 
     data_out.set_flags(DataOutBase::VtkFlags(time, timestep_number));
 
+    std::string fraction_part = "-TimeStep-1-over-";
+
+    if(timestep_denominator - 1000 < 0){
+      fraction_part += "0";
+    }
+
     const std::string filename =
-      "solution-" + Utilities::int_to_string(timestep_number, 3) + ".vtk";
+      "Refinement-" + Utilities::int_to_string(refinement_number) 
+                    + "-TimeStep-1-over-" + Utilities::int_to_string((int)timestep_denominator) 
+                    +  "-solution-" + Utilities::int_to_string(timestep_number, 3) + ".vtk";
     std::ofstream output(filename);
     data_out.write_vtk(output);
   }
@@ -426,10 +465,12 @@ namespace Step26
   template <int dim, int spacedim>
   void HeatEquation<dim, spacedim>::run()
   {
-    const unsigned int initial_global_refinement = 6;
+    // Vector<double> convergence_vector;
 
-    GridGenerator::torus(triangulation, 3., 1.);
-    triangulation.refine_global(initial_global_refinement);
+    GridGenerator::hyper_sphere(triangulation, Point<3>(0, 0, 0), 1);
+    // GridGenerator::torus(triangulation, 3., 1.);
+    // GridGenerator::hyper_cube(triangulation, -5, 5);
+    triangulation.refine_global(refinement_number);
 
     setup_system();
 
@@ -460,8 +501,9 @@ namespace Step26
         std::cout << "Time step " << timestep_number << " at t=" << time
                   << std::endl;
 
-        system_matrix.copy_from(laplace_matrix);
-        system_matrix.add((1-r) + 1/time_step, mass_matrix);
+        system_matrix.copy_from(mass_matrix);
+        system_matrix.add(time_step, laplace_matrix);                   //Removing Laplace term for testing
+        system_matrix.add((time_step - r*time_step), mass_matrix);
 
         const QGauss<dim> quadrature_formula(fe.degree + 1);
 
@@ -476,7 +518,9 @@ namespace Step26
 
         std::vector<types::global_dof_index> local_dof_indices(dofs_per_cell);
 
-        double Un1 = 0;
+        // std::cout << std::endl << std::endl << "System RHS: " << system_rhs << std::endl << std::endl;
+
+        system_rhs = 0;
 
         for(const auto &cell : dof_handler.active_cell_iterators()){
           cell_matrix = 0;
@@ -487,21 +531,29 @@ namespace Step26
           cell->get_dof_indices(local_dof_indices);
 
           for(const unsigned int q_index : fe_values.quadrature_point_indices()){
-            Un1 = 0;
+            double Un1 = 0;
             for(const unsigned int i : fe_values.dof_indices()){
               Un1 += old_solution(local_dof_indices[i])*fe_values.shape_value(i, q_index);
             }
 
+            // std::cout << std::endl << std::endl << "Un1: " << Un1 << std::endl << std::endl;
+
             for(const unsigned int i : fe_values.dof_indices()){
-              cell_rhs(i) += (((1/time_step)*Un1) + g1*std::pow(Un1, 2) - k*std::pow(Un1, 3))
+              cell_rhs(i) += (Un1 + time_step*g1*std::pow(Un1, 2) - time_step*k*std::pow(Un1, 3))
                               *fe_values.shape_value(i, q_index)*fe_values.JxW(q_index);
             }
+
+            // std::cout << std::endl << cell_rhs << std::endl;
           }
 
           for(unsigned int i : fe_values.dof_indices()){
             system_rhs(local_dof_indices[i]) += cell_rhs(i);
           }
+
+
         }
+
+        // std::cout << system_rhs << std::endl << std::endl;
 
         {
           BoundaryValues<spacedim> boundary_values_function;
@@ -519,12 +571,67 @@ namespace Step26
                                              system_rhs);
         }
 
+        // std::cout << system_rhs << std::endl << std::endl << std::endl << std::endl;
+
         solve_time_step();
 
         output_results();
 
+        /* convergence_vector.reinit(solution.size());
+
+        convergence_vector+= solution;
+        convergence_vector-= old_solution;
+
+        std::cout << "Solution difference has magnitude " << convergence_vector.l2_norm() << std::endl;
+
+        if(convergence_vector.l2_norm() < 1e-6){
+          std::cout << std::endl << std::endl;
+          std::cout << "Solution converged at step " << timestep_number;
+          std::cout << std::endl << std::endl;
+          break;
+        } */
+
+        /* if(timestep_number >= 300){
+          std::cout << std::endl << std::endl;
+          std::cout << "Breaking loop, expected convergence" << std::endl;
+          std::cout << std::endl << std::endl;
+          break;
+        } */
+
         old_solution = solution;
       }
+  }
+  
+  
+  
+  
+  template <int dim, int spacedim>
+  void HeatEquation<dim, spacedim>::test_matrices()
+  {
+    Vector<double> tmp;
+
+    GridGenerator::torus(triangulation, 3., 1.);
+    // GridGenerator::hyper_cube(triangulation, -5, 5);
+    triangulation.refine_global(refinement_number);
+
+    InitialConditions<spacedim> initial_conditions;
+
+    setup_system();
+
+    tmp.reinit(solution.size());
+
+    VectorTools::interpolate(dof_handler, initial_conditions, old_solution);
+
+    laplace_matrix.vmult(tmp, old_solution);
+
+    std::cout << tmp << std::endl << std::endl;
+
+    tmp.reinit(solution.size());
+
+    mass_matrix.vmult(tmp, old_solution);
+
+    std::cout << tmp << std::endl << std::endl;
+
   }
 } // namespace Step26
 
@@ -535,7 +642,7 @@ int main()
     {
       using namespace Step26;
 
-      HeatEquation<2, 3> heat_equation_solver;
+      HeatEquation<2, 3> heat_equation_solver(500, 5);
       heat_equation_solver.run();
     }
   catch (std::exception &exc)
@@ -564,6 +671,48 @@ int main()
                 << std::endl;
       return 1;
     }
+  /* for(unsigned int i = 3; i < 7; ++i){
+    for(unsigned int j = 1; j<21; ++j){
+      std::cout << std::endl;
+      std::cout << "=============================================================" << std::endl;
+      std::cout << "Running step-26 with refinement " << i << " and timestep 1 over " << j*200 << std::endl << std::endl;
+      {
+        try
+          {
+            using namespace Step26;
 
+            HeatEquation<2, 2> heat_equation_solver(j*200, i);
+            heat_equation_solver.run();
+          }
+        catch (std::exception &exc)
+          {
+            std::cerr << std::endl
+                      << std::endl
+                      << "----------------------------------------------------"
+                      << std::endl;
+            std::cerr << "Exception on processing: " << std::endl
+                      << exc.what() << std::endl
+                      << "Aborting!" << std::endl
+                      << "----------------------------------------------------"
+                      << std::endl;
+
+            return 1;
+          }
+        catch (...)
+          {
+            std::cerr << std::endl
+                      << std::endl
+                      << "----------------------------------------------------"
+                      << std::endl;
+            std::cerr << "Unknown exception!" << std::endl
+                      << "Aborting!" << std::endl
+                      << "----------------------------------------------------"
+                      << std::endl;
+            return 1;
+          }
+      }
+    }
+  }
+ */
   return 0;
 }
