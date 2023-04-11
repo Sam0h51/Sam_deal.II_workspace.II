@@ -1,0 +1,7509 @@
+Scanning dependencies of target 00-SH-full-equation
+[ 33%] Building CXX object CMakeFiles/00-SH-full-equation.dir/00-SH-full-equation.cc.o
+[ 66%] Linking CXX executable 00-SH-full-equation
+[ 66%] Built target 00-SH-full-equation
+[100%] Run 00-SH-full-equation with Debug configuration
+Number of active cells: 1
+Total number of cells: 1
+Number of degrees of freedom: 8 (4+4)
+Time step 1 at t=0.000333333
+Solving linear system
+done (0.000332 s)
+
+GREP: 0.000333333 1.99767
+Time step 2 at t=0.000666667
+Solving linear system
+done (0.000126 s)
+
+GREP: 0.000666667 1.99534
+Time step 3 at t=0.001
+Solving linear system
+done (0.000117 s)
+
+GREP: 0.001 1.99303
+Time step 4 at t=0.00133333
+Solving linear system
+done (0.000294 s)
+
+GREP: 0.00133333 1.99072
+Time step 5 at t=0.00166667
+Solving linear system
+done (6.4e-05 s)
+
+GREP: 0.00166667 1.98842
+Time step 6 at t=0.002
+Solving linear system
+done (0.000101 s)
+
+GREP: 0.002 1.98612
+Time step 7 at t=0.00233333
+Solving linear system
+done (0.000108 s)
+
+GREP: 0.00233333 1.98384
+Time step 8 at t=0.00266667
+Solving linear system
+done (9.6e-05 s)
+
+GREP: 0.00266667 1.98156
+Time step 9 at t=0.003
+Solving linear system
+done (0.000103 s)
+
+GREP: 0.003 1.97929
+Time step 10 at t=0.00333333
+Solving linear system
+done (6.2e-05 s)
+
+GREP: 0.00333333 1.97703
+Time step 11 at t=0.00366667
+Solving linear system
+done (8.3e-05 s)
+
+GREP: 0.00366667 1.97478
+Time step 12 at t=0.004
+Solving linear system
+done (6.7e-05 s)
+
+GREP: 0.004 1.97253
+Time step 13 at t=0.00433333
+Solving linear system
+done (6.5e-05 s)
+
+GREP: 0.00433333 1.97029
+Time step 14 at t=0.00466667
+Solving linear system
+done (6.5e-05 s)
+
+GREP: 0.00466667 1.96806
+Time step 15 at t=0.005
+Solving linear system
+done (0.000106 s)
+
+GREP: 0.005 1.96584
+Time step 16 at t=0.00533333
+Solving linear system
+done (5.6e-05 s)
+
+GREP: 0.00533333 1.96363
+Time step 17 at t=0.00566667
+Solving linear system
+done (7e-05 s)
+
+GREP: 0.00566667 1.96142
+Time step 18 at t=0.006
+Solving linear system
+done (7.6e-05 s)
+
+GREP: 0.006 1.95922
+Time step 19 at t=0.00633333
+Solving linear system
+done (6.6e-05 s)
+
+GREP: 0.00633333 1.95702
+Time step 20 at t=0.00666667
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.00666667 1.95484
+Time step 21 at t=0.007
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.007 1.95266
+Time step 22 at t=0.00733333
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.00733333 1.95049
+Time step 23 at t=0.00766667
+Solving linear system
+done (0.000106 s)
+
+GREP: 0.00766667 1.94832
+Time step 24 at t=0.008
+Solving linear system
+done (5.7e-05 s)
+
+GREP: 0.008 1.94617
+Time step 25 at t=0.00833333
+Solving linear system
+done (7e-05 s)
+
+GREP: 0.00833333 1.94402
+Time step 26 at t=0.00866667
+Solving linear system
+done (0 s)
+
+GREP: 0.00866667 1.94187
+Time step 27 at t=0.009
+Solving linear system
+done (7e-05 s)
+
+GREP: 0.009 1.93974
+Time step 28 at t=0.00933333
+Solving linear system
+done (6.9e-05 s)
+
+GREP: 0.00933333 1.93761
+Time step 29 at t=0.00966667
+Solving linear system
+done (5.9e-05 s)
+
+GREP: 0.00966667 1.93549
+Time step 30 at t=0.01
+Solving linear system
+done (5.7e-05 s)
+
+GREP: 0.01 1.93337
+Time step 31 at t=0.0103333
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.0103333 1.93127
+Time step 32 at t=0.0106667
+Solving linear system
+done (7.1e-05 s)
+
+GREP: 0.0106667 1.92916
+Time step 33 at t=0.011
+Solving linear system
+done (0.000274 s)
+
+GREP: 0.011 1.92707
+Time step 34 at t=0.0113333
+Solving linear system
+done (0 s)
+
+GREP: 0.0113333 1.92498
+Time step 35 at t=0.0116667
+Solving linear system
+done (6.4e-05 s)
+
+GREP: 0.0116667 1.9229
+Time step 36 at t=0.012
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.012 1.92083
+Time step 37 at t=0.0123333
+Solving linear system
+done (5.6e-05 s)
+
+GREP: 0.0123333 1.91876
+Time step 38 at t=0.0126667
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.0126667 1.9167
+Time step 39 at t=0.013
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.013 1.91465
+Time step 40 at t=0.0133333
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.0133333 1.9126
+Time step 41 at t=0.0136667
+Solving linear system
+done (5.1e-05 s)
+
+GREP: 0.0136667 1.91056
+Time step 42 at t=0.014
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.014 1.90852
+Time step 43 at t=0.0143333
+Solving linear system
+done (5.4e-05 s)
+
+GREP: 0.0143333 1.9065
+Time step 44 at t=0.0146667
+Solving linear system
+done (5.2e-05 s)
+
+GREP: 0.0146667 1.90447
+Time step 45 at t=0.015
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.015 1.90246
+Time step 46 at t=0.0153333
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.0153333 1.90045
+Time step 47 at t=0.0156667
+Solving linear system
+done (0.000253 s)
+
+GREP: 0.0156667 1.89845
+Time step 48 at t=0.016
+Solving linear system
+done (5.4e-05 s)
+
+GREP: 0.016 1.89645
+Time step 49 at t=0.0163333
+Solving linear system
+done (5.5e-05 s)
+
+GREP: 0.0163333 1.89446
+Time step 50 at t=0.0166667
+Solving linear system
+done (5.6e-05 s)
+
+GREP: 0.0166667 1.89248
+Time step 51 at t=0.017
+Solving linear system
+done (0.000216 s)
+
+GREP: 0.017 1.8905
+Time step 52 at t=0.0173333
+Solving linear system
+done (0.000198 s)
+
+GREP: 0.0173333 1.88853
+Time step 53 at t=0.0176667
+Solving linear system
+done (0.000278 s)
+
+GREP: 0.0176667 1.88656
+Time step 54 at t=0.018
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.018 1.88461
+Time step 55 at t=0.0183333
+Solving linear system
+done (0.000314 s)
+
+GREP: 0.0183333 1.88265
+Time step 56 at t=0.0186667
+Solving linear system
+done (0.000156 s)
+
+GREP: 0.0186667 1.88071
+Time step 57 at t=0.019
+Solving linear system
+done (5.1e-05 s)
+
+GREP: 0.019 1.87876
+Time step 58 at t=0.0193333
+Solving linear system
+done (6.7e-05 s)
+
+GREP: 0.0193333 1.87683
+Time step 59 at t=0.0196667
+Solving linear system
+done (0.000188 s)
+
+GREP: 0.0196667 1.8749
+Time step 60 at t=0.02
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.02 1.87298
+Time step 61 at t=0.0203333
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.0203333 1.87106
+Time step 62 at t=0.0206667
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.0206667 1.86915
+Time step 63 at t=0.021
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.021 1.86724
+Time step 64 at t=0.0213333
+Solving linear system
+done (0.000268 s)
+
+GREP: 0.0213333 1.86534
+Time step 65 at t=0.0216667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.0216667 1.86345
+Time step 66 at t=0.022
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.022 1.86156
+Time step 67 at t=0.0223333
+Solving linear system
+done (6e-05 s)
+
+GREP: 0.0223333 1.85968
+Time step 68 at t=0.0226667
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.0226667 1.8578
+Time step 69 at t=0.023
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.023 1.85593
+Time step 70 at t=0.0233333
+Solving linear system
+done (0.000246 s)
+
+GREP: 0.0233333 1.85406
+Time step 71 at t=0.0236667
+Solving linear system
+done (5.4e-05 s)
+
+GREP: 0.0236667 1.8522
+Time step 72 at t=0.024
+Solving linear system
+done (0.000423 s)
+
+GREP: 0.024 1.85035
+Time step 73 at t=0.0243333
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.0243333 1.8485
+Time step 74 at t=0.0246667
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.0246667 1.84666
+Time step 75 at t=0.025
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.025 1.84482
+Time step 76 at t=0.0253333
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.0253333 1.84298
+Time step 77 at t=0.0256667
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.0256667 1.84116
+Time step 78 at t=0.026
+Solving linear system
+done (0.000236 s)
+
+GREP: 0.026 1.83933
+Time step 79 at t=0.0263333
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.0263333 1.83752
+Time step 80 at t=0.0266667
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.0266667 1.83571
+Time step 81 at t=0.027
+Solving linear system
+done (5.5e-05 s)
+
+GREP: 0.027 1.8339
+Time step 82 at t=0.0273333
+Solving linear system
+done (0 s)
+
+GREP: 0.0273333 1.8321
+Time step 83 at t=0.0276667
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.0276667 1.8303
+Time step 84 at t=0.028
+Solving linear system
+done (0.000156 s)
+
+GREP: 0.028 1.82851
+Time step 85 at t=0.0283333
+Solving linear system
+done (6.1e-05 s)
+
+GREP: 0.0283333 1.82673
+Time step 86 at t=0.0286667
+Solving linear system
+done (0.000158 s)
+
+GREP: 0.0286667 1.82495
+Time step 87 at t=0.029
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.029 1.82317
+Time step 88 at t=0.0293333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.0293333 1.8214
+Time step 89 at t=0.0296667
+Solving linear system
+done (0.000134 s)
+
+GREP: 0.0296667 1.81964
+Time step 90 at t=0.03
+Solving linear system
+done (0.000246 s)
+
+GREP: 0.03 1.81788
+Time step 91 at t=0.0303333
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.0303333 1.81613
+Time step 92 at t=0.0306667
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.0306667 1.81438
+Time step 93 at t=0.031
+Solving linear system
+done (0 s)
+
+GREP: 0.031 1.81263
+Time step 94 at t=0.0313333
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.0313333 1.81089
+Time step 95 at t=0.0316667
+Solving linear system
+done (1.9e-05 s)
+
+GREP: 0.0316667 1.80916
+Time step 96 at t=0.032
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.032 1.80743
+Time step 97 at t=0.0323333
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.0323333 1.8057
+Time step 98 at t=0.0326667
+Solving linear system
+done (0.00013 s)
+
+GREP: 0.0326667 1.80398
+Time step 99 at t=0.033
+Solving linear system
+done (5.9e-05 s)
+
+GREP: 0.033 1.80227
+Time step 100 at t=0.0333333
+Solving linear system
+done (6.1e-05 s)
+
+GREP: 0.0333333 1.80056
+Time step 101 at t=0.0336667
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.0336667 1.79885
+Time step 102 at t=0.034
+Solving linear system
+done (0.000474 s)
+
+GREP: 0.034 1.79715
+Time step 103 at t=0.0343333
+Solving linear system
+done (0.000195 s)
+
+GREP: 0.0343333 1.79546
+Time step 104 at t=0.0346667
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.0346667 1.79377
+Time step 105 at t=0.035
+Solving linear system
+done (0.00014 s)
+
+GREP: 0.035 1.79208
+Time step 106 at t=0.0353333
+Solving linear system
+done (8.6e-05 s)
+
+GREP: 0.0353333 1.7904
+Time step 107 at t=0.0356667
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.0356667 1.78872
+Time step 108 at t=0.036
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.036 1.78705
+Time step 109 at t=0.0363333
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.0363333 1.78538
+Time step 110 at t=0.0366667
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.0366667 1.78372
+Time step 111 at t=0.037
+Solving linear system
+done (0.000155 s)
+
+GREP: 0.037 1.78206
+Time step 112 at t=0.0373333
+Solving linear system
+done (0.000197 s)
+
+GREP: 0.0373333 1.78041
+Time step 113 at t=0.0376667
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.0376667 1.77876
+Time step 114 at t=0.038
+Solving linear system
+done (6.7e-05 s)
+
+GREP: 0.038 1.77711
+Time step 115 at t=0.0383333
+Solving linear system
+done (6.3e-05 s)
+
+GREP: 0.0383333 1.77547
+Time step 116 at t=0.0386667
+Solving linear system
+done (6e-05 s)
+
+GREP: 0.0386667 1.77384
+Time step 117 at t=0.039
+Solving linear system
+done (0 s)
+
+GREP: 0.039 1.77221
+Time step 118 at t=0.0393333
+Solving linear system
+done (0 s)
+
+GREP: 0.0393333 1.77058
+Time step 119 at t=0.0396667
+Solving linear system
+done (7e-05 s)
+
+GREP: 0.0396667 1.76896
+Time step 120 at t=0.04
+Solving linear system
+done (6.3e-05 s)
+
+GREP: 0.04 1.76734
+Time step 121 at t=0.0403333
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.0403333 1.76572
+Time step 122 at t=0.0406667
+Solving linear system
+done (0 s)
+
+GREP: 0.0406667 1.76411
+Time step 123 at t=0.041
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.041 1.76251
+Time step 124 at t=0.0413333
+Solving linear system
+done (8.8e-05 s)
+
+GREP: 0.0413333 1.76091
+Time step 125 at t=0.0416667
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.0416667 1.75931
+Time step 126 at t=0.042
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.042 1.75772
+Time step 127 at t=0.0423333
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.0423333 1.75613
+Time step 128 at t=0.0426667
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.0426667 1.75455
+Time step 129 at t=0.043
+Solving linear system
+done (0 s)
+
+GREP: 0.043 1.75297
+Time step 130 at t=0.0433333
+Solving linear system
+done (6.5e-05 s)
+
+GREP: 0.0433333 1.75139
+Time step 131 at t=0.0436667
+Solving linear system
+done (0 s)
+
+GREP: 0.0436667 1.74982
+Time step 132 at t=0.044
+Solving linear system
+done (6.7e-05 s)
+
+GREP: 0.044 1.74826
+Time step 133 at t=0.0443333
+Solving linear system
+done (5.9e-05 s)
+
+GREP: 0.0443333 1.74669
+Time step 134 at t=0.0446667
+Solving linear system
+done (6e-05 s)
+
+GREP: 0.0446667 1.74513
+Time step 135 at t=0.045
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.045 1.74358
+Time step 136 at t=0.0453333
+Solving linear system
+done (5.1e-05 s)
+
+GREP: 0.0453333 1.74203
+Time step 137 at t=0.0456667
+Solving linear system
+done (5.7e-05 s)
+
+GREP: 0.0456667 1.74048
+Time step 138 at t=0.046
+Solving linear system
+done (7.5e-05 s)
+
+GREP: 0.046 1.73894
+Time step 139 at t=0.0463333
+Solving linear system
+done (6.4e-05 s)
+
+GREP: 0.0463333 1.7374
+Time step 140 at t=0.0466667
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.0466667 1.73587
+Time step 141 at t=0.047
+Solving linear system
+done (0 s)
+
+GREP: 0.047 1.73434
+Time step 142 at t=0.0473333
+Solving linear system
+done (0 s)
+
+GREP: 0.0473333 1.73281
+Time step 143 at t=0.0476667
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.0476667 1.73129
+Time step 144 at t=0.048
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.048 1.72977
+Time step 145 at t=0.0483333
+Solving linear system
+done (6.8e-05 s)
+
+GREP: 0.0483333 1.72825
+Time step 146 at t=0.0486667
+Solving linear system
+done (7.3e-05 s)
+
+GREP: 0.0486667 1.72674
+Time step 147 at t=0.049
+Solving linear system
+done (6.5e-05 s)
+
+GREP: 0.049 1.72524
+Time step 148 at t=0.0493333
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.0493333 1.72373
+Time step 149 at t=0.0496667
+Solving linear system
+done (0.000235 s)
+
+GREP: 0.0496667 1.72224
+Time step 150 at t=0.05
+Solving linear system
+done (0.000214 s)
+
+GREP: 0.05 1.72074
+Time step 151 at t=0.0503333
+Solving linear system
+done (5.9e-05 s)
+
+GREP: 0.0503333 1.71925
+Time step 152 at t=0.0506667
+Solving linear system
+done (5.9e-05 s)
+
+GREP: 0.0506667 1.71776
+Time step 153 at t=0.051
+Solving linear system
+done (5.2e-05 s)
+
+GREP: 0.051 1.71628
+Time step 154 at t=0.0513333
+Solving linear system
+done (8.7e-05 s)
+
+GREP: 0.0513333 1.7148
+Time step 155 at t=0.0516667
+Solving linear system
+done (5.4e-05 s)
+
+GREP: 0.0516667 1.71332
+Time step 156 at t=0.052
+Solving linear system
+done (6.5e-05 s)
+
+GREP: 0.052 1.71185
+Time step 157 at t=0.0523333
+Solving linear system
+done (6.7e-05 s)
+
+GREP: 0.0523333 1.71038
+Time step 158 at t=0.0526667
+Solving linear system
+done (0.000162 s)
+
+GREP: 0.0526667 1.70891
+Time step 159 at t=0.053
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.053 1.70745
+Time step 160 at t=0.0533333
+Solving linear system
+done (6.2e-05 s)
+
+GREP: 0.0533333 1.706
+Time step 161 at t=0.0536667
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.0536667 1.70454
+Time step 162 at t=0.054
+Solving linear system
+done (8e-05 s)
+
+GREP: 0.054 1.70309
+Time step 163 at t=0.0543333
+Solving linear system
+done (6.9e-05 s)
+
+GREP: 0.0543333 1.70164
+Time step 164 at t=0.0546667
+Solving linear system
+done (5.6e-05 s)
+
+GREP: 0.0546667 1.7002
+Time step 165 at t=0.055
+Solving linear system
+done (0.000259 s)
+
+GREP: 0.055 1.69876
+Time step 166 at t=0.0553333
+Solving linear system
+done (5.4e-05 s)
+
+GREP: 0.0553333 1.69733
+Time step 167 at t=0.0556667
+Solving linear system
+done (5.7e-05 s)
+
+GREP: 0.0556667 1.69589
+Time step 168 at t=0.056
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.056 1.69446
+Time step 169 at t=0.0563333
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.0563333 1.69304
+Time step 170 at t=0.0566667
+Solving linear system
+done (5.9e-05 s)
+
+GREP: 0.0566667 1.69162
+Time step 171 at t=0.057
+Solving linear system
+done (0.000182 s)
+
+GREP: 0.057 1.6902
+Time step 172 at t=0.0573333
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.0573333 1.68878
+Time step 173 at t=0.0576667
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.0576667 1.68737
+Time step 174 at t=0.058
+Solving linear system
+done (6.2e-05 s)
+
+GREP: 0.058 1.68596
+Time step 175 at t=0.0583333
+Solving linear system
+done (6.9e-05 s)
+
+GREP: 0.0583333 1.68456
+Time step 176 at t=0.0586667
+Solving linear system
+done (0.000367 s)
+
+GREP: 0.0586667 1.68316
+Time step 177 at t=0.059
+Solving linear system
+done (5.5e-05 s)
+
+GREP: 0.059 1.68176
+Time step 178 at t=0.0593333
+Solving linear system
+done (6.1e-05 s)
+
+GREP: 0.0593333 1.68037
+Time step 179 at t=0.0596667
+Solving linear system
+done (0.000129 s)
+
+GREP: 0.0596667 1.67898
+Time step 180 at t=0.06
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.06 1.67759
+Time step 181 at t=0.0603333
+Solving linear system
+done (0 s)
+
+GREP: 0.0603333 1.6762
+Time step 182 at t=0.0606667
+Solving linear system
+done (6.8e-05 s)
+
+GREP: 0.0606667 1.67482
+Time step 183 at t=0.061
+Solving linear system
+done (9e-05 s)
+
+GREP: 0.061 1.67345
+Time step 184 at t=0.0613333
+Solving linear system
+done (6.7e-05 s)
+
+GREP: 0.0613333 1.67207
+Time step 185 at t=0.0616667
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.0616667 1.6707
+Time step 186 at t=0.062
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.062 1.66933
+Time step 187 at t=0.0623333
+Solving linear system
+done (0 s)
+
+GREP: 0.0623333 1.66797
+Time step 188 at t=0.0626667
+Solving linear system
+done (6.3e-05 s)
+
+GREP: 0.0626667 1.66661
+Time step 189 at t=0.063
+Solving linear system
+done (5.6e-05 s)
+
+GREP: 0.063 1.66525
+Time step 190 at t=0.0633333
+Solving linear system
+done (6.8e-05 s)
+
+GREP: 0.0633333 1.6639
+Time step 191 at t=0.0636667
+Solving linear system
+done (5.1e-05 s)
+
+GREP: 0.0636667 1.66255
+Time step 192 at t=0.064
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.064 1.6612
+Time step 193 at t=0.0643333
+Solving linear system
+done (6.7e-05 s)
+
+GREP: 0.0643333 1.65985
+Time step 194 at t=0.0646667
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.0646667 1.65851
+Time step 195 at t=0.065
+Solving linear system
+done (7e-05 s)
+
+GREP: 0.065 1.65717
+Time step 196 at t=0.0653333
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.0653333 1.65584
+Time step 197 at t=0.0656667
+Solving linear system
+done (5.6e-05 s)
+
+GREP: 0.0656667 1.65451
+Time step 198 at t=0.066
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.066 1.65318
+Time step 199 at t=0.0663333
+Solving linear system
+done (6.2e-05 s)
+
+GREP: 0.0663333 1.65185
+Time step 200 at t=0.0666667
+Solving linear system
+done (6.4e-05 s)
+
+GREP: 0.0666667 1.65053
+Time step 201 at t=0.067
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.067 1.64921
+Time step 202 at t=0.0673333
+Solving linear system
+done (0.000224 s)
+
+GREP: 0.0673333 1.64789
+Time step 203 at t=0.0676667
+Solving linear system
+done (5.8e-05 s)
+
+GREP: 0.0676667 1.64658
+Time step 204 at t=0.068
+Solving linear system
+done (6.2e-05 s)
+
+GREP: 0.068 1.64527
+Time step 205 at t=0.0683333
+Solving linear system
+done (0.000263 s)
+
+GREP: 0.0683333 1.64396
+Time step 206 at t=0.0686667
+Solving linear system
+done (7.2e-05 s)
+
+GREP: 0.0686667 1.64266
+Time step 207 at t=0.069
+Solving linear system
+done (7.2e-05 s)
+
+GREP: 0.069 1.64136
+Time step 208 at t=0.0693333
+Solving linear system
+done (6.3e-05 s)
+
+GREP: 0.0693333 1.64006
+Time step 209 at t=0.0696667
+Solving linear system
+done (6.3e-05 s)
+
+GREP: 0.0696667 1.63876
+Time step 210 at t=0.07
+Solving linear system
+done (6e-05 s)
+
+GREP: 0.07 1.63747
+Time step 211 at t=0.0703333
+Solving linear system
+done (7.4e-05 s)
+
+GREP: 0.0703333 1.63618
+Time step 212 at t=0.0706667
+Solving linear system
+done (5.1e-05 s)
+
+GREP: 0.0706667 1.63489
+Time step 213 at t=0.071
+Solving linear system
+done (5.1e-05 s)
+
+GREP: 0.071 1.63361
+Time step 214 at t=0.0713333
+Solving linear system
+done (6e-05 s)
+
+GREP: 0.0713333 1.63233
+Time step 215 at t=0.0716667
+Solving linear system
+done (5.3e-05 s)
+
+GREP: 0.0716667 1.63105
+Time step 216 at t=0.072
+Solving linear system
+done (0.000329 s)
+
+GREP: 0.072 1.62978
+Time step 217 at t=0.0723333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.0723333 1.62851
+Time step 218 at t=0.0726667
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.0726667 1.62724
+Time step 219 at t=0.073
+Solving linear system
+done (6.2e-05 s)
+
+GREP: 0.073 1.62597
+Time step 220 at t=0.0733333
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.0733333 1.62471
+Time step 221 at t=0.0736667
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.0736667 1.62345
+Time step 222 at t=0.074
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.074 1.62219
+Time step 223 at t=0.0743333
+Solving linear system
+done (5.4e-05 s)
+
+GREP: 0.0743333 1.62094
+Time step 224 at t=0.0746667
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.0746667 1.61968
+Time step 225 at t=0.075
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.075 1.61844
+Time step 226 at t=0.0753333
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.0753333 1.61719
+Time step 227 at t=0.0756667
+Solving linear system
+done (0.00032 s)
+
+GREP: 0.0756667 1.61595
+Time step 228 at t=0.076
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.076 1.61471
+Time step 229 at t=0.0763333
+Solving linear system
+done (6.2e-05 s)
+
+GREP: 0.0763333 1.61347
+Time step 230 at t=0.0766667
+Solving linear system
+done (0.000241 s)
+
+GREP: 0.0766667 1.61223
+Time step 231 at t=0.077
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.077 1.611
+Time step 232 at t=0.0773333
+Solving linear system
+done (7.3e-05 s)
+
+GREP: 0.0773333 1.60977
+Time step 233 at t=0.0776667
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.0776667 1.60854
+Time step 234 at t=0.078
+Solving linear system
+done (6.2e-05 s)
+
+GREP: 0.078 1.60732
+Time step 235 at t=0.0783333
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.0783333 1.6061
+Time step 236 at t=0.0786667
+Solving linear system
+done (0 s)
+
+GREP: 0.0786667 1.60488
+Time step 237 at t=0.079
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.079 1.60367
+Time step 238 at t=0.0793333
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.0793333 1.60245
+Time step 239 at t=0.0796667
+Solving linear system
+done (6.5e-05 s)
+
+GREP: 0.0796667 1.60124
+Time step 240 at t=0.08
+Solving linear system
+done (0.00022 s)
+
+GREP: 0.08 1.60003
+Time step 241 at t=0.0803333
+Solving linear system
+done (0.002603 s)
+
+GREP: 0.0803333 1.59883
+Time step 242 at t=0.0806667
+Solving linear system
+done (5.7e-05 s)
+
+GREP: 0.0806667 1.59763
+Time step 243 at t=0.081
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.081 1.59643
+Time step 244 at t=0.0813333
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.0813333 1.59523
+Time step 245 at t=0.0816667
+Solving linear system
+done (5.6e-05 s)
+
+GREP: 0.0816667 1.59403
+Time step 246 at t=0.082
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.082 1.59284
+Time step 247 at t=0.0823333
+Solving linear system
+done (5.9e-05 s)
+
+GREP: 0.0823333 1.59165
+Time step 248 at t=0.0826667
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.0826667 1.59047
+Time step 249 at t=0.083
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.083 1.58928
+Time step 250 at t=0.0833333
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.0833333 1.5881
+Time step 251 at t=0.0836667
+Solving linear system
+done (5.9e-05 s)
+
+GREP: 0.0836667 1.58692
+Time step 252 at t=0.084
+Solving linear system
+done (7.4e-05 s)
+
+GREP: 0.084 1.58574
+Time step 253 at t=0.0843333
+Solving linear system
+done (0.000157 s)
+
+GREP: 0.0843333 1.58457
+Time step 254 at t=0.0846667
+Solving linear system
+done (6.3e-05 s)
+
+GREP: 0.0846667 1.5834
+Time step 255 at t=0.085
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.085 1.58223
+Time step 256 at t=0.0853333
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.0853333 1.58106
+Time step 257 at t=0.0856667
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.0856667 1.5799
+Time step 258 at t=0.086
+Solving linear system
+done (6.4e-05 s)
+
+GREP: 0.086 1.57874
+Time step 259 at t=0.0863333
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.0863333 1.57758
+Time step 260 at t=0.0866667
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.0866667 1.57642
+Time step 261 at t=0.087
+Solving linear system
+done (6.7e-05 s)
+
+GREP: 0.087 1.57527
+Time step 262 at t=0.0873333
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.0873333 1.57411
+Time step 263 at t=0.0876667
+Solving linear system
+done (6.5e-05 s)
+
+GREP: 0.0876667 1.57296
+Time step 264 at t=0.088
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.088 1.57182
+Time step 265 at t=0.0883333
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.0883333 1.57067
+Time step 266 at t=0.0886667
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.0886667 1.56953
+Time step 267 at t=0.089
+Solving linear system
+done (6.3e-05 s)
+
+GREP: 0.089 1.56839
+Time step 268 at t=0.0893333
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.0893333 1.56725
+Time step 269 at t=0.0896667
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.0896667 1.56612
+Time step 270 at t=0.09
+Solving linear system
+done (5.5e-05 s)
+
+GREP: 0.09 1.56499
+Time step 271 at t=0.0903333
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.0903333 1.56386
+Time step 272 at t=0.0906667
+Solving linear system
+done (5.4e-05 s)
+
+GREP: 0.0906667 1.56273
+Time step 273 at t=0.091
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.091 1.5616
+Time step 274 at t=0.0913333
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.0913333 1.56048
+Time step 275 at t=0.0916667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.0916667 1.55936
+Time step 276 at t=0.092
+Solving linear system
+done (6.6e-05 s)
+
+GREP: 0.092 1.55824
+Time step 277 at t=0.0923333
+Solving linear system
+done (5.1e-05 s)
+
+GREP: 0.0923333 1.55713
+Time step 278 at t=0.0926667
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.0926667 1.55601
+Time step 279 at t=0.093
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.093 1.5549
+Time step 280 at t=0.0933333
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.0933333 1.55379
+Time step 281 at t=0.0936667
+Solving linear system
+done (6.1e-05 s)
+
+GREP: 0.0936667 1.55268
+Time step 282 at t=0.094
+Solving linear system
+done (5.8e-05 s)
+
+GREP: 0.094 1.55158
+Time step 283 at t=0.0943333
+Solving linear system
+done (7.1e-05 s)
+
+GREP: 0.0943333 1.55048
+Time step 284 at t=0.0946667
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.0946667 1.54938
+Time step 285 at t=0.095
+Solving linear system
+done (0.000156 s)
+
+GREP: 0.095 1.54828
+Time step 286 at t=0.0953333
+Solving linear system
+done (5.4e-05 s)
+
+GREP: 0.0953333 1.54718
+Time step 287 at t=0.0956667
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.0956667 1.54609
+Time step 288 at t=0.096
+Solving linear system
+done (0.000163 s)
+
+GREP: 0.096 1.545
+Time step 289 at t=0.0963333
+Solving linear system
+done (5.7e-05 s)
+
+GREP: 0.0963333 1.54391
+Time step 290 at t=0.0966667
+Solving linear system
+done (0 s)
+
+GREP: 0.0966667 1.54283
+Time step 291 at t=0.097
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.097 1.54174
+Time step 292 at t=0.0973333
+Solving linear system
+done (0.000293 s)
+
+GREP: 0.0973333 1.54066
+Time step 293 at t=0.0976667
+Solving linear system
+done (5.7e-05 s)
+
+GREP: 0.0976667 1.53958
+Time step 294 at t=0.098
+Solving linear system
+done (6.2e-05 s)
+
+GREP: 0.098 1.5385
+Time step 295 at t=0.0983333
+Solving linear system
+done (0.000196 s)
+
+GREP: 0.0983333 1.53743
+Time step 296 at t=0.0986667
+Solving linear system
+done (0.000215 s)
+
+GREP: 0.0986667 1.53635
+Time step 297 at t=0.099
+Solving linear system
+done (0.000171 s)
+
+GREP: 0.099 1.53528
+Time step 298 at t=0.0993333
+Solving linear system
+done (0.000201 s)
+
+GREP: 0.0993333 1.53421
+Time step 299 at t=0.0996667
+Solving linear system
+done (5.4e-05 s)
+
+GREP: 0.0996667 1.53314
+Time step 300 at t=0.1
+Solving linear system
+done (5.8e-05 s)
+
+GREP: 0.1 1.53208
+Time step 301 at t=0.100333
+Solving linear system
+done (6.8e-05 s)
+
+GREP: 0.100333 1.53102
+Time step 302 at t=0.100667
+Solving linear system
+done (7e-05 s)
+
+GREP: 0.100667 1.52996
+Time step 303 at t=0.101
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.101 1.5289
+Time step 304 at t=0.101333
+Solving linear system
+done (0.000298 s)
+
+GREP: 0.101333 1.52784
+Time step 305 at t=0.101667
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.101667 1.52679
+Time step 306 at t=0.102
+Solving linear system
+done (0 s)
+
+GREP: 0.102 1.52574
+Time step 307 at t=0.102333
+Solving linear system
+done (0 s)
+
+GREP: 0.102333 1.52469
+Time step 308 at t=0.102667
+Solving linear system
+done (5.5e-05 s)
+
+GREP: 0.102667 1.52364
+Time step 309 at t=0.103
+Solving linear system
+done (5.3e-05 s)
+
+GREP: 0.103 1.52259
+Time step 310 at t=0.103333
+Solving linear system
+done (9.4e-05 s)
+
+GREP: 0.103333 1.52155
+Time step 311 at t=0.103667
+Solving linear system
+done (5.6e-05 s)
+
+GREP: 0.103667 1.52051
+Time step 312 at t=0.104
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.104 1.51947
+Time step 313 at t=0.104333
+Solving linear system
+done (0.000112 s)
+
+GREP: 0.104333 1.51843
+Time step 314 at t=0.104667
+Solving linear system
+done (0.000122 s)
+
+GREP: 0.104667 1.51739
+Time step 315 at t=0.105
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.105 1.51636
+Time step 316 at t=0.105333
+Solving linear system
+done (7.1e-05 s)
+
+GREP: 0.105333 1.51533
+Time step 317 at t=0.105667
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.105667 1.5143
+Time step 318 at t=0.106
+Solving linear system
+done (0 s)
+
+GREP: 0.106 1.51327
+Time step 319 at t=0.106333
+Solving linear system
+done (0.000183 s)
+
+GREP: 0.106333 1.51225
+Time step 320 at t=0.106667
+Solving linear system
+done (5.7e-05 s)
+
+GREP: 0.106667 1.51122
+Time step 321 at t=0.107
+Solving linear system
+done (0.000196 s)
+
+GREP: 0.107 1.5102
+Time step 322 at t=0.107333
+Solving linear system
+done (0.000291 s)
+
+GREP: 0.107333 1.50918
+Time step 323 at t=0.107667
+Solving linear system
+done (0.0002 s)
+
+GREP: 0.107667 1.50816
+Time step 324 at t=0.108
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.108 1.50715
+Time step 325 at t=0.108333
+Solving linear system
+done (7.9e-05 s)
+
+GREP: 0.108333 1.50613
+Time step 326 at t=0.108667
+Solving linear system
+done (5.2e-05 s)
+
+GREP: 0.108667 1.50512
+Time step 327 at t=0.109
+Solving linear system
+done (5.8e-05 s)
+
+GREP: 0.109 1.50411
+Time step 328 at t=0.109333
+Solving linear system
+done (5.2e-05 s)
+
+GREP: 0.109333 1.5031
+Time step 329 at t=0.109667
+Solving linear system
+done (0 s)
+
+GREP: 0.109667 1.5021
+Time step 330 at t=0.11
+Solving linear system
+done (0 s)
+
+GREP: 0.11 1.5011
+Time step 331 at t=0.110333
+Solving linear system
+done (0 s)
+
+GREP: 0.110333 1.50009
+Time step 332 at t=0.110667
+Solving linear system
+done (0 s)
+
+GREP: 0.110667 1.49909
+Time step 333 at t=0.111
+Solving linear system
+done (0 s)
+
+GREP: 0.111 1.4981
+Time step 334 at t=0.111333
+Solving linear system
+done (0.000263 s)
+
+GREP: 0.111333 1.4971
+Time step 335 at t=0.111667
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.111667 1.4961
+Time step 336 at t=0.112
+Solving linear system
+done (5.4e-05 s)
+
+GREP: 0.112 1.49511
+Time step 337 at t=0.112333
+Solving linear system
+done (5.4e-05 s)
+
+GREP: 0.112333 1.49412
+Time step 338 at t=0.112667
+Solving linear system
+done (0.000187 s)
+
+GREP: 0.112667 1.49313
+Time step 339 at t=0.113
+Solving linear system
+done (7.5e-05 s)
+
+GREP: 0.113 1.49215
+Time step 340 at t=0.113333
+Solving linear system
+done (0.00028 s)
+
+GREP: 0.113333 1.49116
+Time step 341 at t=0.113667
+Solving linear system
+done (7.1e-05 s)
+
+GREP: 0.113667 1.49018
+Time step 342 at t=0.114
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.114 1.4892
+Time step 343 at t=0.114333
+Solving linear system
+done (0 s)
+
+GREP: 0.114333 1.48822
+Time step 344 at t=0.114667
+Solving linear system
+done (0.00019 s)
+
+GREP: 0.114667 1.48724
+Time step 345 at t=0.115
+Solving linear system
+done (0.000148 s)
+
+GREP: 0.115 1.48627
+Time step 346 at t=0.115333
+Solving linear system
+done (8e-05 s)
+
+GREP: 0.115333 1.48529
+Time step 347 at t=0.115667
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.115667 1.48432
+Time step 348 at t=0.116
+Solving linear system
+done (0 s)
+
+GREP: 0.116 1.48335
+Time step 349 at t=0.116333
+Solving linear system
+done (0.000177 s)
+
+GREP: 0.116333 1.48238
+Time step 350 at t=0.116667
+Solving linear system
+done (0.000208 s)
+
+GREP: 0.116667 1.48141
+Time step 351 at t=0.117
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.117 1.48045
+Time step 352 at t=0.117333
+Solving linear system
+done (0.0002 s)
+
+GREP: 0.117333 1.47949
+Time step 353 at t=0.117667
+Solving linear system
+done (0.000232 s)
+
+GREP: 0.117667 1.47853
+Time step 354 at t=0.118
+Solving linear system
+done (6.7e-05 s)
+
+GREP: 0.118 1.47757
+Time step 355 at t=0.118333
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.118333 1.47661
+Time step 356 at t=0.118667
+Solving linear system
+done (0 s)
+
+GREP: 0.118667 1.47565
+Time step 357 at t=0.119
+Solving linear system
+done (5.1e-05 s)
+
+GREP: 0.119 1.4747
+Time step 358 at t=0.119333
+Solving linear system
+done (5.2e-05 s)
+
+GREP: 0.119333 1.47375
+Time step 359 at t=0.119667
+Solving linear system
+done (0.000165 s)
+
+GREP: 0.119667 1.4728
+Time step 360 at t=0.12
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.12 1.47185
+Time step 361 at t=0.120333
+Solving linear system
+done (9.6e-05 s)
+
+GREP: 0.120333 1.4709
+Time step 362 at t=0.120667
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.120667 1.46996
+Time step 363 at t=0.121
+Solving linear system
+done (0.000142 s)
+
+GREP: 0.121 1.46901
+Time step 364 at t=0.121333
+Solving linear system
+done (6.5e-05 s)
+
+GREP: 0.121333 1.46807
+Time step 365 at t=0.121667
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.121667 1.46713
+Time step 366 at t=0.122
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.122 1.46619
+Time step 367 at t=0.122333
+Solving linear system
+done (5.6e-05 s)
+
+GREP: 0.122333 1.46526
+Time step 368 at t=0.122667
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.122667 1.46432
+Time step 369 at t=0.123
+Solving linear system
+done (0.000623 s)
+
+GREP: 0.123 1.46339
+Time step 370 at t=0.123333
+Solving linear system
+done (5.3e-05 s)
+
+GREP: 0.123333 1.46246
+Time step 371 at t=0.123667
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.123667 1.46153
+Time step 372 at t=0.124
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.124 1.4606
+Time step 373 at t=0.124333
+Solving linear system
+done (0.00013 s)
+
+GREP: 0.124333 1.45967
+Time step 374 at t=0.124667
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.124667 1.45875
+Time step 375 at t=0.125
+Solving linear system
+done (5.6e-05 s)
+
+GREP: 0.125 1.45782
+Time step 376 at t=0.125333
+Solving linear system
+done (7.2e-05 s)
+
+GREP: 0.125333 1.4569
+Time step 377 at t=0.125667
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.125667 1.45598
+Time step 378 at t=0.126
+Solving linear system
+done (0.000134 s)
+
+GREP: 0.126 1.45507
+Time step 379 at t=0.126333
+Solving linear system
+done (0.000136 s)
+
+GREP: 0.126333 1.45415
+Time step 380 at t=0.126667
+Solving linear system
+done (9.6e-05 s)
+
+GREP: 0.126667 1.45323
+Time step 381 at t=0.127
+Solving linear system
+done (0 s)
+
+GREP: 0.127 1.45232
+Time step 382 at t=0.127333
+Solving linear system
+done (0 s)
+
+GREP: 0.127333 1.45141
+Time step 383 at t=0.127667
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.127667 1.4505
+Time step 384 at t=0.128
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.128 1.44959
+Time step 385 at t=0.128333
+Solving linear system
+done (5.3e-05 s)
+
+GREP: 0.128333 1.44869
+Time step 386 at t=0.128667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.128667 1.44778
+Time step 387 at t=0.129
+Solving linear system
+done (6.1e-05 s)
+
+GREP: 0.129 1.44688
+Time step 388 at t=0.129333
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.129333 1.44598
+Time step 389 at t=0.129667
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.129667 1.44508
+Time step 390 at t=0.13
+Solving linear system
+done (0 s)
+
+GREP: 0.13 1.44418
+Time step 391 at t=0.130333
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.130333 1.44328
+Time step 392 at t=0.130667
+Solving linear system
+done (0 s)
+
+GREP: 0.130667 1.44238
+Time step 393 at t=0.131
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.131 1.44149
+Time step 394 at t=0.131333
+Solving linear system
+done (1e-06 s)
+
+GREP: 0.131333 1.4406
+Time step 395 at t=0.131667
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.131667 1.43971
+Time step 396 at t=0.132
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.132 1.43882
+Time step 397 at t=0.132333
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.132333 1.43793
+Time step 398 at t=0.132667
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.132667 1.43705
+Time step 399 at t=0.133
+Solving linear system
+done (0.000459 s)
+
+GREP: 0.133 1.43616
+Time step 400 at t=0.133333
+Solving linear system
+done (0.000125 s)
+
+GREP: 0.133333 1.43528
+Time step 401 at t=0.133667
+Solving linear system
+done (0.000103 s)
+
+GREP: 0.133667 1.4344
+Time step 402 at t=0.134
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.134 1.43352
+Time step 403 at t=0.134333
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.134333 1.43264
+Time step 404 at t=0.134667
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.134667 1.43176
+Time step 405 at t=0.135
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.135 1.43089
+Time step 406 at t=0.135333
+Solving linear system
+done (0.000112 s)
+
+GREP: 0.135333 1.43001
+Time step 407 at t=0.135667
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.135667 1.42914
+Time step 408 at t=0.136
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.136 1.42827
+Time step 409 at t=0.136333
+Solving linear system
+done (0.000139 s)
+
+GREP: 0.136333 1.4274
+Time step 410 at t=0.136667
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.136667 1.42653
+Time step 411 at t=0.137
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.137 1.42567
+Time step 412 at t=0.137333
+Solving linear system
+done (9.5e-05 s)
+
+GREP: 0.137333 1.4248
+Time step 413 at t=0.137667
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.137667 1.42394
+Time step 414 at t=0.138
+Solving linear system
+done (2.4e-05 s)
+
+GREP: 0.138 1.42308
+Time step 415 at t=0.138333
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.138333 1.42222
+Time step 416 at t=0.138667
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.138667 1.42136
+Time step 417 at t=0.139
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.139 1.4205
+Time step 418 at t=0.139333
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.139333 1.41965
+Time step 419 at t=0.139667
+Solving linear system
+done (0 s)
+
+GREP: 0.139667 1.41879
+Time step 420 at t=0.14
+Solving linear system
+done (0 s)
+
+GREP: 0.14 1.41794
+Time step 421 at t=0.140333
+Solving linear system
+done (0 s)
+
+GREP: 0.140333 1.41709
+Time step 422 at t=0.140667
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.140667 1.41624
+Time step 423 at t=0.141
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.141 1.41539
+Time step 424 at t=0.141333
+Solving linear system
+done (0 s)
+
+GREP: 0.141333 1.41454
+Time step 425 at t=0.141667
+Solving linear system
+done (0 s)
+
+GREP: 0.141667 1.4137
+Time step 426 at t=0.142
+Solving linear system
+done (0 s)
+
+GREP: 0.142 1.41285
+Time step 427 at t=0.142333
+Solving linear system
+done (0 s)
+
+GREP: 0.142333 1.41201
+Time step 428 at t=0.142667
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.142667 1.41117
+Time step 429 at t=0.143
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.143 1.41033
+Time step 430 at t=0.143333
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.143333 1.40949
+Time step 431 at t=0.143667
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.143667 1.40865
+Time step 432 at t=0.144
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.144 1.40782
+Time step 433 at t=0.144333
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.144333 1.40698
+Time step 434 at t=0.144667
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.144667 1.40615
+Time step 435 at t=0.145
+Solving linear system
+done (6.7e-05 s)
+
+GREP: 0.145 1.40532
+Time step 436 at t=0.145333
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.145333 1.40449
+Time step 437 at t=0.145667
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.145667 1.40366
+Time step 438 at t=0.146
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.146 1.40283
+Time step 439 at t=0.146333
+Solving linear system
+done (5.9e-05 s)
+
+GREP: 0.146333 1.40201
+Time step 440 at t=0.146667
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.146667 1.40118
+Time step 441 at t=0.147
+Solving linear system
+done (6.2e-05 s)
+
+GREP: 0.147 1.40036
+Time step 442 at t=0.147333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.147333 1.39954
+Time step 443 at t=0.147667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.147667 1.39872
+Time step 444 at t=0.148
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.148 1.3979
+Time step 445 at t=0.148333
+Solving linear system
+done (0.000207 s)
+
+GREP: 0.148333 1.39708
+Time step 446 at t=0.148667
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.148667 1.39626
+Time step 447 at t=0.149
+Solving linear system
+done (5.8e-05 s)
+
+GREP: 0.149 1.39545
+Time step 448 at t=0.149333
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.149333 1.39464
+Time step 449 at t=0.149667
+Solving linear system
+done (0 s)
+
+GREP: 0.149667 1.39382
+Time step 450 at t=0.15
+Solving linear system
+done (0 s)
+
+GREP: 0.15 1.39301
+Time step 451 at t=0.150333
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.150333 1.3922
+Time step 452 at t=0.150667
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.150667 1.39139
+Time step 453 at t=0.151
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.151 1.39059
+Time step 454 at t=0.151333
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.151333 1.38978
+Time step 455 at t=0.151667
+Solving linear system
+done (7.6e-05 s)
+
+GREP: 0.151667 1.38898
+Time step 456 at t=0.152
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.152 1.38817
+Time step 457 at t=0.152333
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.152333 1.38737
+Time step 458 at t=0.152667
+Solving linear system
+done (0 s)
+
+GREP: 0.152667 1.38657
+Time step 459 at t=0.153
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.153 1.38577
+Time step 460 at t=0.153333
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.153333 1.38497
+Time step 461 at t=0.153667
+Solving linear system
+done (5.2e-05 s)
+
+GREP: 0.153667 1.38418
+Time step 462 at t=0.154
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.154 1.38338
+Time step 463 at t=0.154333
+Solving linear system
+done (0.000133 s)
+
+GREP: 0.154333 1.38259
+Time step 464 at t=0.154667
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.154667 1.3818
+Time step 465 at t=0.155
+Solving linear system
+done (0.002317 s)
+
+GREP: 0.155 1.381
+Time step 466 at t=0.155333
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.155333 1.38021
+Time step 467 at t=0.155667
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.155667 1.37943
+Time step 468 at t=0.156
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.156 1.37864
+Time step 469 at t=0.156333
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.156333 1.37785
+Time step 470 at t=0.156667
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.156667 1.37707
+Time step 471 at t=0.157
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.157 1.37628
+Time step 472 at t=0.157333
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.157333 1.3755
+Time step 473 at t=0.157667
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.157667 1.37472
+Time step 474 at t=0.158
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.158 1.37394
+Time step 475 at t=0.158333
+Solving linear system
+done (5.1e-05 s)
+
+GREP: 0.158333 1.37316
+Time step 476 at t=0.158667
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.158667 1.37238
+Time step 477 at t=0.159
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.159 1.37161
+Time step 478 at t=0.159333
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.159333 1.37083
+Time step 479 at t=0.159667
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.159667 1.37006
+Time step 480 at t=0.16
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.16 1.36929
+Time step 481 at t=0.160333
+Solving linear system
+done (0 s)
+
+GREP: 0.160333 1.36851
+Time step 482 at t=0.160667
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.160667 1.36774
+Time step 483 at t=0.161
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.161 1.36697
+Time step 484 at t=0.161333
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.161333 1.36621
+Time step 485 at t=0.161667
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.161667 1.36544
+Time step 486 at t=0.162
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.162 1.36468
+Time step 487 at t=0.162333
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.162333 1.36391
+Time step 488 at t=0.162667
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.162667 1.36315
+Time step 489 at t=0.163
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.163 1.36239
+Time step 490 at t=0.163333
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.163333 1.36163
+Time step 491 at t=0.163667
+Solving linear system
+done (6.2e-05 s)
+
+GREP: 0.163667 1.36087
+Time step 492 at t=0.164
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.164 1.36011
+Time step 493 at t=0.164333
+Solving linear system
+done (6e-05 s)
+
+GREP: 0.164333 1.35935
+Time step 494 at t=0.164667
+Solving linear system
+done (0.000151 s)
+
+GREP: 0.164667 1.3586
+Time step 495 at t=0.165
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.165 1.35784
+Time step 496 at t=0.165333
+Solving linear system
+done (6.5e-05 s)
+
+GREP: 0.165333 1.35709
+Time step 497 at t=0.165667
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.165667 1.35634
+Time step 498 at t=0.166
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.166 1.35558
+Time step 499 at t=0.166333
+Solving linear system
+done (0.000367 s)
+
+GREP: 0.166333 1.35484
+Time step 500 at t=0.166667
+Solving linear system
+done (5.8e-05 s)
+
+GREP: 0.166667 1.35409
+Time step 501 at t=0.167
+Solving linear system
+done (6.7e-05 s)
+
+GREP: 0.167 1.35334
+Time step 502 at t=0.167333
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.167333 1.35259
+Time step 503 at t=0.167667
+Solving linear system
+done (0 s)
+
+GREP: 0.167667 1.35185
+Time step 504 at t=0.168
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.168 1.3511
+Time step 505 at t=0.168333
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.168333 1.35036
+Time step 506 at t=0.168667
+Solving linear system
+done (6.1e-05 s)
+
+GREP: 0.168667 1.34962
+Time step 507 at t=0.169
+Solving linear system
+done (0 s)
+
+GREP: 0.169 1.34888
+Time step 508 at t=0.169333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.169333 1.34814
+Time step 509 at t=0.169667
+Solving linear system
+done (0 s)
+
+GREP: 0.169667 1.3474
+Time step 510 at t=0.17
+Solving linear system
+done (0 s)
+
+GREP: 0.17 1.34666
+Time step 511 at t=0.170333
+Solving linear system
+done (0.000244 s)
+
+GREP: 0.170333 1.34593
+Time step 512 at t=0.170667
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.170667 1.34519
+Time step 513 at t=0.171
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.171 1.34446
+Time step 514 at t=0.171333
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.171333 1.34372
+Time step 515 at t=0.171667
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.171667 1.34299
+Time step 516 at t=0.172
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.172 1.34226
+Time step 517 at t=0.172333
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.172333 1.34153
+Time step 518 at t=0.172667
+Solving linear system
+done (0 s)
+
+GREP: 0.172667 1.3408
+Time step 519 at t=0.173
+Solving linear system
+done (0 s)
+
+GREP: 0.173 1.34008
+Time step 520 at t=0.173333
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.173333 1.33935
+Time step 521 at t=0.173667
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.173667 1.33863
+Time step 522 at t=0.174
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.174 1.3379
+Time step 523 at t=0.174333
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.174333 1.33718
+Time step 524 at t=0.174667
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.174667 1.33646
+Time step 525 at t=0.175
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.175 1.33574
+Time step 526 at t=0.175333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.175333 1.33502
+Time step 527 at t=0.175667
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.175667 1.3343
+Time step 528 at t=0.176
+Solving linear system
+done (0.000314 s)
+
+GREP: 0.176 1.33358
+Time step 529 at t=0.176333
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.176333 1.33287
+Time step 530 at t=0.176667
+Solving linear system
+done (0 s)
+
+GREP: 0.176667 1.33215
+Time step 531 at t=0.177
+Solving linear system
+done (0.000174 s)
+
+GREP: 0.177 1.33144
+Time step 532 at t=0.177333
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.177333 1.33072
+Time step 533 at t=0.177667
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.177667 1.33001
+Time step 534 at t=0.178
+Solving linear system
+done (0 s)
+
+GREP: 0.178 1.3293
+Time step 535 at t=0.178333
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.178333 1.32859
+Time step 536 at t=0.178667
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.178667 1.32788
+Time step 537 at t=0.179
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.179 1.32717
+Time step 538 at t=0.179333
+Solving linear system
+done (7.5e-05 s)
+
+GREP: 0.179333 1.32647
+Time step 539 at t=0.179667
+Solving linear system
+done (5.7e-05 s)
+
+GREP: 0.179667 1.32576
+Time step 540 at t=0.18
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.18 1.32506
+Time step 541 at t=0.180333
+Solving linear system
+done (0 s)
+
+GREP: 0.180333 1.32435
+Time step 542 at t=0.180667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.180667 1.32365
+Time step 543 at t=0.181
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.181 1.32295
+Time step 544 at t=0.181333
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.181333 1.32225
+Time step 545 at t=0.181667
+Solving linear system
+done (9.3e-05 s)
+
+GREP: 0.181667 1.32155
+Time step 546 at t=0.182
+Solving linear system
+done (0 s)
+
+GREP: 0.182 1.32085
+Time step 547 at t=0.182333
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.182333 1.32015
+Time step 548 at t=0.182667
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.182667 1.31946
+Time step 549 at t=0.183
+Solving linear system
+done (0.000127 s)
+
+GREP: 0.183 1.31876
+Time step 550 at t=0.183333
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.183333 1.31807
+Time step 551 at t=0.183667
+Solving linear system
+done (5.4e-05 s)
+
+GREP: 0.183667 1.31737
+Time step 552 at t=0.184
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.184 1.31668
+Time step 553 at t=0.184333
+Solving linear system
+done (3e-06 s)
+
+GREP: 0.184333 1.31599
+Time step 554 at t=0.184667
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.184667 1.3153
+Time step 555 at t=0.185
+Solving linear system
+done (5.2e-05 s)
+
+GREP: 0.185 1.31461
+Time step 556 at t=0.185333
+Solving linear system
+done (6.8e-05 s)
+
+GREP: 0.185333 1.31392
+Time step 557 at t=0.185667
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.185667 1.31324
+Time step 558 at t=0.186
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.186 1.31255
+Time step 559 at t=0.186333
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.186333 1.31186
+Time step 560 at t=0.186667
+Solving linear system
+done (5.6e-05 s)
+
+GREP: 0.186667 1.31118
+Time step 561 at t=0.187
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.187 1.3105
+Time step 562 at t=0.187333
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.187333 1.30981
+Time step 563 at t=0.187667
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.187667 1.30913
+Time step 564 at t=0.188
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.188 1.30845
+Time step 565 at t=0.188333
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.188333 1.30777
+Time step 566 at t=0.188667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.188667 1.30709
+Time step 567 at t=0.189
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.189 1.30642
+Time step 568 at t=0.189333
+Solving linear system
+done (0 s)
+
+GREP: 0.189333 1.30574
+Time step 569 at t=0.189667
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.189667 1.30507
+Time step 570 at t=0.19
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.19 1.30439
+Time step 571 at t=0.190333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.190333 1.30372
+Time step 572 at t=0.190667
+Solving linear system
+done (0.000403 s)
+
+GREP: 0.190667 1.30305
+Time step 573 at t=0.191
+Solving linear system
+done (0 s)
+
+GREP: 0.191 1.30237
+Time step 574 at t=0.191333
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.191333 1.3017
+Time step 575 at t=0.191667
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.191667 1.30103
+Time step 576 at t=0.192
+Solving linear system
+done (0 s)
+
+GREP: 0.192 1.30036
+Time step 577 at t=0.192333
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.192333 1.2997
+Time step 578 at t=0.192667
+Solving linear system
+done (0 s)
+
+GREP: 0.192667 1.29903
+Time step 579 at t=0.193
+Solving linear system
+done (0 s)
+
+GREP: 0.193 1.29836
+Time step 580 at t=0.193333
+Solving linear system
+done (0 s)
+
+GREP: 0.193333 1.2977
+Time step 581 at t=0.193667
+Solving linear system
+done (0 s)
+
+GREP: 0.193667 1.29704
+Time step 582 at t=0.194
+Solving linear system
+done (0 s)
+
+GREP: 0.194 1.29637
+Time step 583 at t=0.194333
+Solving linear system
+done (9.1e-05 s)
+
+GREP: 0.194333 1.29571
+Time step 584 at t=0.194667
+Solving linear system
+done (0 s)
+
+GREP: 0.194667 1.29505
+Time step 585 at t=0.195
+Solving linear system
+done (0 s)
+
+GREP: 0.195 1.29439
+Time step 586 at t=0.195333
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.195333 1.29373
+Time step 587 at t=0.195667
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.195667 1.29307
+Time step 588 at t=0.196
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.196 1.29241
+Time step 589 at t=0.196333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.196333 1.29176
+Time step 590 at t=0.196667
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.196667 1.2911
+Time step 591 at t=0.197
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.197 1.29045
+Time step 592 at t=0.197333
+Solving linear system
+done (6.6e-05 s)
+
+GREP: 0.197333 1.28979
+Time step 593 at t=0.197667
+Solving linear system
+done (0.00015 s)
+
+GREP: 0.197667 1.28914
+Time step 594 at t=0.198
+Solving linear system
+done (0.000134 s)
+
+GREP: 0.198 1.28849
+Time step 595 at t=0.198333
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.198333 1.28784
+Time step 596 at t=0.198667
+Solving linear system
+done (7.2e-05 s)
+
+GREP: 0.198667 1.28719
+Time step 597 at t=0.199
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.199 1.28654
+Time step 598 at t=0.199333
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.199333 1.28589
+Time step 599 at t=0.199667
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.199667 1.28524
+Time step 600 at t=0.2
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.2 1.2846
+Time step 601 at t=0.200333
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.200333 1.28395
+Time step 602 at t=0.200667
+Solving linear system
+done (6.4e-05 s)
+
+GREP: 0.200667 1.28331
+Time step 603 at t=0.201
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.201 1.28266
+Time step 604 at t=0.201333
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.201333 1.28202
+Time step 605 at t=0.201667
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.201667 1.28138
+Time step 606 at t=0.202
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.202 1.28074
+Time step 607 at t=0.202333
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.202333 1.2801
+Time step 608 at t=0.202667
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.202667 1.27946
+Time step 609 at t=0.203
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.203 1.27882
+Time step 610 at t=0.203333
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.203333 1.27818
+Time step 611 at t=0.203667
+Solving linear system
+done (0.000146 s)
+
+GREP: 0.203667 1.27754
+Time step 612 at t=0.204
+Solving linear system
+done (0.000128 s)
+
+GREP: 0.204 1.27691
+Time step 613 at t=0.204333
+Solving linear system
+done (0.000345 s)
+
+GREP: 0.204333 1.27627
+Time step 614 at t=0.204667
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.204667 1.27564
+Time step 615 at t=0.205
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.205 1.27501
+Time step 616 at t=0.205333
+Solving linear system
+done (5.6e-05 s)
+
+GREP: 0.205333 1.27437
+Time step 617 at t=0.205667
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.205667 1.27374
+Time step 618 at t=0.206
+Solving linear system
+done (0.000171 s)
+
+GREP: 0.206 1.27311
+Time step 619 at t=0.206333
+Solving linear system
+done (5.1e-05 s)
+
+GREP: 0.206333 1.27248
+Time step 620 at t=0.206667
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.206667 1.27185
+Time step 621 at t=0.207
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.207 1.27122
+Time step 622 at t=0.207333
+Solving linear system
+done (6.8e-05 s)
+
+GREP: 0.207333 1.2706
+Time step 623 at t=0.207667
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.207667 1.26997
+Time step 624 at t=0.208
+Solving linear system
+done (6.6e-05 s)
+
+GREP: 0.208 1.26935
+Time step 625 at t=0.208333
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.208333 1.26872
+Time step 626 at t=0.208667
+Solving linear system
+done (0 s)
+
+GREP: 0.208667 1.2681
+Time step 627 at t=0.209
+Solving linear system
+done (4e-06 s)
+
+GREP: 0.209 1.26747
+Time step 628 at t=0.209333
+Solving linear system
+done (5.4e-05 s)
+
+GREP: 0.209333 1.26685
+Time step 629 at t=0.209667
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.209667 1.26623
+Time step 630 at t=0.21
+Solving linear system
+done (0.000237 s)
+
+GREP: 0.21 1.26561
+Time step 631 at t=0.210333
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.210333 1.26499
+Time step 632 at t=0.210667
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.210667 1.26437
+Time step 633 at t=0.211
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.211 1.26375
+Time step 634 at t=0.211333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.211333 1.26314
+Time step 635 at t=0.211667
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.211667 1.26252
+Time step 636 at t=0.212
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.212 1.26191
+Time step 637 at t=0.212333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.212333 1.26129
+Time step 638 at t=0.212667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.212667 1.26068
+Time step 639 at t=0.213
+Solving linear system
+done (0 s)
+
+GREP: 0.213 1.26006
+Time step 640 at t=0.213333
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.213333 1.25945
+Time step 641 at t=0.213667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.213667 1.25884
+Time step 642 at t=0.214
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.214 1.25823
+Time step 643 at t=0.214333
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.214333 1.25762
+Time step 644 at t=0.214667
+Solving linear system
+done (0.000142 s)
+
+GREP: 0.214667 1.25701
+Time step 645 at t=0.215
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.215 1.2564
+Time step 646 at t=0.215333
+Solving linear system
+done (5.9e-05 s)
+
+GREP: 0.215333 1.2558
+Time step 647 at t=0.215667
+Solving linear system
+done (0.000168 s)
+
+GREP: 0.215667 1.25519
+Time step 648 at t=0.216
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.216 1.25458
+Time step 649 at t=0.216333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.216333 1.25398
+Time step 650 at t=0.216667
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.216667 1.25337
+Time step 651 at t=0.217
+Solving linear system
+done (0.000261 s)
+
+GREP: 0.217 1.25277
+Time step 652 at t=0.217333
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.217333 1.25217
+Time step 653 at t=0.217667
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.217667 1.25157
+Time step 654 at t=0.218
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.218 1.25097
+Time step 655 at t=0.218333
+Solving linear system
+done (0.00018 s)
+
+GREP: 0.218333 1.25037
+Time step 656 at t=0.218667
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.218667 1.24977
+Time step 657 at t=0.219
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.219 1.24917
+Time step 658 at t=0.219333
+Solving linear system
+done (0 s)
+
+GREP: 0.219333 1.24857
+Time step 659 at t=0.219667
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.219667 1.24797
+Time step 660 at t=0.22
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.22 1.24738
+Time step 661 at t=0.220333
+Solving linear system
+done (0 s)
+
+GREP: 0.220333 1.24678
+Time step 662 at t=0.220667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.220667 1.24619
+Time step 663 at t=0.221
+Solving linear system
+done (0 s)
+
+GREP: 0.221 1.24559
+Time step 664 at t=0.221333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.221333 1.245
+Time step 665 at t=0.221667
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.221667 1.24441
+Time step 666 at t=0.222
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.222 1.24382
+Time step 667 at t=0.222333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.222333 1.24323
+Time step 668 at t=0.222667
+Solving linear system
+done (0.000241 s)
+
+GREP: 0.222667 1.24264
+Time step 669 at t=0.223
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.223 1.24205
+Time step 670 at t=0.223333
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.223333 1.24146
+Time step 671 at t=0.223667
+Solving linear system
+done (0 s)
+
+GREP: 0.223667 1.24087
+Time step 672 at t=0.224
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.224 1.24028
+Time step 673 at t=0.224333
+Solving linear system
+done (0.000162 s)
+
+GREP: 0.224333 1.2397
+Time step 674 at t=0.224667
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.224667 1.23911
+Time step 675 at t=0.225
+Solving linear system
+done (9e-06 s)
+
+GREP: 0.225 1.23853
+Time step 676 at t=0.225333
+Solving linear system
+done (0 s)
+
+GREP: 0.225333 1.23794
+Time step 677 at t=0.225667
+Solving linear system
+done (0.000179 s)
+
+GREP: 0.225667 1.23736
+Time step 678 at t=0.226
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.226 1.23678
+Time step 679 at t=0.226333
+Solving linear system
+done (0 s)
+
+GREP: 0.226333 1.2362
+Time step 680 at t=0.226667
+Solving linear system
+done (5.6e-05 s)
+
+GREP: 0.226667 1.23561
+Time step 681 at t=0.227
+Solving linear system
+done (0.000139 s)
+
+GREP: 0.227 1.23503
+Time step 682 at t=0.227333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.227333 1.23445
+Time step 683 at t=0.227667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.227667 1.23388
+Time step 684 at t=0.228
+Solving linear system
+done (0 s)
+
+GREP: 0.228 1.2333
+Time step 685 at t=0.228333
+Solving linear system
+done (0 s)
+
+GREP: 0.228333 1.23272
+Time step 686 at t=0.228667
+Solving linear system
+done (0 s)
+
+GREP: 0.228667 1.23214
+Time step 687 at t=0.229
+Solving linear system
+done (0.000215 s)
+
+GREP: 0.229 1.23157
+Time step 688 at t=0.229333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.229333 1.23099
+Time step 689 at t=0.229667
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.229667 1.23042
+Time step 690 at t=0.23
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.23 1.22985
+Time step 691 at t=0.230333
+Solving linear system
+done (4.6e-05 s)
+
+GREP: 0.230333 1.22927
+Time step 692 at t=0.230667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.230667 1.2287
+Time step 693 at t=0.231
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.231 1.22813
+Time step 694 at t=0.231333
+Solving linear system
+done (0.000263 s)
+
+GREP: 0.231333 1.22756
+Time step 695 at t=0.231667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.231667 1.22699
+Time step 696 at t=0.232
+Solving linear system
+done (5.6e-05 s)
+
+GREP: 0.232 1.22642
+Time step 697 at t=0.232333
+Solving linear system
+done (0.000163 s)
+
+GREP: 0.232333 1.22585
+Time step 698 at t=0.232667
+Solving linear system
+done (0.000167 s)
+
+GREP: 0.232667 1.22528
+Time step 699 at t=0.233
+Solving linear system
+done (6.4e-05 s)
+
+GREP: 0.233 1.22472
+Time step 700 at t=0.233333
+Solving linear system
+done (5.5e-05 s)
+
+GREP: 0.233333 1.22415
+Time step 701 at t=0.233667
+Solving linear system
+done (0 s)
+
+GREP: 0.233667 1.22358
+Time step 702 at t=0.234
+Solving linear system
+done (0.000212 s)
+
+GREP: 0.234 1.22302
+Time step 703 at t=0.234333
+Solving linear system
+done (0.00017 s)
+
+GREP: 0.234333 1.22245
+Time step 704 at t=0.234667
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.234667 1.22189
+Time step 705 at t=0.235
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.235 1.22133
+Time step 706 at t=0.235333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.235333 1.22077
+Time step 707 at t=0.235667
+Solving linear system
+done (5.4e-05 s)
+
+GREP: 0.235667 1.2202
+Time step 708 at t=0.236
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.236 1.21964
+Time step 709 at t=0.236333
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.236333 1.21908
+Time step 710 at t=0.236667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.236667 1.21852
+Time step 711 at t=0.237
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.237 1.21797
+Time step 712 at t=0.237333
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.237333 1.21741
+Time step 713 at t=0.237667
+Solving linear system
+done (0 s)
+
+GREP: 0.237667 1.21685
+Time step 714 at t=0.238
+Solving linear system
+done (0.000178 s)
+
+GREP: 0.238 1.21629
+Time step 715 at t=0.238333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.238333 1.21574
+Time step 716 at t=0.238667
+Solving linear system
+done (0.000161 s)
+
+GREP: 0.238667 1.21518
+Time step 717 at t=0.239
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.239 1.21463
+Time step 718 at t=0.239333
+Solving linear system
+done (0.000147 s)
+
+GREP: 0.239333 1.21408
+Time step 719 at t=0.239667
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.239667 1.21352
+Time step 720 at t=0.24
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.24 1.21297
+Time step 721 at t=0.240333
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.240333 1.21242
+Time step 722 at t=0.240667
+Solving linear system
+done (0.000184 s)
+
+GREP: 0.240667 1.21187
+Time step 723 at t=0.241
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.241 1.21132
+Time step 724 at t=0.241333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.241333 1.21077
+Time step 725 at t=0.241667
+Solving linear system
+done (5.6e-05 s)
+
+GREP: 0.241667 1.21022
+Time step 726 at t=0.242
+Solving linear system
+done (0 s)
+
+GREP: 0.242 1.20967
+Time step 727 at t=0.242333
+Solving linear system
+done (5.1e-05 s)
+
+GREP: 0.242333 1.20912
+Time step 728 at t=0.242667
+Solving linear system
+done (5.1e-05 s)
+
+GREP: 0.242667 1.20857
+Time step 729 at t=0.243
+Solving linear system
+done (0 s)
+
+GREP: 0.243 1.20803
+Time step 730 at t=0.243333
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.243333 1.20748
+Time step 731 at t=0.243667
+Solving linear system
+done (0 s)
+
+GREP: 0.243667 1.20694
+Time step 732 at t=0.244
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.244 1.20639
+Time step 733 at t=0.244333
+Solving linear system
+done (0.00028 s)
+
+GREP: 0.244333 1.20585
+Time step 734 at t=0.244667
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.244667 1.20531
+Time step 735 at t=0.245
+Solving linear system
+done (0 s)
+
+GREP: 0.245 1.20476
+Time step 736 at t=0.245333
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.245333 1.20422
+Time step 737 at t=0.245667
+Solving linear system
+done (0 s)
+
+GREP: 0.245667 1.20368
+Time step 738 at t=0.246
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.246 1.20314
+Time step 739 at t=0.246333
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.246333 1.2026
+Time step 740 at t=0.246667
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.246667 1.20206
+Time step 741 at t=0.247
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.247 1.20152
+Time step 742 at t=0.247333
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.247333 1.20099
+Time step 743 at t=0.247667
+Solving linear system
+done (0.000112 s)
+
+GREP: 0.247667 1.20045
+Time step 744 at t=0.248
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.248 1.19991
+Time step 745 at t=0.248333
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.248333 1.19938
+Time step 746 at t=0.248667
+Solving linear system
+done (0.00018 s)
+
+GREP: 0.248667 1.19884
+Time step 747 at t=0.249
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.249 1.19831
+Time step 748 at t=0.249333
+Solving linear system
+done (0 s)
+
+GREP: 0.249333 1.19777
+Time step 749 at t=0.249667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.249667 1.19724
+Time step 750 at t=0.25
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.25 1.19671
+Time step 751 at t=0.250333
+Solving linear system
+done (0.000112 s)
+
+GREP: 0.250333 1.19618
+Time step 752 at t=0.250667
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.250667 1.19564
+Time step 753 at t=0.251
+Solving linear system
+done (2e-05 s)
+
+GREP: 0.251 1.19511
+Time step 754 at t=0.251333
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.251333 1.19458
+Time step 755 at t=0.251667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.251667 1.19405
+Time step 756 at t=0.252
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.252 1.19353
+Time step 757 at t=0.252333
+Solving linear system
+done (2.4e-05 s)
+
+GREP: 0.252333 1.193
+Time step 758 at t=0.252667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.252667 1.19247
+Time step 759 at t=0.253
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.253 1.19194
+Time step 760 at t=0.253333
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.253333 1.19142
+Time step 761 at t=0.253667
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.253667 1.19089
+Time step 762 at t=0.254
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.254 1.19037
+Time step 763 at t=0.254333
+Solving linear system
+done (0 s)
+
+GREP: 0.254333 1.18984
+Time step 764 at t=0.254667
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.254667 1.18932
+Time step 765 at t=0.255
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.255 1.18879
+Time step 766 at t=0.255333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.255333 1.18827
+Time step 767 at t=0.255667
+Solving linear system
+done (0.004466 s)
+
+GREP: 0.255667 1.18775
+Time step 768 at t=0.256
+Solving linear system
+done (0 s)
+
+GREP: 0.256 1.18723
+Time step 769 at t=0.256333
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.256333 1.18671
+Time step 770 at t=0.256667
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.256667 1.18619
+Time step 771 at t=0.257
+Solving linear system
+done (0.000105 s)
+
+GREP: 0.257 1.18567
+Time step 772 at t=0.257333
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.257333 1.18515
+Time step 773 at t=0.257667
+Solving linear system
+done (0.002479 s)
+
+GREP: 0.257667 1.18463
+Time step 774 at t=0.258
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.258 1.18411
+Time step 775 at t=0.258333
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.258333 1.1836
+Time step 776 at t=0.258667
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.258667 1.18308
+Time step 777 at t=0.259
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.259 1.18257
+Time step 778 at t=0.259333
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.259333 1.18205
+Time step 779 at t=0.259667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.259667 1.18154
+Time step 780 at t=0.26
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.26 1.18102
+Time step 781 at t=0.260333
+Solving linear system
+done (0 s)
+
+GREP: 0.260333 1.18051
+Time step 782 at t=0.260667
+Solving linear system
+done (0.00413 s)
+
+GREP: 0.260667 1.18
+Time step 783 at t=0.261
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.261 1.17948
+Time step 784 at t=0.261333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.261333 1.17897
+Time step 785 at t=0.261667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.261667 1.17846
+Time step 786 at t=0.262
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.262 1.17795
+Time step 787 at t=0.262333
+Solving linear system
+done (0 s)
+
+GREP: 0.262333 1.17744
+Time step 788 at t=0.262667
+Solving linear system
+done (0 s)
+
+GREP: 0.262667 1.17693
+Time step 789 at t=0.263
+Solving linear system
+done (7.8e-05 s)
+
+GREP: 0.263 1.17642
+Time step 790 at t=0.263333
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.263333 1.17591
+Time step 791 at t=0.263667
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.263667 1.17541
+Time step 792 at t=0.264
+Solving linear system
+done (5.4e-05 s)
+
+GREP: 0.264 1.1749
+Time step 793 at t=0.264333
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.264333 1.17439
+Time step 794 at t=0.264667
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.264667 1.17389
+Time step 795 at t=0.265
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.265 1.17338
+Time step 796 at t=0.265333
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.265333 1.17288
+Time step 797 at t=0.265667
+Solving linear system
+done (0 s)
+
+GREP: 0.265667 1.17237
+Time step 798 at t=0.266
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.266 1.17187
+Time step 799 at t=0.266333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.266333 1.17137
+Time step 800 at t=0.266667
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.266667 1.17087
+Time step 801 at t=0.267
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.267 1.17036
+Time step 802 at t=0.267333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.267333 1.16986
+Time step 803 at t=0.267667
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.267667 1.16936
+Time step 804 at t=0.268
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.268 1.16886
+Time step 805 at t=0.268333
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.268333 1.16836
+Time step 806 at t=0.268667
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.268667 1.16786
+Time step 807 at t=0.269
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.269 1.16737
+Time step 808 at t=0.269333
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.269333 1.16687
+Time step 809 at t=0.269667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.269667 1.16637
+Time step 810 at t=0.27
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.27 1.16588
+Time step 811 at t=0.270333
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.270333 1.16538
+Time step 812 at t=0.270667
+Solving linear system
+done (0 s)
+
+GREP: 0.270667 1.16488
+Time step 813 at t=0.271
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.271 1.16439
+Time step 814 at t=0.271333
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.271333 1.1639
+Time step 815 at t=0.271667
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.271667 1.1634
+Time step 816 at t=0.272
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.272 1.16291
+Time step 817 at t=0.272333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.272333 1.16242
+Time step 818 at t=0.272667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.272667 1.16192
+Time step 819 at t=0.273
+Solving linear system
+done (0 s)
+
+GREP: 0.273 1.16143
+Time step 820 at t=0.273333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.273333 1.16094
+Time step 821 at t=0.273667
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.273667 1.16045
+Time step 822 at t=0.274
+Solving linear system
+done (0.004725 s)
+
+GREP: 0.274 1.15996
+Time step 823 at t=0.274333
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.274333 1.15947
+Time step 824 at t=0.274667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.274667 1.15898
+Time step 825 at t=0.275
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.275 1.1585
+Time step 826 at t=0.275333
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.275333 1.15801
+Time step 827 at t=0.275667
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.275667 1.15752
+Time step 828 at t=0.276
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.276 1.15703
+Time step 829 at t=0.276333
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.276333 1.15655
+Time step 830 at t=0.276667
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.276667 1.15606
+Time step 831 at t=0.277
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.277 1.15558
+Time step 832 at t=0.277333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.277333 1.15509
+Time step 833 at t=0.277667
+Solving linear system
+done (0 s)
+
+GREP: 0.277667 1.15461
+Time step 834 at t=0.278
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.278 1.15413
+Time step 835 at t=0.278333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.278333 1.15364
+Time step 836 at t=0.278667
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.278667 1.15316
+Time step 837 at t=0.279
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.279 1.15268
+Time step 838 at t=0.279333
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.279333 1.1522
+Time step 839 at t=0.279667
+Solving linear system
+done (0 s)
+
+GREP: 0.279667 1.15172
+Time step 840 at t=0.28
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.28 1.15124
+Time step 841 at t=0.280333
+Solving linear system
+done (5.5e-05 s)
+
+GREP: 0.280333 1.15076
+Time step 842 at t=0.280667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.280667 1.15028
+Time step 843 at t=0.281
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.281 1.1498
+Time step 844 at t=0.281333
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.281333 1.14932
+Time step 845 at t=0.281667
+Solving linear system
+done (0 s)
+
+GREP: 0.281667 1.14885
+Time step 846 at t=0.282
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.282 1.14837
+Time step 847 at t=0.282333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.282333 1.14789
+Time step 848 at t=0.282667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.282667 1.14742
+Time step 849 at t=0.283
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.283 1.14694
+Time step 850 at t=0.283333
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.283333 1.14647
+Time step 851 at t=0.283667
+Solving linear system
+done (0.000317 s)
+
+GREP: 0.283667 1.14599
+Time step 852 at t=0.284
+Solving linear system
+done (0 s)
+
+GREP: 0.284 1.14552
+Time step 853 at t=0.284333
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.284333 1.14505
+Time step 854 at t=0.284667
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.284667 1.14457
+Time step 855 at t=0.285
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.285 1.1441
+Time step 856 at t=0.285333
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.285333 1.14363
+Time step 857 at t=0.285667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.285667 1.14316
+Time step 858 at t=0.286
+Solving linear system
+done (0.004609 s)
+
+GREP: 0.286 1.14269
+Time step 859 at t=0.286333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.286333 1.14222
+Time step 860 at t=0.286667
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.286667 1.14175
+Time step 861 at t=0.287
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.287 1.14128
+Time step 862 at t=0.287333
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.287333 1.14081
+Time step 863 at t=0.287667
+Solving linear system
+done (0.00026 s)
+
+GREP: 0.287667 1.14034
+Time step 864 at t=0.288
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.288 1.13987
+Time step 865 at t=0.288333
+Solving linear system
+done (0 s)
+
+GREP: 0.288333 1.13941
+Time step 866 at t=0.288667
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.288667 1.13894
+Time step 867 at t=0.289
+Solving linear system
+done (0.000398 s)
+
+GREP: 0.289 1.13848
+Time step 868 at t=0.289333
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.289333 1.13801
+Time step 869 at t=0.289667
+Solving linear system
+done (0.000249 s)
+
+GREP: 0.289667 1.13754
+Time step 870 at t=0.29
+Solving linear system
+done (2.4e-05 s)
+
+GREP: 0.29 1.13708
+Time step 871 at t=0.290333
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.290333 1.13662
+Time step 872 at t=0.290667
+Solving linear system
+done (0.000341 s)
+
+GREP: 0.290667 1.13615
+Time step 873 at t=0.291
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.291 1.13569
+Time step 874 at t=0.291333
+Solving linear system
+done (0 s)
+
+GREP: 0.291333 1.13523
+Time step 875 at t=0.291667
+Solving linear system
+done (0 s)
+
+GREP: 0.291667 1.13477
+Time step 876 at t=0.292
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.292 1.1343
+Time step 877 at t=0.292333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.292333 1.13384
+Time step 878 at t=0.292667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.292667 1.13338
+Time step 879 at t=0.293
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.293 1.13292
+Time step 880 at t=0.293333
+Solving linear system
+done (2.4e-05 s)
+
+GREP: 0.293333 1.13246
+Time step 881 at t=0.293667
+Solving linear system
+done (0.00012 s)
+
+GREP: 0.293667 1.132
+Time step 882 at t=0.294
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.294 1.13155
+Time step 883 at t=0.294333
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.294333 1.13109
+Time step 884 at t=0.294667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.294667 1.13063
+Time step 885 at t=0.295
+Solving linear system
+done (0 s)
+
+GREP: 0.295 1.13017
+Time step 886 at t=0.295333
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.295333 1.12972
+Time step 887 at t=0.295667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.295667 1.12926
+Time step 888 at t=0.296
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.296 1.1288
+Time step 889 at t=0.296333
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.296333 1.12835
+Time step 890 at t=0.296667
+Solving linear system
+done (2.2e-05 s)
+
+GREP: 0.296667 1.12789
+Time step 891 at t=0.297
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.297 1.12744
+Time step 892 at t=0.297333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.297333 1.12699
+Time step 893 at t=0.297667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.297667 1.12653
+Time step 894 at t=0.298
+Solving linear system
+done (0 s)
+
+GREP: 0.298 1.12608
+Time step 895 at t=0.298333
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.298333 1.12563
+Time step 896 at t=0.298667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.298667 1.12518
+Time step 897 at t=0.299
+Solving linear system
+done (0 s)
+
+GREP: 0.299 1.12473
+Time step 898 at t=0.299333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.299333 1.12427
+Time step 899 at t=0.299667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.299667 1.12382
+Time step 900 at t=0.3
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.3 1.12337
+Time step 901 at t=0.300333
+Solving linear system
+done (0 s)
+
+GREP: 0.300333 1.12292
+Time step 902 at t=0.300667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.300667 1.12248
+Time step 903 at t=0.301
+Solving linear system
+done (6e-05 s)
+
+GREP: 0.301 1.12203
+Time step 904 at t=0.301333
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.301333 1.12158
+Time step 905 at t=0.301667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.301667 1.12113
+Time step 906 at t=0.302
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.302 1.12068
+Time step 907 at t=0.302333
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.302333 1.12024
+Time step 908 at t=0.302667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.302667 1.11979
+Time step 909 at t=0.303
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.303 1.11935
+Time step 910 at t=0.303333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.303333 1.1189
+Time step 911 at t=0.303667
+Solving linear system
+done (0.000185 s)
+
+GREP: 0.303667 1.11846
+Time step 912 at t=0.304
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.304 1.11801
+Time step 913 at t=0.304333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.304333 1.11757
+Time step 914 at t=0.304667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.304667 1.11713
+Time step 915 at t=0.305
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.305 1.11668
+Time step 916 at t=0.305333
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.305333 1.11624
+Time step 917 at t=0.305667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.305667 1.1158
+Time step 918 at t=0.306
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.306 1.11536
+Time step 919 at t=0.306333
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.306333 1.11492
+Time step 920 at t=0.306667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.306667 1.11448
+Time step 921 at t=0.307
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.307 1.11404
+Time step 922 at t=0.307333
+Solving linear system
+done (0 s)
+
+GREP: 0.307333 1.1136
+Time step 923 at t=0.307667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.307667 1.11316
+Time step 924 at t=0.308
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.308 1.11272
+Time step 925 at t=0.308333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.308333 1.11228
+Time step 926 at t=0.308667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.308667 1.11184
+Time step 927 at t=0.309
+Solving linear system
+done (0.000155 s)
+
+GREP: 0.309 1.1114
+Time step 928 at t=0.309333
+Solving linear system
+done (0 s)
+
+GREP: 0.309333 1.11097
+Time step 929 at t=0.309667
+Solving linear system
+done (0 s)
+
+GREP: 0.309667 1.11053
+Time step 930 at t=0.31
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.31 1.1101
+Time step 931 at t=0.310333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.310333 1.10966
+Time step 932 at t=0.310667
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.310667 1.10922
+Time step 933 at t=0.311
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.311 1.10879
+Time step 934 at t=0.311333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.311333 1.10836
+Time step 935 at t=0.311667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.311667 1.10792
+Time step 936 at t=0.312
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.312 1.10749
+Time step 937 at t=0.312333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.312333 1.10706
+Time step 938 at t=0.312667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.312667 1.10662
+Time step 939 at t=0.313
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.313 1.10619
+Time step 940 at t=0.313333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.313333 1.10576
+Time step 941 at t=0.313667
+Solving linear system
+done (0 s)
+
+GREP: 0.313667 1.10533
+Time step 942 at t=0.314
+Solving linear system
+done (0.00022 s)
+
+GREP: 0.314 1.1049
+Time step 943 at t=0.314333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.314333 1.10447
+Time step 944 at t=0.314667
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.314667 1.10404
+Time step 945 at t=0.315
+Solving linear system
+done (0.000186 s)
+
+GREP: 0.315 1.10361
+Time step 946 at t=0.315333
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.315333 1.10318
+Time step 947 at t=0.315667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.315667 1.10275
+Time step 948 at t=0.316
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.316 1.10232
+Time step 949 at t=0.316333
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.316333 1.1019
+Time step 950 at t=0.316667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.316667 1.10147
+Time step 951 at t=0.317
+Solving linear system
+done (6.7e-05 s)
+
+GREP: 0.317 1.10104
+Time step 952 at t=0.317333
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.317333 1.10062
+Time step 953 at t=0.317667
+Solving linear system
+done (0.000349 s)
+
+GREP: 0.317667 1.10019
+Time step 954 at t=0.318
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.318 1.09976
+Time step 955 at t=0.318333
+Solving linear system
+done (1.8e-05 s)
+
+GREP: 0.318333 1.09934
+Time step 956 at t=0.318667
+Solving linear system
+done (0 s)
+
+GREP: 0.318667 1.09891
+Time step 957 at t=0.319
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.319 1.09849
+Time step 958 at t=0.319333
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.319333 1.09807
+Time step 959 at t=0.319667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.319667 1.09764
+Time step 960 at t=0.32
+Solving linear system
+done (0.000151 s)
+
+GREP: 0.32 1.09722
+Time step 961 at t=0.320333
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.320333 1.0968
+Time step 962 at t=0.320667
+Solving linear system
+done (0.000135 s)
+
+GREP: 0.320667 1.09638
+Time step 963 at t=0.321
+Solving linear system
+done (0 s)
+
+GREP: 0.321 1.09595
+Time step 964 at t=0.321333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.321333 1.09553
+Time step 965 at t=0.321667
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.321667 1.09511
+Time step 966 at t=0.322
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.322 1.09469
+Time step 967 at t=0.322333
+Solving linear system
+done (0 s)
+
+GREP: 0.322333 1.09427
+Time step 968 at t=0.322667
+Solving linear system
+done (0 s)
+
+GREP: 0.322667 1.09385
+Time step 969 at t=0.323
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.323 1.09343
+Time step 970 at t=0.323333
+Solving linear system
+done (7.2e-05 s)
+
+GREP: 0.323333 1.09301
+Time step 971 at t=0.323667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.323667 1.0926
+Time step 972 at t=0.324
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.324 1.09218
+Time step 973 at t=0.324333
+Solving linear system
+done (2.4e-05 s)
+
+GREP: 0.324333 1.09176
+Time step 974 at t=0.324667
+Solving linear system
+done (0.000212 s)
+
+GREP: 0.324667 1.09134
+Time step 975 at t=0.325
+Solving linear system
+done (0.000141 s)
+
+GREP: 0.325 1.09093
+Time step 976 at t=0.325333
+Solving linear system
+done (0 s)
+
+GREP: 0.325333 1.09051
+Time step 977 at t=0.325667
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.325667 1.0901
+Time step 978 at t=0.326
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.326 1.08968
+Time step 979 at t=0.326333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.326333 1.08927
+Time step 980 at t=0.326667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.326667 1.08885
+Time step 981 at t=0.327
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.327 1.08844
+Time step 982 at t=0.327333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.327333 1.08802
+Time step 983 at t=0.327667
+Solving linear system
+done (0 s)
+
+GREP: 0.327667 1.08761
+Time step 984 at t=0.328
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.328 1.0872
+Time step 985 at t=0.328333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.328333 1.08678
+Time step 986 at t=0.328667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.328667 1.08637
+Time step 987 at t=0.329
+Solving linear system
+done (5.1e-05 s)
+
+GREP: 0.329 1.08596
+Time step 988 at t=0.329333
+Solving linear system
+done (0.000284 s)
+
+GREP: 0.329333 1.08555
+Time step 989 at t=0.329667
+Solving linear system
+done (0.000114 s)
+
+GREP: 0.329667 1.08514
+Time step 990 at t=0.33
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.33 1.08473
+Time step 991 at t=0.330333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.330333 1.08432
+Time step 992 at t=0.330667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.330667 1.08391
+Time step 993 at t=0.331
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.331 1.0835
+Time step 994 at t=0.331333
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.331333 1.08309
+Time step 995 at t=0.331667
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.331667 1.08268
+Time step 996 at t=0.332
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.332 1.08227
+Time step 997 at t=0.332333
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.332333 1.08187
+Time step 998 at t=0.332667
+Solving linear system
+done (5e-06 s)
+
+GREP: 0.332667 1.08146
+Time step 999 at t=0.333
+Solving linear system
+done (0.000124 s)
+
+GREP: 0.333 1.08105
+Time step 1000 at t=0.333333
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.333333 1.08065
+Time step 1001 at t=0.333667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.333667 1.08024
+Time step 1002 at t=0.334
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.334 1.07983
+Time step 1003 at t=0.334333
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.334333 1.07943
+Time step 1004 at t=0.334667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.334667 1.07902
+Time step 1005 at t=0.335
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.335 1.07862
+Time step 1006 at t=0.335333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.335333 1.07821
+Time step 1007 at t=0.335667
+Solving linear system
+done (2.4e-05 s)
+
+GREP: 0.335667 1.07781
+Time step 1008 at t=0.336
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.336 1.07741
+Time step 1009 at t=0.336333
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.336333 1.077
+Time step 1010 at t=0.336667
+Solving linear system
+done (4.5e-05 s)
+
+GREP: 0.336667 1.0766
+Time step 1011 at t=0.337
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.337 1.0762
+Time step 1012 at t=0.337333
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.337333 1.0758
+Time step 1013 at t=0.337667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.337667 1.0754
+Time step 1014 at t=0.338
+Solving linear system
+done (0 s)
+
+GREP: 0.338 1.075
+Time step 1015 at t=0.338333
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.338333 1.0746
+Time step 1016 at t=0.338667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.338667 1.0742
+Time step 1017 at t=0.339
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.339 1.0738
+Time step 1018 at t=0.339333
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.339333 1.0734
+Time step 1019 at t=0.339667
+Solving linear system
+done (0.00019 s)
+
+GREP: 0.339667 1.073
+Time step 1020 at t=0.34
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.34 1.0726
+Time step 1021 at t=0.340333
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.340333 1.0722
+Time step 1022 at t=0.340667
+Solving linear system
+done (0.000107 s)
+
+GREP: 0.340667 1.0718
+Time step 1023 at t=0.341
+Solving linear system
+done (0.000567 s)
+
+GREP: 0.341 1.0714
+Time step 1024 at t=0.341333
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.341333 1.07101
+Time step 1025 at t=0.341667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.341667 1.07061
+Time step 1026 at t=0.342
+Solving linear system
+done (0.000262 s)
+
+GREP: 0.342 1.07021
+Time step 1027 at t=0.342333
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.342333 1.06982
+Time step 1028 at t=0.342667
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.342667 1.06942
+Time step 1029 at t=0.343
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.343 1.06903
+Time step 1030 at t=0.343333
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.343333 1.06863
+Time step 1031 at t=0.343667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.343667 1.06824
+Time step 1032 at t=0.344
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.344 1.06784
+Time step 1033 at t=0.344333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.344333 1.06745
+Time step 1034 at t=0.344667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.344667 1.06706
+Time step 1035 at t=0.345
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.345 1.06666
+Time step 1036 at t=0.345333
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.345333 1.06627
+Time step 1037 at t=0.345667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.345667 1.06588
+Time step 1038 at t=0.346
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.346 1.06549
+Time step 1039 at t=0.346333
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.346333 1.0651
+Time step 1040 at t=0.346667
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.346667 1.0647
+Time step 1041 at t=0.347
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.347 1.06431
+Time step 1042 at t=0.347333
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.347333 1.06392
+Time step 1043 at t=0.347667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.347667 1.06353
+Time step 1044 at t=0.348
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.348 1.06314
+Time step 1045 at t=0.348333
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.348333 1.06275
+Time step 1046 at t=0.348667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.348667 1.06237
+Time step 1047 at t=0.349
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.349 1.06198
+Time step 1048 at t=0.349333
+Solving linear system
+done (0 s)
+
+GREP: 0.349333 1.06159
+Time step 1049 at t=0.349667
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.349667 1.0612
+Time step 1050 at t=0.35
+Solving linear system
+done (0.00172 s)
+
+GREP: 0.35 1.06081
+Time step 1051 at t=0.350333
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.350333 1.06043
+Time step 1052 at t=0.350667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.350667 1.06004
+Time step 1053 at t=0.351
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.351 1.05965
+Time step 1054 at t=0.351333
+Solving linear system
+done (0.000382 s)
+
+GREP: 0.351333 1.05927
+Time step 1055 at t=0.351667
+Solving linear system
+done (0.000309 s)
+
+GREP: 0.351667 1.05888
+Time step 1056 at t=0.352
+Solving linear system
+done (0.000177 s)
+
+GREP: 0.352 1.0585
+Time step 1057 at t=0.352333
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.352333 1.05811
+Time step 1058 at t=0.352667
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.352667 1.05773
+Time step 1059 at t=0.353
+Solving linear system
+done (0.000182 s)
+
+GREP: 0.353 1.05734
+Time step 1060 at t=0.353333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.353333 1.05696
+Time step 1061 at t=0.353667
+Solving linear system
+done (0.000495 s)
+
+GREP: 0.353667 1.05658
+Time step 1062 at t=0.354
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.354 1.05619
+Time step 1063 at t=0.354333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.354333 1.05581
+Time step 1064 at t=0.354667
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.354667 1.05543
+Time step 1065 at t=0.355
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.355 1.05504
+Time step 1066 at t=0.355333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.355333 1.05466
+Time step 1067 at t=0.355667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.355667 1.05428
+Time step 1068 at t=0.356
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.356 1.0539
+Time step 1069 at t=0.356333
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.356333 1.05352
+Time step 1070 at t=0.356667
+Solving linear system
+done (0 s)
+
+GREP: 0.356667 1.05314
+Time step 1071 at t=0.357
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.357 1.05276
+Time step 1072 at t=0.357333
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.357333 1.05238
+Time step 1073 at t=0.357667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.357667 1.052
+Time step 1074 at t=0.358
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.358 1.05162
+Time step 1075 at t=0.358333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.358333 1.05124
+Time step 1076 at t=0.358667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.358667 1.05087
+Time step 1077 at t=0.359
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.359 1.05049
+Time step 1078 at t=0.359333
+Solving linear system
+done (5e-05 s)
+
+GREP: 0.359333 1.05011
+Time step 1079 at t=0.359667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.359667 1.04973
+Time step 1080 at t=0.36
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.36 1.04936
+Time step 1081 at t=0.360333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.360333 1.04898
+Time step 1082 at t=0.360667
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.360667 1.0486
+Time step 1083 at t=0.361
+Solving linear system
+done (0 s)
+
+GREP: 0.361 1.04823
+Time step 1084 at t=0.361333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.361333 1.04785
+Time step 1085 at t=0.361667
+Solving linear system
+done (0.000171 s)
+
+GREP: 0.361667 1.04748
+Time step 1086 at t=0.362
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.362 1.0471
+Time step 1087 at t=0.362333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.362333 1.04673
+Time step 1088 at t=0.362667
+Solving linear system
+done (0.000386 s)
+
+GREP: 0.362667 1.04635
+Time step 1089 at t=0.363
+Solving linear system
+done (5.9e-05 s)
+
+GREP: 0.363 1.04598
+Time step 1090 at t=0.363333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.363333 1.04561
+Time step 1091 at t=0.363667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.363667 1.04523
+Time step 1092 at t=0.364
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.364 1.04486
+Time step 1093 at t=0.364333
+Solving linear system
+done (0.000159 s)
+
+GREP: 0.364333 1.04449
+Time step 1094 at t=0.364667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.364667 1.04412
+Time step 1095 at t=0.365
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.365 1.04374
+Time step 1096 at t=0.365333
+Solving linear system
+done (0.000162 s)
+
+GREP: 0.365333 1.04337
+Time step 1097 at t=0.365667
+Solving linear system
+done (0.00018 s)
+
+GREP: 0.365667 1.043
+Time step 1098 at t=0.366
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.366 1.04263
+Time step 1099 at t=0.366333
+Solving linear system
+done (0 s)
+
+GREP: 0.366333 1.04226
+Time step 1100 at t=0.366667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.366667 1.04189
+Time step 1101 at t=0.367
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.367 1.04152
+Time step 1102 at t=0.367333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.367333 1.04115
+Time step 1103 at t=0.367667
+Solving linear system
+done (0 s)
+
+GREP: 0.367667 1.04078
+Time step 1104 at t=0.368
+Solving linear system
+done (0.000377 s)
+
+GREP: 0.368 1.04041
+Time step 1105 at t=0.368333
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.368333 1.04005
+Time step 1106 at t=0.368667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.368667 1.03968
+Time step 1107 at t=0.369
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.369 1.03931
+Time step 1108 at t=0.369333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.369333 1.03894
+Time step 1109 at t=0.369667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.369667 1.03858
+Time step 1110 at t=0.37
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.37 1.03821
+Time step 1111 at t=0.370333
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.370333 1.03784
+Time step 1112 at t=0.370667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.370667 1.03748
+Time step 1113 at t=0.371
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.371 1.03711
+Time step 1114 at t=0.371333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.371333 1.03675
+Time step 1115 at t=0.371667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.371667 1.03638
+Time step 1116 at t=0.372
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.372 1.03602
+Time step 1117 at t=0.372333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.372333 1.03565
+Time step 1118 at t=0.372667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.372667 1.03529
+Time step 1119 at t=0.373
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.373 1.03492
+Time step 1120 at t=0.373333
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.373333 1.03456
+Time step 1121 at t=0.373667
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.373667 1.0342
+Time step 1122 at t=0.374
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.374 1.03384
+Time step 1123 at t=0.374333
+Solving linear system
+done (0.00026 s)
+
+GREP: 0.374333 1.03347
+Time step 1124 at t=0.374667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.374667 1.03311
+Time step 1125 at t=0.375
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.375 1.03275
+Time step 1126 at t=0.375333
+Solving linear system
+done (0.002754 s)
+
+GREP: 0.375333 1.03239
+Time step 1127 at t=0.375667
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.375667 1.03203
+Time step 1128 at t=0.376
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.376 1.03167
+Time step 1129 at t=0.376333
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.376333 1.0313
+Time step 1130 at t=0.376667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.376667 1.03094
+Time step 1131 at t=0.377
+Solving linear system
+done (0.001302 s)
+
+GREP: 0.377 1.03058
+Time step 1132 at t=0.377333
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.377333 1.03023
+Time step 1133 at t=0.377667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.377667 1.02987
+Time step 1134 at t=0.378
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.378 1.02951
+Time step 1135 at t=0.378333
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.378333 1.02915
+Time step 1136 at t=0.378667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.378667 1.02879
+Time step 1137 at t=0.379
+Solving linear system
+done (0.000182 s)
+
+GREP: 0.379 1.02843
+Time step 1138 at t=0.379333
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.379333 1.02807
+Time step 1139 at t=0.379667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.379667 1.02772
+Time step 1140 at t=0.38
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.38 1.02736
+Time step 1141 at t=0.380333
+Solving linear system
+done (0.000323 s)
+
+GREP: 0.380333 1.027
+Time step 1142 at t=0.380667
+Solving linear system
+done (0.00033 s)
+
+GREP: 0.380667 1.02665
+Time step 1143 at t=0.381
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.381 1.02629
+Time step 1144 at t=0.381333
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.381333 1.02594
+Time step 1145 at t=0.381667
+Solving linear system
+done (0.000177 s)
+
+GREP: 0.381667 1.02558
+Time step 1146 at t=0.382
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.382 1.02522
+Time step 1147 at t=0.382333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.382333 1.02487
+Time step 1148 at t=0.382667
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.382667 1.02452
+Time step 1149 at t=0.383
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.383 1.02416
+Time step 1150 at t=0.383333
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.383333 1.02381
+Time step 1151 at t=0.383667
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.383667 1.02345
+Time step 1152 at t=0.384
+Solving linear system
+done (7.1e-05 s)
+
+GREP: 0.384 1.0231
+Time step 1153 at t=0.384333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.384333 1.02275
+Time step 1154 at t=0.384667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.384667 1.02239
+Time step 1155 at t=0.385
+Solving linear system
+done (0 s)
+
+GREP: 0.385 1.02204
+Time step 1156 at t=0.385333
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.385333 1.02169
+Time step 1157 at t=0.385667
+Solving linear system
+done (0 s)
+
+GREP: 0.385667 1.02134
+Time step 1158 at t=0.386
+Solving linear system
+done (0 s)
+
+GREP: 0.386 1.02099
+Time step 1159 at t=0.386333
+Solving linear system
+done (4.3e-05 s)
+
+GREP: 0.386333 1.02064
+Time step 1160 at t=0.386667
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.386667 1.02029
+Time step 1161 at t=0.387
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.387 1.01993
+Time step 1162 at t=0.387333
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.387333 1.01958
+Time step 1163 at t=0.387667
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.387667 1.01923
+Time step 1164 at t=0.388
+Solving linear system
+done (0 s)
+
+GREP: 0.388 1.01888
+Time step 1165 at t=0.388333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.388333 1.01854
+Time step 1166 at t=0.388667
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.388667 1.01819
+Time step 1167 at t=0.389
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.389 1.01784
+Time step 1168 at t=0.389333
+Solving linear system
+done (0.000277 s)
+
+GREP: 0.389333 1.01749
+Time step 1169 at t=0.389667
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.389667 1.01714
+Time step 1170 at t=0.39
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.39 1.01679
+Time step 1171 at t=0.390333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.390333 1.01645
+Time step 1172 at t=0.390667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.390667 1.0161
+Time step 1173 at t=0.391
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.391 1.01575
+Time step 1174 at t=0.391333
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.391333 1.01541
+Time step 1175 at t=0.391667
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.391667 1.01506
+Time step 1176 at t=0.392
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.392 1.01471
+Time step 1177 at t=0.392333
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.392333 1.01437
+Time step 1178 at t=0.392667
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.392667 1.01402
+Time step 1179 at t=0.393
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.393 1.01368
+Time step 1180 at t=0.393333
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.393333 1.01333
+Time step 1181 at t=0.393667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.393667 1.01299
+Time step 1182 at t=0.394
+Solving linear system
+done (2.4e-05 s)
+
+GREP: 0.394 1.01264
+Time step 1183 at t=0.394333
+Solving linear system
+done (0.004308 s)
+
+GREP: 0.394333 1.0123
+Time step 1184 at t=0.394667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.394667 1.01196
+Time step 1185 at t=0.395
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.395 1.01161
+Time step 1186 at t=0.395333
+Solving linear system
+done (5.3e-05 s)
+
+GREP: 0.395333 1.01127
+Time step 1187 at t=0.395667
+Solving linear system
+done (5.1e-05 s)
+
+GREP: 0.395667 1.01093
+Time step 1188 at t=0.396
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.396 1.01058
+Time step 1189 at t=0.396333
+Solving linear system
+done (0 s)
+
+GREP: 0.396333 1.01024
+Time step 1190 at t=0.396667
+Solving linear system
+done (0 s)
+
+GREP: 0.396667 1.0099
+Time step 1191 at t=0.397
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.397 1.00956
+Time step 1192 at t=0.397333
+Solving linear system
+done (4.1e-05 s)
+
+GREP: 0.397333 1.00922
+Time step 1193 at t=0.397667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.397667 1.00888
+Time step 1194 at t=0.398
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.398 1.00853
+Time step 1195 at t=0.398333
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.398333 1.00819
+Time step 1196 at t=0.398667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.398667 1.00785
+Time step 1197 at t=0.399
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.399 1.00751
+Time step 1198 at t=0.399333
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.399333 1.00717
+Time step 1199 at t=0.399667
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.399667 1.00684
+Time step 1200 at t=0.4
+Solving linear system
+done (5.9e-05 s)
+
+GREP: 0.4 1.0065
+Time step 1201 at t=0.400333
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.400333 1.00616
+Time step 1202 at t=0.400667
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.400667 1.00582
+Time step 1203 at t=0.401
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.401 1.00548
+Time step 1204 at t=0.401333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.401333 1.00514
+Time step 1205 at t=0.401667
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.401667 1.00481
+Time step 1206 at t=0.402
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.402 1.00447
+Time step 1207 at t=0.402333
+Solving linear system
+done (0.000241 s)
+
+GREP: 0.402333 1.00413
+Time step 1208 at t=0.402667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.402667 1.00379
+Time step 1209 at t=0.403
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.403 1.00346
+Time step 1210 at t=0.403333
+Solving linear system
+done (0.000137 s)
+
+GREP: 0.403333 1.00312
+Time step 1211 at t=0.403667
+Solving linear system
+done (2.3e-05 s)
+
+GREP: 0.403667 1.00279
+Time step 1212 at t=0.404
+Solving linear system
+done (0.000274 s)
+
+GREP: 0.404 1.00245
+Time step 1213 at t=0.404333
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.404333 1.00212
+Time step 1214 at t=0.404667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.404667 1.00178
+Time step 1215 at t=0.405
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.405 1.00145
+Time step 1216 at t=0.405333
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.405333 1.00111
+Time step 1217 at t=0.405667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.405667 1.00078
+Time step 1218 at t=0.406
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.406 1.00044
+Time step 1219 at t=0.406333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.406333 1.00011
+Time step 1220 at t=0.406667
+Solving linear system
+done (0.000171 s)
+
+GREP: 0.406667 0.999776
+Time step 1221 at t=0.407
+Solving linear system
+done (0.00018 s)
+
+GREP: 0.407 0.999443
+Time step 1222 at t=0.407333
+Solving linear system
+done (0.003882 s)
+
+GREP: 0.407333 0.99911
+Time step 1223 at t=0.407667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.407667 0.998777
+Time step 1224 at t=0.408
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.408 0.998445
+Time step 1225 at t=0.408333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.408333 0.998113
+Time step 1226 at t=0.408667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.408667 0.997781
+Time step 1227 at t=0.409
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.409 0.99745
+Time step 1228 at t=0.409333
+Solving linear system
+done (0.000162 s)
+
+GREP: 0.409333 0.997119
+Time step 1229 at t=0.409667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.409667 0.996788
+Time step 1230 at t=0.41
+Solving linear system
+done (0.00029 s)
+
+GREP: 0.41 0.996457
+Time step 1231 at t=0.410333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.410333 0.996127
+Time step 1232 at t=0.410667
+Solving linear system
+done (3.7e-05 s)
+
+GREP: 0.410667 0.995797
+Time step 1233 at t=0.411
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.411 0.995467
+Time step 1234 at t=0.411333
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.411333 0.995138
+Time step 1235 at t=0.411667
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.411667 0.994808
+Time step 1236 at t=0.412
+Solving linear system
+done (4.4e-05 s)
+
+GREP: 0.412 0.994479
+Time step 1237 at t=0.412333
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.412333 0.994151
+Time step 1238 at t=0.412667
+Solving linear system
+done (0.000476 s)
+
+GREP: 0.412667 0.993822
+Time step 1239 at t=0.413
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.413 0.993494
+Time step 1240 at t=0.413333
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.413333 0.993166
+Time step 1241 at t=0.413667
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.413667 0.992839
+Time step 1242 at t=0.414
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.414 0.992511
+Time step 1243 at t=0.414333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.414333 0.992184
+Time step 1244 at t=0.414667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.414667 0.991857
+Time step 1245 at t=0.415
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.415 0.991531
+Time step 1246 at t=0.415333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.415333 0.991205
+Time step 1247 at t=0.415667
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.415667 0.990879
+Time step 1248 at t=0.416
+Solving linear system
+done (0.000159 s)
+
+GREP: 0.416 0.990553
+Time step 1249 at t=0.416333
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.416333 0.990227
+Time step 1250 at t=0.416667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.416667 0.989902
+Time step 1251 at t=0.417
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.417 0.989577
+Time step 1252 at t=0.417333
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.417333 0.989252
+Time step 1253 at t=0.417667
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.417667 0.988928
+Time step 1254 at t=0.418
+Solving linear system
+done (0 s)
+
+GREP: 0.418 0.988604
+Time step 1255 at t=0.418333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.418333 0.98828
+Time step 1256 at t=0.418667
+Solving linear system
+done (0.000116 s)
+
+GREP: 0.418667 0.987956
+Time step 1257 at t=0.419
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.419 0.987633
+Time step 1258 at t=0.419333
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.419333 0.98731
+Time step 1259 at t=0.419667
+Solving linear system
+done (2.4e-05 s)
+
+GREP: 0.419667 0.986987
+Time step 1260 at t=0.42
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.42 0.986665
+Time step 1261 at t=0.420333
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.420333 0.986342
+Time step 1262 at t=0.420667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.420667 0.98602
+Time step 1263 at t=0.421
+Solving linear system
+done (0.000133 s)
+
+GREP: 0.421 0.985698
+Time step 1264 at t=0.421333
+Solving linear system
+done (2.3e-05 s)
+
+GREP: 0.421333 0.985377
+Time step 1265 at t=0.421667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.421667 0.985056
+Time step 1266 at t=0.422
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.422 0.984735
+Time step 1267 at t=0.422333
+Solving linear system
+done (0.000295 s)
+
+GREP: 0.422333 0.984414
+Time step 1268 at t=0.422667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.422667 0.984093
+Time step 1269 at t=0.423
+Solving linear system
+done (0 s)
+
+GREP: 0.423 0.983773
+Time step 1270 at t=0.423333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.423333 0.983453
+Time step 1271 at t=0.423667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.423667 0.983133
+Time step 1272 at t=0.424
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.424 0.982814
+Time step 1273 at t=0.424333
+Solving linear system
+done (2e-05 s)
+
+GREP: 0.424333 0.982495
+Time step 1274 at t=0.424667
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.424667 0.982176
+Time step 1275 at t=0.425
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.425 0.981857
+Time step 1276 at t=0.425333
+Solving linear system
+done (0 s)
+
+GREP: 0.425333 0.981539
+Time step 1277 at t=0.425667
+Solving linear system
+done (0 s)
+
+GREP: 0.425667 0.98122
+Time step 1278 at t=0.426
+Solving linear system
+done (0 s)
+
+GREP: 0.426 0.980903
+Time step 1279 at t=0.426333
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.426333 0.980585
+Time step 1280 at t=0.426667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.426667 0.980267
+Time step 1281 at t=0.427
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.427 0.97995
+Time step 1282 at t=0.427333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.427333 0.979633
+Time step 1283 at t=0.427667
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.427667 0.979317
+Time step 1284 at t=0.428
+Solving linear system
+done (0.000198 s)
+
+GREP: 0.428 0.979
+Time step 1285 at t=0.428333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.428333 0.978684
+Time step 1286 at t=0.428667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.428667 0.978368
+Time step 1287 at t=0.429
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.429 0.978053
+Time step 1288 at t=0.429333
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.429333 0.977737
+Time step 1289 at t=0.429667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.429667 0.977422
+Time step 1290 at t=0.43
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.43 0.977107
+Time step 1291 at t=0.430333
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.430333 0.976793
+Time step 1292 at t=0.430667
+Solving linear system
+done (0 s)
+
+GREP: 0.430667 0.976478
+Time step 1293 at t=0.431
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.431 0.976164
+Time step 1294 at t=0.431333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.431333 0.97585
+Time step 1295 at t=0.431667
+Solving linear system
+done (0.000202 s)
+
+GREP: 0.431667 0.975537
+Time step 1296 at t=0.432
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.432 0.975223
+Time step 1297 at t=0.432333
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.432333 0.97491
+Time step 1298 at t=0.432667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.432667 0.974597
+Time step 1299 at t=0.433
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.433 0.974285
+Time step 1300 at t=0.433333
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.433333 0.973972
+Time step 1301 at t=0.433667
+Solving linear system
+done (0.001373 s)
+
+GREP: 0.433667 0.97366
+Time step 1302 at t=0.434
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.434 0.973348
+Time step 1303 at t=0.434333
+Solving linear system
+done (0.000714 s)
+
+GREP: 0.434333 0.973036
+Time step 1304 at t=0.434667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.434667 0.972725
+Time step 1305 at t=0.435
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.435 0.972414
+Time step 1306 at t=0.435333
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.435333 0.972103
+Time step 1307 at t=0.435667
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.435667 0.971792
+Time step 1308 at t=0.436
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.436 0.971482
+Time step 1309 at t=0.436333
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.436333 0.971172
+Time step 1310 at t=0.436667
+Solving linear system
+done (0.000127 s)
+
+GREP: 0.436667 0.970862
+Time step 1311 at t=0.437
+Solving linear system
+done (0.000171 s)
+
+GREP: 0.437 0.970552
+Time step 1312 at t=0.437333
+Solving linear system
+done (7.7e-05 s)
+
+GREP: 0.437333 0.970243
+Time step 1313 at t=0.437667
+Solving linear system
+done (0.000143 s)
+
+GREP: 0.437667 0.969933
+Time step 1314 at t=0.438
+Solving linear system
+done (2.3e-05 s)
+
+GREP: 0.438 0.969624
+Time step 1315 at t=0.438333
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.438333 0.969316
+Time step 1316 at t=0.438667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.438667 0.969007
+Time step 1317 at t=0.439
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.439 0.968699
+Time step 1318 at t=0.439333
+Solving linear system
+done (0.000238 s)
+
+GREP: 0.439333 0.968391
+Time step 1319 at t=0.439667
+Solving linear system
+done (0.000138 s)
+
+GREP: 0.439667 0.968083
+Time step 1320 at t=0.44
+Solving linear system
+done (0.00021 s)
+
+GREP: 0.44 0.967776
+Time step 1321 at t=0.440333
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.440333 0.967468
+Time step 1322 at t=0.440667
+Solving linear system
+done (2.2e-05 s)
+
+GREP: 0.440667 0.967161
+Time step 1323 at t=0.441
+Solving linear system
+done (1.8e-05 s)
+
+GREP: 0.441 0.966854
+Time step 1324 at t=0.441333
+Solving linear system
+done (0.000172 s)
+
+GREP: 0.441333 0.966548
+Time step 1325 at t=0.441667
+Solving linear system
+done (2.3e-05 s)
+
+GREP: 0.441667 0.966242
+Time step 1326 at t=0.442
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.442 0.965935
+Time step 1327 at t=0.442333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.442333 0.96563
+Time step 1328 at t=0.442667
+Solving linear system
+done (0.000174 s)
+
+GREP: 0.442667 0.965324
+Time step 1329 at t=0.443
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.443 0.965019
+Time step 1330 at t=0.443333
+Solving linear system
+done (0 s)
+
+GREP: 0.443333 0.964714
+Time step 1331 at t=0.443667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.443667 0.964409
+Time step 1332 at t=0.444
+Solving linear system
+done (0 s)
+
+GREP: 0.444 0.964104
+Time step 1333 at t=0.444333
+Solving linear system
+done (0.000136 s)
+
+GREP: 0.444333 0.9638
+Time step 1334 at t=0.444667
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.444667 0.963495
+Time step 1335 at t=0.445
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.445 0.963191
+Time step 1336 at t=0.445333
+Solving linear system
+done (2.4e-05 s)
+
+GREP: 0.445333 0.962888
+Time step 1337 at t=0.445667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.445667 0.962584
+Time step 1338 at t=0.446
+Solving linear system
+done (0.000104 s)
+
+GREP: 0.446 0.962281
+Time step 1339 at t=0.446333
+Solving linear system
+done (0 s)
+
+GREP: 0.446333 0.961978
+Time step 1340 at t=0.446667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.446667 0.961675
+Time step 1341 at t=0.447
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.447 0.961373
+Time step 1342 at t=0.447333
+Solving linear system
+done (0.000123 s)
+
+GREP: 0.447333 0.96107
+Time step 1343 at t=0.447667
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.447667 0.960768
+Time step 1344 at t=0.448
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.448 0.960466
+Time step 1345 at t=0.448333
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.448333 0.960165
+Time step 1346 at t=0.448667
+Solving linear system
+done (0 s)
+
+GREP: 0.448667 0.959863
+Time step 1347 at t=0.449
+Solving linear system
+done (2.1e-05 s)
+
+GREP: 0.449 0.959562
+Time step 1348 at t=0.449333
+Solving linear system
+done (0.000112 s)
+
+GREP: 0.449333 0.959261
+Time step 1349 at t=0.449667
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.449667 0.958961
+Time step 1350 at t=0.45
+Solving linear system
+done (0 s)
+
+GREP: 0.45 0.95866
+Time step 1351 at t=0.450333
+Solving linear system
+done (0 s)
+
+GREP: 0.450333 0.95836
+Time step 1352 at t=0.450667
+Solving linear system
+done (2.2e-05 s)
+
+GREP: 0.450667 0.95806
+Time step 1353 at t=0.451
+Solving linear system
+done (0.000119 s)
+
+GREP: 0.451 0.95776
+Time step 1354 at t=0.451333
+Solving linear system
+done (0 s)
+
+GREP: 0.451333 0.95746
+Time step 1355 at t=0.451667
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.451667 0.957161
+Time step 1356 at t=0.452
+Solving linear system
+done (0.000157 s)
+
+GREP: 0.452 0.956862
+Time step 1357 at t=0.452333
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.452333 0.956563
+Time step 1358 at t=0.452667
+Solving linear system
+done (0.000163 s)
+
+GREP: 0.452667 0.956265
+Time step 1359 at t=0.453
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.453 0.955966
+Time step 1360 at t=0.453333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.453333 0.955668
+Time step 1361 at t=0.453667
+Solving linear system
+done (0 s)
+
+GREP: 0.453667 0.95537
+Time step 1362 at t=0.454
+Solving linear system
+done (0.000108 s)
+
+GREP: 0.454 0.955072
+Time step 1363 at t=0.454333
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.454333 0.954775
+Time step 1364 at t=0.454667
+Solving linear system
+done (4.7e-05 s)
+
+GREP: 0.454667 0.954478
+Time step 1365 at t=0.455
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.455 0.954181
+Time step 1366 at t=0.455333
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.455333 0.953884
+Time step 1367 at t=0.455667
+Solving linear system
+done (0.000138 s)
+
+GREP: 0.455667 0.953587
+Time step 1368 at t=0.456
+Solving linear system
+done (2.2e-05 s)
+
+GREP: 0.456 0.953291
+Time step 1369 at t=0.456333
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.456333 0.952995
+Time step 1370 at t=0.456667
+Solving linear system
+done (0 s)
+
+GREP: 0.456667 0.952699
+Time step 1371 at t=0.457
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.457 0.952403
+Time step 1372 at t=0.457333
+Solving linear system
+done (0 s)
+
+GREP: 0.457333 0.952108
+Time step 1373 at t=0.457667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.457667 0.951812
+Time step 1374 at t=0.458
+Solving linear system
+done (0.000143 s)
+
+GREP: 0.458 0.951517
+Time step 1375 at t=0.458333
+Solving linear system
+done (0.000307 s)
+
+GREP: 0.458333 0.951222
+Time step 1376 at t=0.458667
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.458667 0.950928
+Time step 1377 at t=0.459
+Solving linear system
+done (0.000159 s)
+
+GREP: 0.459 0.950634
+Time step 1378 at t=0.459333
+Solving linear system
+done (0.000123 s)
+
+GREP: 0.459333 0.950339
+Time step 1379 at t=0.459667
+Solving linear system
+done (0.000124 s)
+
+GREP: 0.459667 0.950045
+Time step 1380 at t=0.46
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.46 0.949752
+Time step 1381 at t=0.460333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.460333 0.949458
+Time step 1382 at t=0.460667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.460667 0.949165
+Time step 1383 at t=0.461
+Solving linear system
+done (0.000145 s)
+
+GREP: 0.461 0.948872
+Time step 1384 at t=0.461333
+Solving linear system
+done (0.000119 s)
+
+GREP: 0.461333 0.948579
+Time step 1385 at t=0.461667
+Solving linear system
+done (0.00011 s)
+
+GREP: 0.461667 0.948287
+Time step 1386 at t=0.462
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.462 0.947994
+Time step 1387 at t=0.462333
+Solving linear system
+done (0 s)
+
+GREP: 0.462333 0.947702
+Time step 1388 at t=0.462667
+Solving linear system
+done (0 s)
+
+GREP: 0.462667 0.94741
+Time step 1389 at t=0.463
+Solving linear system
+done (0 s)
+
+GREP: 0.463 0.947118
+Time step 1390 at t=0.463333
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.463333 0.946827
+Time step 1391 at t=0.463667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.463667 0.946536
+Time step 1392 at t=0.464
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.464 0.946245
+Time step 1393 at t=0.464333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.464333 0.945954
+Time step 1394 at t=0.464667
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.464667 0.945663
+Time step 1395 at t=0.465
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.465 0.945373
+Time step 1396 at t=0.465333
+Solving linear system
+done (0 s)
+
+GREP: 0.465333 0.945083
+Time step 1397 at t=0.465667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.465667 0.944793
+Time step 1398 at t=0.466
+Solving linear system
+done (0.000162 s)
+
+GREP: 0.466 0.944503
+Time step 1399 at t=0.466333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.466333 0.944213
+Time step 1400 at t=0.466667
+Solving linear system
+done (4.9e-05 s)
+
+GREP: 0.466667 0.943924
+Time step 1401 at t=0.467
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.467 0.943635
+Time step 1402 at t=0.467333
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.467333 0.943346
+Time step 1403 at t=0.467667
+Solving linear system
+done (0 s)
+
+GREP: 0.467667 0.943057
+Time step 1404 at t=0.468
+Solving linear system
+done (0 s)
+
+GREP: 0.468 0.942769
+Time step 1405 at t=0.468333
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.468333 0.94248
+Time step 1406 at t=0.468667
+Solving linear system
+done (0.000334 s)
+
+GREP: 0.468667 0.942192
+Time step 1407 at t=0.469
+Solving linear system
+done (0.000295 s)
+
+GREP: 0.469 0.941905
+Time step 1408 at t=0.469333
+Solving linear system
+done (0.000125 s)
+
+GREP: 0.469333 0.941617
+Time step 1409 at t=0.469667
+Solving linear system
+done (0.000117 s)
+
+GREP: 0.469667 0.94133
+Time step 1410 at t=0.47
+Solving linear system
+done (0.000114 s)
+
+GREP: 0.47 0.941042
+Time step 1411 at t=0.470333
+Solving linear system
+done (0.001719 s)
+
+GREP: 0.470333 0.940755
+Time step 1412 at t=0.470667
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.470667 0.940469
+Time step 1413 at t=0.471
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.471 0.940182
+Time step 1414 at t=0.471333
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.471333 0.939896
+Time step 1415 at t=0.471667
+Solving linear system
+done (0 s)
+
+GREP: 0.471667 0.93961
+Time step 1416 at t=0.472
+Solving linear system
+done (0 s)
+
+GREP: 0.472 0.939324
+Time step 1417 at t=0.472333
+Solving linear system
+done (4.8e-05 s)
+
+GREP: 0.472333 0.939038
+Time step 1418 at t=0.472667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.472667 0.938752
+Time step 1419 at t=0.473
+Solving linear system
+done (0.000155 s)
+
+GREP: 0.473 0.938467
+Time step 1420 at t=0.473333
+Solving linear system
+done (0.000203 s)
+
+GREP: 0.473333 0.938182
+Time step 1421 at t=0.473667
+Solving linear system
+done (0.00016 s)
+
+GREP: 0.473667 0.937897
+Time step 1422 at t=0.474
+Solving linear system
+done (2.5e-05 s)
+
+GREP: 0.474 0.937612
+Time step 1423 at t=0.474333
+Solving linear system
+done (0.000135 s)
+
+GREP: 0.474333 0.937328
+Time step 1424 at t=0.474667
+Solving linear system
+done (0 s)
+
+GREP: 0.474667 0.937044
+Time step 1425 at t=0.475
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.475 0.93676
+Time step 1426 at t=0.475333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.475333 0.936476
+Time step 1427 at t=0.475667
+Solving linear system
+done (1e-06 s)
+
+GREP: 0.475667 0.936192
+Time step 1428 at t=0.476
+Solving linear system
+done (1.9e-05 s)
+
+GREP: 0.476 0.935909
+Time step 1429 at t=0.476333
+Solving linear system
+done (0.00012 s)
+
+GREP: 0.476333 0.935626
+Time step 1430 at t=0.476667
+Solving linear system
+done (0 s)
+
+GREP: 0.476667 0.935343
+Time step 1431 at t=0.477
+Solving linear system
+done (1.8e-05 s)
+
+GREP: 0.477 0.93506
+Time step 1432 at t=0.477333
+Solving linear system
+done (9.7e-05 s)
+
+GREP: 0.477333 0.934777
+Time step 1433 at t=0.477667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.477667 0.934495
+Time step 1434 at t=0.478
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.478 0.934213
+Time step 1435 at t=0.478333
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.478333 0.933931
+Time step 1436 at t=0.478667
+Solving linear system
+done (0.000165 s)
+
+GREP: 0.478667 0.933649
+Time step 1437 at t=0.479
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.479 0.933367
+Time step 1438 at t=0.479333
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.479333 0.933086
+Time step 1439 at t=0.479667
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.479667 0.932805
+Time step 1440 at t=0.48
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.48 0.932524
+Time step 1441 at t=0.480333
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.480333 0.932243
+Time step 1442 at t=0.480667
+Solving linear system
+done (3.5e-05 s)
+
+GREP: 0.480667 0.931963
+Time step 1443 at t=0.481
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.481 0.931682
+Time step 1444 at t=0.481333
+Solving linear system
+done (0.000176 s)
+
+GREP: 0.481333 0.931402
+Time step 1445 at t=0.481667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.481667 0.931122
+Time step 1446 at t=0.482
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.482 0.930842
+Time step 1447 at t=0.482333
+Solving linear system
+done (0.000209 s)
+
+GREP: 0.482333 0.930563
+Time step 1448 at t=0.482667
+Solving linear system
+done (6e-05 s)
+
+GREP: 0.482667 0.930284
+Time step 1449 at t=0.483
+Solving linear system
+done (0 s)
+
+GREP: 0.483 0.930004
+Time step 1450 at t=0.483333
+Solving linear system
+done (2e-05 s)
+
+GREP: 0.483333 0.929726
+Time step 1451 at t=0.483667
+Solving linear system
+done (0.000103 s)
+
+GREP: 0.483667 0.929447
+Time step 1452 at t=0.484
+Solving linear system
+done (3.2e-05 s)
+
+GREP: 0.484 0.929168
+Time step 1453 at t=0.484333
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.484333 0.92889
+Time step 1454 at t=0.484667
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.484667 0.928612
+Time step 1455 at t=0.485
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.485 0.928334
+Time step 1456 at t=0.485333
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.485333 0.928056
+Time step 1457 at t=0.485667
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.485667 0.927779
+Time step 1458 at t=0.486
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.486 0.927501
+Time step 1459 at t=0.486333
+Solving linear system
+done (2.1e-05 s)
+
+GREP: 0.486333 0.927224
+Time step 1460 at t=0.486667
+Solving linear system
+done (0 s)
+
+GREP: 0.486667 0.926947
+Time step 1461 at t=0.487
+Solving linear system
+done (0 s)
+
+GREP: 0.487 0.926671
+Time step 1462 at t=0.487333
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.487333 0.926394
+Time step 1463 at t=0.487667
+Solving linear system
+done (0.000357 s)
+
+GREP: 0.487667 0.926118
+Time step 1464 at t=0.488
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.488 0.925842
+Time step 1465 at t=0.488333
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.488333 0.925566
+Time step 1466 at t=0.488667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.488667 0.92529
+Time step 1467 at t=0.489
+Solving linear system
+done (3.6e-05 s)
+
+GREP: 0.489 0.925014
+Time step 1468 at t=0.489333
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.489333 0.924739
+Time step 1469 at t=0.489667
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.489667 0.924464
+Time step 1470 at t=0.49
+Solving linear system
+done (4e-05 s)
+
+GREP: 0.49 0.924189
+Time step 1471 at t=0.490333
+Solving linear system
+done (2.7e-05 s)
+
+GREP: 0.490333 0.923914
+Time step 1472 at t=0.490667
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.490667 0.92364
+Time step 1473 at t=0.491
+Solving linear system
+done (0 s)
+
+GREP: 0.491 0.923365
+Time step 1474 at t=0.491333
+Solving linear system
+done (0.000296 s)
+
+GREP: 0.491333 0.923091
+Time step 1475 at t=0.491667
+Solving linear system
+done (2.9e-05 s)
+
+GREP: 0.491667 0.922817
+Time step 1476 at t=0.492
+Solving linear system
+done (0 s)
+
+GREP: 0.492 0.922543
+Time step 1477 at t=0.492333
+Solving linear system
+done (0 s)
+
+GREP: 0.492333 0.92227
+Time step 1478 at t=0.492667
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.492667 0.921996
+Time step 1479 at t=0.493
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.493 0.921723
+Time step 1480 at t=0.493333
+Solving linear system
+done (3.9e-05 s)
+
+GREP: 0.493333 0.92145
+Time step 1481 at t=0.493667
+Solving linear system
+done (0 s)
+
+GREP: 0.493667 0.921177
+Time step 1482 at t=0.494
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.494 0.920905
+Time step 1483 at t=0.494333
+Solving linear system
+done (0.000122 s)
+
+GREP: 0.494333 0.920632
+Time step 1484 at t=0.494667
+Solving linear system
+done (1.9e-05 s)
+
+GREP: 0.494667 0.92036
+Time step 1485 at t=0.495
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.495 0.920088
+Time step 1486 at t=0.495333
+Solving linear system
+done (0 s)
+
+GREP: 0.495333 0.919816
+Time step 1487 at t=0.495667
+Solving linear system
+done (3.8e-05 s)
+
+GREP: 0.495667 0.919545
+Time step 1488 at t=0.496
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.496 0.919273
+Time step 1489 at t=0.496333
+Solving linear system
+done (0 s)
+
+GREP: 0.496333 0.919002
+Time step 1490 at t=0.496667
+Solving linear system
+done (2.3e-05 s)
+
+GREP: 0.496667 0.918731
+Time step 1491 at t=0.497
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.497 0.91846
+Time step 1492 at t=0.497333
+Solving linear system
+done (2.8e-05 s)
+
+GREP: 0.497333 0.918189
+Time step 1493 at t=0.497667
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.497667 0.917919
+Time step 1494 at t=0.498
+Solving linear system
+done (4.2e-05 s)
+
+GREP: 0.498 0.917648
+Time step 1495 at t=0.498333
+Solving linear system
+done (3.4e-05 s)
+
+GREP: 0.498333 0.917378
+Time step 1496 at t=0.498667
+Solving linear system
+done (3.1e-05 s)
+
+GREP: 0.498667 0.917108
+Time step 1497 at t=0.499
+Solving linear system
+done (2.6e-05 s)
+
+GREP: 0.499 0.916838
+Time step 1498 at t=0.499333
+Solving linear system
+done (3e-05 s)
+
+GREP: 0.499333 0.916569
+Time step 1499 at t=0.499667
+Solving linear system
+done (0.000174 s)
+
+GREP: 0.499667 0.9163
+Time step 1500 at t=0.5
+Solving linear system
+done (3.3e-05 s)
+
+GREP: 0.5 0.91603
+[100%] Built target run
