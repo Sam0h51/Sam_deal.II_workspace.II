@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/deal.II/dealii/examples/[00]-starting-SH-code/st
 include CMakeFiles/run.dir/progress.make
 
 CMakeFiles/run: 00-SH-full-equation
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/deal.II/dealii/examples/[00]-starting-SH-code/step-26/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Run 00-SH-full-equation with Debug configuration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/deal.II/dealii/examples/[00]-starting-SH-code/step-26/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Run 00-SH-full-equation with Release configuration"
 	./00-SH-full-equation
 
 run: CMakeFiles/run

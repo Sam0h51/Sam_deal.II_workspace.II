@@ -79,9 +79,9 @@ CMakeFiles/00-SH-full-equation.dir/00-SH-full-equation.cc.s: cmake_force
 
 00-SH-full-equation: CMakeFiles/00-SH-full-equation.dir/00-SH-full-equation.cc.o
 00-SH-full-equation: CMakeFiles/00-SH-full-equation.dir/build.make
-00-SH-full-equation: /home/ubuntu/deal.II/installed/lib/libdeal_II.g.so.9.4.0
-00-SH-full-equation: /home/ubuntu/libs/p4est-2.3.2/DEBUG/lib/libp4est.so
-00-SH-full-equation: /home/ubuntu/libs/p4est-2.3.2/DEBUG/lib/libsc.so
+00-SH-full-equation: /home/ubuntu/deal.II/installed/lib/libdeal_II.so.9.4.0
+00-SH-full-equation: /home/ubuntu/libs/p4est-2.3.2/FAST/lib/libp4est.so
+00-SH-full-equation: /home/ubuntu/libs/p4est-2.3.2/FAST/lib/libsc.so
 00-SH-full-equation: /usr/lib/x86_64-linux-gnu/openmpi/lib/libopen-pal.so
 00-SH-full-equation: /home/ubuntu/libs/trilinos-release-12-18-1/lib/librol.so
 00-SH-full-equation: /home/ubuntu/libs/trilinos-release-12-18-1/lib/libtempus.so

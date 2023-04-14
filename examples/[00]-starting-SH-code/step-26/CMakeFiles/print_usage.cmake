@@ -4,7 +4,7 @@ MESSAGE(
 #  Project  00-SH-full-equation  set up with  deal.II-9.4.0  found at
 #      /home/ubuntu/deal.II/installed
 #
-#  CMAKE_BUILD_TYPE:          Debug
+#  CMAKE_BUILD_TYPE:          Release
 #
 #  You can now run
 #       $ make                - to compile and link the program

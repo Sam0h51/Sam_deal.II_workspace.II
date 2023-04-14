@@ -66,7 +66,8 @@ namespace Step26
                 , unsigned int ref_num
                 , double r_constant = 0.5
                 , double g1_constant = 0.5
-                , double k_constant = 1.);
+                , double k_constant = 1.
+                , double end_time = 0.5);
     void run();
 
     void test_matrices();
@@ -108,6 +109,8 @@ namespace Step26
     const double r;
     const double g1;
     const double k;
+
+    const double end_time;
   };
 
 
@@ -183,7 +186,7 @@ namespace Step26
    (void)component;
     AssertIndexRange(component, 2);
 
-    // return 2.;
+    return 0.;
 
     if(component == 0){
       return 0;
@@ -202,10 +205,16 @@ namespace Step26
   class InitialConditions : public Function<spacedim>
   {
   private:
-    /* data */
+    const double r;
   public:
     InitialConditions()
-      : Function<spacedim>(2)
+      : Function<spacedim>(2),
+        r(0.3)
+    {}
+
+    InitialConditions(const double r = 0.3)
+      : Function<spacedim>(2),
+        r(r)
     {}
 
     virtual double value(const Point<spacedim> &p,
@@ -225,8 +234,16 @@ namespace Step26
 
     if(component == 0){
      
-      return 2;
+      // return 2;
       // return std::rand()%200 - 100;
+
+      // Random initial conditions
+      
+      std::random_device                          rand_dev;
+      std::mt19937                                generator(rand_dev());
+      std::uniform_real_distribution<double>      distro(-std::sqrt(r), std::sqrt(r));
+
+      return distro(generator);
 
       if(p(0) > 0)
         return 1;
@@ -317,6 +334,7 @@ namespace Step26
     , r(0.5)
     , g1(0.5)
     , k(1.)
+    , end_time(0.5)
   {}
 
   template <int dim, int spacedim>
@@ -325,7 +343,8 @@ namespace Step26
                                             unsigned int ref_num,
                                             double       r_constant,
                                             double       g1_constant,
-                                            double       k_constant)
+                                            double       k_constant,
+                                            double       end_time)
     : degree(degree)
     , fe(FE_Q<dim, spacedim>(degree), 2)
     , dof_handler(triangulation)
@@ -336,6 +355,7 @@ namespace Step26
     , r(r_constant)
     , g1(g1_constant)
     , k(k_constant)
+    , end_time(end_time)
   {}
 
 
@@ -433,8 +453,8 @@ namespace Step26
     /* SolverControl            solver_control(1000, 1e-8 * system_rhs.l2_norm());
     SolverCG<Vector<double>> cg(solver_control); */
 
-    std::cout << "Solving linear system" << std::endl;
-    Timer timer;
+    // std::cout << "Solving linear system" << std::endl;
+    // Timer timer;
 
 
     SparseDirectUMFPACK direct_solver;
@@ -452,9 +472,9 @@ namespace Step26
 
     constraints.distribute(solution); */
 
-    timer.stop();
+    // timer.stop();
 
-    std::cout << "done (" << timer.cpu_time() << " s)" << std::endl;
+    // std::cout << "done (" << timer.cpu_time() << " s)" << std::endl;
   }
 
 
@@ -540,9 +560,9 @@ namespace Step26
   {
     // Vector<double> convergence_vector;
 
-    // GridGenerator::hyper_sphere(triangulation, Point<3>(0, 0, 0), 1);
+    GridGenerator::hyper_sphere(triangulation, Point<3>(0, 0, 0), 100);
     // GridGenerator::torus(triangulation, 3., 1.);
-    GridGenerator::hyper_cube(triangulation, -5, 5);
+    // GridGenerator::hyper_cube(triangulation, -100, 100);
     triangulation.refine_global(refinement_number);
 
     setup_system();
@@ -556,7 +576,7 @@ namespace Step26
     tmp.reinit(solution.size());
     forcing_terms.reinit(solution.size());
 
-    InitialConditions<spacedim> initial_conditions;
+    InitialConditions<spacedim> initial_conditions(r);
 
 
     VectorTools::interpolate(dof_handler,
@@ -646,13 +666,15 @@ namespace Step26
 
 
 
-    while (time <= 0.5)
+    while (time <= end_time)
       {
         time += time_step;
         ++timestep_number;
 
-        std::cout << "Time step " << timestep_number << " at t=" << time
-                  << std::endl;
+        if(timestep_number%10 == 0){
+          std::cout << "Time step " << timestep_number << " at t=" << time
+                    << std::endl;
+        }
 
 
         //Not currently using
@@ -766,7 +788,7 @@ namespace Step26
 
         // std::cout << system_rhs << std::endl << std::endl;
 
-        /* {
+        {
           BoundaryValues<spacedim> boundary_values_function;
           boundary_values_function.set_time(time);
 
@@ -780,7 +802,7 @@ namespace Step26
                                              system_matrix,
                                              solution,
                                              system_rhs);
-        } */
+        }
 
         // std::cout << system_rhs << std::endl << std::endl << std::endl << std::endl;
 
@@ -796,9 +818,15 @@ namespace Step26
 
         solve_time_step();
 
-        output_results();
+        if(timestep_number%10 == 0){
+          output_results();
+        }
 
-        std::cout << std::endl << "GREP: "<< time << " " << solution[0] << std::endl;
+
+
+        // std::cout << std::endl << "GREP: "<< time << " " << solution[0] << std::endl;
+
+
 
         /* convergence_vector.reinit(solution.size());
 
@@ -866,7 +894,7 @@ int main()
     {
       using namespace Step26;
 
-      HeatEquation<2, 3> heat_equation_solver(1, 500, 0);
+      HeatEquation<2, 3> heat_equation_solver(1, 100, 6, 0.3, 0.0, 1., 80.);
       heat_equation_solver.run();
     }
   catch (std::exception &exc)
