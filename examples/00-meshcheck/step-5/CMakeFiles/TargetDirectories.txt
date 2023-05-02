@@ -1,0 +1,10 @@
+/home/ubuntu/deal.II/dealii/examples/00-meshcheck/step-5/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/deal.II/dealii/examples/00-meshcheck/step-5/CMakeFiles/info.dir
+/home/ubuntu/deal.II/dealii/examples/00-meshcheck/step-5/CMakeFiles/edit_cache.dir
+/home/ubuntu/deal.II/dealii/examples/00-meshcheck/step-5/CMakeFiles/strip_comments.dir
+/home/ubuntu/deal.II/dealii/examples/00-meshcheck/step-5/CMakeFiles/distclean.dir
+/home/ubuntu/deal.II/dealii/examples/00-meshcheck/step-5/CMakeFiles/runclean.dir
+/home/ubuntu/deal.II/dealii/examples/00-meshcheck/step-5/CMakeFiles/release.dir
+/home/ubuntu/deal.II/dealii/examples/00-meshcheck/step-5/CMakeFiles/debug.dir
+/home/ubuntu/deal.II/dealii/examples/00-meshcheck/step-5/CMakeFiles/run.dir
+/home/ubuntu/deal.II/dealii/examples/00-meshcheck/step-5/CMakeFiles/step-5.dir

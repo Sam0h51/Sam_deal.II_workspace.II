@@ -1,0 +1,1192 @@
+Scanning dependencies of target step-6
+[ 33%] Building CXX object CMakeFiles/step-6.dir/step-6.cc.o
+[ 66%] Linking CXX executable step-6
+[ 66%] Built target step-6
+[100%] Run step-6 with Release configuration
+   alpha: 38
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000161 s
+GREP0: 38 6.20428
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.002365 s
+GREP1: 38 6.2165
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.00808 s
+GREP2: 38 8.27744
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.014426 s
+GREP3: 38 12.6297
+Cycle 4:
+   Number of active cells:       3312
+   Number of degrees of freedom: 4249
+time: 0.137419 s
+GREP4: 38 21.3071
+Cycle 5:
+   Number of active cells:       10424
+   Number of degrees of freedom: 14013
+time: 0.526571 s
+GREP5: 38 26.1928
+Cycle 6:
+   Number of active cells:       32320
+   Number of degrees of freedom: 35729
+time: 16.7436 s
+GREP6: 38 30.6441
+Cycle 7:
+   Number of active cells:       100192
+   Number of degrees of freedom: 119729
+time: 63.902 s
+GREP7: 38 31.3193
+   alpha: 38.025
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000151 s
+GREP0: 38.025 6.21856
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.000553 s
+GREP1: 38.025 6.23076
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.002842 s
+GREP2: 38.025 8.30537
+Cycle 3:
+   Number of active cells:       932
+   Number of degrees of freedom: 1393
+time: 0.007888 s
+GREP3: 38.025 12.5232
+Cycle 4:
+   Number of active cells:       2948
+   Number of degrees of freedom: 3777
+time: 0.091128 s
+GREP4: 38.025 20.7172
+Cycle 5:
+   Number of active cells:       9136
+   Number of degrees of freedom: 12457
+time: 0.343882 s
+GREP5: 38.025 26.2321
+Cycle 6:
+   Number of active cells:       28316
+   Number of degrees of freedom: 33045
+time: 12.3914 s
+GREP6: 38.025 30.4581
+Cycle 7:
+   Number of active cells:       87788
+   Number of degrees of freedom: 106761
+time: 54.551 s
+GREP7: 38.025 31.6979
+   alpha: 38.05
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.00057 s
+GREP0: 38.05 6.23292
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.001094 s
+GREP1: 38.05 6.24509
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.007541 s
+GREP2: 38.05 8.33351
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.009057 s
+GREP3: 38.05 12.7764
+Cycle 4:
+   Number of active cells:       3312
+   Number of degrees of freedom: 4249
+time: 0.125846 s
+GREP4: 38.05 21.7641
+Cycle 5:
+   Number of active cells:       10424
+   Number of degrees of freedom: 14013
+time: 0.53913 s
+GREP5: 38.05 26.9
+Cycle 6:
+   Number of active cells:       32320
+   Number of degrees of freedom: 35729
+time: 18.3597 s
+GREP6: 38.05 31.6258
+Cycle 7:
+   Number of active cells:       100304
+   Number of degrees of freedom: 119769
+time: 90.7821 s
+GREP7: 38.05 32.3479
+   alpha: 38.075
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000268 s
+GREP0: 38.075 6.24735
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.003244 s
+GREP1: 38.075 6.2595
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.004297 s
+GREP2: 38.075 8.36185
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.01461 s
+GREP3: 38.075 12.851
+Cycle 4:
+   Number of active cells:       3312
+   Number of degrees of freedom: 4249
+time: 0.098042 s
+GREP4: 38.075 22.0001
+Cycle 5:
+   Number of active cells:       10340
+   Number of degrees of freedom: 13923
+time: 0.490732 s
+GREP5: 38.075 27.2377
+Cycle 6:
+   Number of active cells:       32054
+   Number of degrees of freedom: 35625
+time: 19.4475 s
+GREP6: 38.075 32.1093
+Cycle 7:
+   Number of active cells:       99156
+   Number of degrees of freedom: 118843
+time: 67.668 s
+GREP7: 38.075 32.8466
+   alpha: 38.1
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000849 s
+GREP0: 38.1 6.26186
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.002752 s
+GREP1: 38.1 6.27399
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.002435 s
+GREP2: 38.1 8.39041
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.010354 s
+GREP3: 38.1 12.9266
+Cycle 4:
+   Number of active cells:       3312
+   Number of degrees of freedom: 4249
+time: 0.115829 s
+GREP4: 38.1 22.2413
+Cycle 5:
+   Number of active cells:       10424
+   Number of degrees of freedom: 14013
+time: 0.50233 s
+GREP5: 38.1 27.6467
+Cycle 6:
+   Number of active cells:       32320
+   Number of degrees of freedom: 35729
+time: 18.0612 s
+GREP6: 38.1 32.6728
+Cycle 7:
+   Number of active cells:       100304
+   Number of degrees of freedom: 119769
+time: 90.5999 s
+GREP7: 38.1 33.4453
+   alpha: 38.125
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000404 s
+GREP0: 38.125 6.27646
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.001433 s
+GREP1: 38.125 6.28856
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.002125 s
+GREP2: 38.125 8.41918
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.009741 s
+GREP3: 38.125 13.0031
+Cycle 4:
+   Number of active cells:       3298
+   Number of degrees of freedom: 4231
+time: 0.113659 s
+GREP4: 38.125 22.451
+Cycle 5:
+   Number of active cells:       10228
+   Number of degrees of freedom: 13775
+time: 0.635804 s
+GREP5: 38.125 27.9649
+Cycle 6:
+   Number of active cells:       31704
+   Number of degrees of freedom: 35377
+time: 17.0454 s
+GREP6: 38.125 33.1595
+Cycle 7:
+   Number of active cells:       98232
+   Number of degrees of freedom: 117853
+time: 89.6534 s
+GREP7: 38.125 33.9882
+   alpha: 38.15
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000234 s
+GREP0: 38.15 6.29113
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.00096 s
+GREP1: 38.15 6.30321
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.002582 s
+GREP2: 38.15 8.44816
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.011307 s
+GREP3: 38.15 13.0805
+Cycle 4:
+   Number of active cells:       3312
+   Number of degrees of freedom: 4249
+time: 0.147391 s
+GREP4: 38.15 22.7401
+Cycle 5:
+   Number of active cells:       10424
+   Number of degrees of freedom: 14013
+time: 0.536307 s
+GREP5: 38.15 28.4363
+Cycle 6:
+   Number of active cells:       32320
+   Number of degrees of freedom: 35729
+time: 18.0474 s
+GREP6: 38.15 33.7919
+Cycle 7:
+   Number of active cells:       100304
+   Number of degrees of freedom: 119769
+time: 89.6061 s
+GREP7: 38.15 34.62
+   alpha: 38.175
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000473 s
+GREP0: 38.175 6.30588
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.005733 s
+GREP1: 38.175 6.31793
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.008299 s
+GREP2: 38.175 8.47735
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.00871 s
+GREP3: 38.175 13.1588
+Cycle 4:
+   Number of active cells:       3312
+   Number of degrees of freedom: 4249
+time: 0.092642 s
+GREP4: 38.175 22.9981
+Cycle 5:
+   Number of active cells:       10424
+   Number of degrees of freedom: 14013
+time: 0.510353 s
+GREP5: 38.175 28.8483
+Cycle 6:
+   Number of active cells:       32320
+   Number of degrees of freedom: 35729
+time: 17.9875 s
+GREP6: 38.175 34.3807
+Cycle 7:
+   Number of active cells:       100304
+   Number of degrees of freedom: 119769
+time: 88.873 s
+GREP7: 38.175 35.239
+   alpha: 38.2
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000368 s
+GREP0: 38.2 6.32071
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0 s
+GREP1: 38.2 6.33274
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.000143 s
+GREP2: 38.2 8.50677
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.008252 s
+GREP3: 38.2 13.2382
+Cycle 4:
+   Number of active cells:       3312
+   Number of degrees of freedom: 4249
+time: 0.09917 s
+GREP4: 38.2 23.2621
+Cycle 5:
+   Number of active cells:       10424
+   Number of degrees of freedom: 14013
+time: 0.533604 s
+GREP5: 38.2 29.2725
+Cycle 6:
+   Number of active cells:       32320
+   Number of degrees of freedom: 35729
+time: 17.9961 s
+GREP6: 38.2 34.9906
+Cycle 7:
+   Number of active cells:       100304
+   Number of degrees of freedom: 119769
+time: 88.6723 s
+GREP7: 38.2 35.8807
+   alpha: 38.225
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000153 s
+GREP0: 38.225 6.33563
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.002957 s
+GREP1: 38.225 6.34763
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.002879 s
+GREP2: 38.225 8.53641
+Cycle 3:
+   Number of active cells:       904
+   Number of degrees of freedom: 1345
+time: 0.008102 s
+GREP3: 38.225 13.0653
+Cycle 4:
+   Number of active cells:       2864
+   Number of degrees of freedom: 3729
+time: 0.074887 s
+GREP4: 38.225 22.3681
+Cycle 5:
+   Number of active cells:       8912
+   Number of degrees of freedom: 12261
+time: 0.34563 s
+GREP5: 38.225 29.2202
+Cycle 6:
+   Number of active cells:       27644
+   Number of degrees of freedom: 32361
+time: 8.5562 s
+GREP6: 38.225 34.6222
+Cycle 7:
+   Number of active cells:       85730
+   Number of degrees of freedom: 104823
+time: 55.0549 s
+GREP7: 38.225 36.3428
+   alpha: 38.25
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000489 s
+GREP0: 38.25 6.35062
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.001569 s
+GREP1: 38.25 6.3626
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.003979 s
+GREP2: 38.25 8.56627
+Cycle 3:
+   Number of active cells:       904
+   Number of degrees of freedom: 1367
+time: 0.008663 s
+GREP3: 38.25 13.124
+Cycle 4:
+   Number of active cells:       2857
+   Number of degrees of freedom: 3719
+time: 0.078203 s
+GREP4: 38.25 22.6026
+Cycle 5:
+   Number of active cells:       8856
+   Number of degrees of freedom: 12202
+time: 0.352769 s
+GREP5: 38.25 29.6401
+Cycle 6:
+   Number of active cells:       27448
+   Number of degrees of freedom: 32225
+time: 7.26297 s
+GREP6: 38.25 35.1539
+Cycle 7:
+   Number of active cells:       85086
+   Number of degrees of freedom: 104554
+time: 52.8172 s
+GREP7: 38.25 37.0118
+   alpha: 38.275
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000286 s
+GREP0: 38.275 6.3657
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.000685 s
+GREP1: 38.275 6.37766
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.002517 s
+GREP2: 38.275 8.59635
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.008313 s
+GREP3: 38.275 13.4822
+Cycle 4:
+   Number of active cells:       3312
+   Number of degrees of freedom: 4249
+time: 0.115593 s
+GREP4: 38.275 24.0919
+Cycle 5:
+   Number of active cells:       10424
+   Number of degrees of freedom: 14013
+time: 0.545795 s
+GREP5: 38.275 30.6239
+Cycle 6:
+   Number of active cells:       32320
+   Number of degrees of freedom: 35729
+time: 17.7611 s
+GREP6: 38.275 36.9577
+Cycle 7:
+   Number of active cells:       100248
+   Number of degrees of freedom: 119737
+time: 72.3485 s
+GREP7: 38.275 37.9532
+   alpha: 38.3
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000265 s
+GREP0: 38.3 6.38086
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.000843 s
+GREP1: 38.3 6.39279
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.00227 s
+GREP2: 38.3 8.62667
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.008486 s
+GREP3: 38.3 13.5656
+Cycle 4:
+   Number of active cells:       3144
+   Number of degrees of freedom: 4027
+time: 0.091505 s
+GREP4: 38.3 23.8779
+Cycle 5:
+   Number of active cells:       9745
+   Number of degrees of freedom: 13236
+time: 0.496498 s
+GREP5: 38.3 30.8298
+Cycle 6:
+   Number of active cells:       30206
+   Number of degrees of freedom: 34449
+time: 13.0317 s
+GREP6: 38.3 37.1916
+Cycle 7:
+   Number of active cells:       93640
+   Number of degrees of freedom: 112517
+time: 56.0857 s
+GREP7: 38.3 38.6032
+   alpha: 38.325
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000449 s
+GREP0: 38.325 6.39611
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.001526 s
+GREP1: 38.325 6.40801
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.001937 s
+GREP2: 38.325 8.65721
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.008295 s
+GREP3: 38.325 13.6501
+Cycle 4:
+   Number of active cells:       3312
+   Number of degrees of freedom: 4249
+time: 0.119404 s
+GREP4: 38.325 24.6791
+Cycle 5:
+   Number of active cells:       10424
+   Number of degrees of freedom: 14013
+time: 0.477303 s
+GREP5: 38.325 31.5968
+Cycle 6:
+   Number of active cells:       32320
+   Number of degrees of freedom: 35729
+time: 17.2459 s
+GREP6: 38.325 38.3972
+Cycle 7:
+   Number of active cells:       100304
+   Number of degrees of freedom: 119913
+time: 65.1101 s
+GREP7: 38.325 39.4735
+   alpha: 38.35
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000626 s
+GREP0: 38.35 6.41144
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.000489 s
+GREP1: 38.35 6.42332
+Cycle 2:
+   Number of active cells:       260
+   Number of degrees of freedom: 435
+time: 0.002667 s
+GREP2: 38.35 8.23581
+Cycle 3:
+   Number of active cells:       820
+   Number of degrees of freedom: 1243
+time: 0.007521 s
+GREP3: 38.35 13.3403
+Cycle 4:
+   Number of active cells:       2556
+   Number of degrees of freedom: 3373
+time: 0.027529 s
+GREP4: 38.35 16.6233
+Cycle 5:
+   Number of active cells:       7960
+   Number of degrees of freedom: 10589
+time: 0.245198 s
+GREP5: 38.35 27.7856
+Cycle 6:
+   Number of active cells:       24704
+   Number of degrees of freedom: 29025
+time: 6.28992 s
+GREP6: 38.35 36.6588
+Cycle 7:
+   Number of active cells:       76616
+   Number of degrees of freedom: 92721
+time: 39.7083 s
+GREP7: 38.35 39.8826
+   alpha: 38.375
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000276 s
+GREP0: 38.375 6.42685
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0 s
+GREP1: 38.375 6.43871
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.002727 s
+GREP2: 38.375 8.719
+Cycle 3:
+   Number of active cells:       904
+   Number of degrees of freedom: 1345
+time: 0.007962 s
+GREP3: 38.375 13.5484
+Cycle 4:
+   Number of active cells:       2864
+   Number of degrees of freedom: 3729
+time: 0.074275 s
+GREP4: 38.375 23.9485
+Cycle 5:
+   Number of active cells:       8912
+   Number of degrees of freedom: 12261
+time: 0.348344 s
+GREP5: 38.375 32.042
+Cycle 6:
+   Number of active cells:       27728
+   Number of degrees of freedom: 32481
+time: 7.97304 s
+GREP6: 38.375 38.7074
+Cycle 7:
+   Number of active cells:       85968
+   Number of degrees of freedom: 105133
+time: 71.776 s
+GREP7: 38.375 40.8708
+   alpha: 38.4
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000167 s
+GREP0: 38.4 6.44235
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.001726 s
+GREP1: 38.4 6.45418
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.000128 s
+GREP2: 38.4 8.75026
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.007997 s
+GREP3: 38.4 13.9101
+Cycle 4:
+   Number of active cells:       3172
+   Number of degrees of freedom: 4065
+time: 0.086523 s
+GREP4: 38.4 25.1515
+Cycle 5:
+   Number of active cells:       9836
+   Number of degrees of freedom: 13351
+time: 0.613226 s
+GREP5: 38.4 32.9079
+Cycle 6:
+   Number of active cells:       30486
+   Number of degrees of freedom: 34681
+time: 14.0655 s
+GREP6: 38.4 40.3108
+Cycle 7:
+   Number of active cells:       94508
+   Number of degrees of freedom: 113403
+time: 52.7103 s
+GREP7: 38.4 41.9045
+   alpha: 38.425
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000148 s
+GREP0: 38.425 6.45794
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.003351 s
+GREP1: 38.425 6.46975
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.00266 s
+GREP2: 38.425 8.78175
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.013486 s
+GREP3: 38.425 13.9991
+Cycle 4:
+   Number of active cells:       3228
+   Number of degrees of freedom: 4137
+time: 0.09845 s
+GREP4: 38.425 25.6506
+Cycle 5:
+   Number of active cells:       10004
+   Number of degrees of freedom: 13541
+time: 0.554128 s
+GREP5: 38.425 33.5499
+Cycle 6:
+   Number of active cells:       31032
+   Number of degrees of freedom: 34969
+time: 17.9915 s
+GREP6: 38.425 41.4092
+Cycle 7:
+   Number of active cells:       96216
+   Number of degrees of freedom: 115429
+time: 63.9932 s
+GREP7: 38.425 42.8398
+   alpha: 38.45
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000126 s
+GREP0: 38.45 6.47361
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.000888 s
+GREP1: 38.45 6.48539
+Cycle 2:
+   Number of active cells:       232
+   Number of degrees of freedom: 401
+time: 0.002313 s
+GREP2: 38.45 7.963
+Cycle 3:
+   Number of active cells:       736
+   Number of degrees of freedom: 1127
+time: 0.007129 s
+GREP3: 38.45 13.5354
+Cycle 4:
+   Number of active cells:       2276
+   Number of degrees of freedom: 3077
+time: 0.028822 s
+GREP4: 38.45 16.1842
+Cycle 5:
+   Number of active cells:       7050
+   Number of degrees of freedom: 9724
+time: 0.293457 s
+GREP5: 38.45 29.1333
+Cycle 6:
+   Number of active cells:       21855
+   Number of degrees of freedom: 26607
+time: 3.93235 s
+GREP6: 38.45 38.5015
+Cycle 7:
+   Number of active cells:       67754
+   Number of degrees of freedom: 84672
+time: 32.4846 s
+GREP7: 38.45 43.1879
+   alpha: 38.475
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000162 s
+GREP0: 38.475 6.48937
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.000369 s
+GREP1: 38.475 6.50113
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.002662 s
+GREP2: 38.475 8.84548
+Cycle 3:
+   Number of active cells:       960
+   Number of degrees of freedom: 1441
+time: 0.00822 s
+GREP3: 38.475 14.0166
+Cycle 4:
+   Number of active cells:       2976
+   Number of degrees of freedom: 3793
+time: 0.071178 s
+GREP4: 38.475 25.4507
+Cycle 5:
+   Number of active cells:       9248
+   Number of degrees of freedom: 12549
+time: 0.351919 s
+GREP5: 38.475 34.4293
+Cycle 6:
+   Number of active cells:       28960
+   Number of degrees of freedom: 33449
+time: 10.9643 s
+GREP6: 38.475 42.5421
+Cycle 7:
+   Number of active cells:       89888
+   Number of degrees of freedom: 108501
+time: 49.0642 s
+GREP7: 38.475 44.6658
+   alpha: 38.5
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000125 s
+GREP0: 38.5 6.50522
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.002566 s
+GREP1: 38.5 6.51696
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.002065 s
+GREP2: 38.5 8.87771
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.006759 s
+GREP3: 38.5 14.273
+Cycle 4:
+   Number of active cells:       3312
+   Number of degrees of freedom: 4249
+time: 0.114797 s
+GREP4: 38.5 26.9826
+Cycle 5:
+   Number of active cells:       10382
+   Number of degrees of freedom: 13971
+time: 0.514111 s
+GREP5: 38.5 35.5248
+Cycle 6:
+   Number of active cells:       32180
+   Number of degrees of freedom: 35689
+time: 20.2975 s
+GREP6: 38.5 44.4239
+Cycle 7:
+   Number of active cells:       99772
+   Number of degrees of freedom: 119381
+time: 72.3501 s
+GREP7: 38.5 45.9081
+   alpha: 38.525
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000122 s
+GREP0: 38.525 6.52116
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.001392 s
+GREP1: 38.525 6.53287
+Cycle 2:
+   Number of active cells:       204
+   Number of degrees of freedom: 367
+time: 0.001671 s
+GREP2: 38.525 7.67718
+Cycle 3:
+   Number of active cells:       631
+   Number of degrees of freedom: 991
+time: 0.006263 s
+GREP3: 38.525 13.5896
+Cycle 4:
+   Number of active cells:       1954
+   Number of degrees of freedom: 2648
+time: 0.024812 s
+GREP4: 38.525 15.8954
+Cycle 5:
+   Number of active cells:       6056
+   Number of degrees of freedom: 8141
+time: 0.184953 s
+GREP5: 38.525 30.2207
+Cycle 6:
+   Number of active cells:       18768
+   Number of degrees of freedom: 23641
+time: 1.67003 s
+GREP6: 38.525 39.4955
+Cycle 7:
+   Number of active cells:       58178
+   Number of degrees of freedom: 75127
+time: 30.5818 s
+GREP7: 38.525 45.9506
+   alpha: 38.55
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.00026 s
+GREP0: 38.55 6.53719
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.001288 s
+GREP1: 38.55 6.54887
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.00249 s
+GREP2: 38.55 8.94294
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.008119 s
+GREP3: 38.55 14.4619
+Cycle 4:
+   Number of active cells:       3312
+   Number of degrees of freedom: 4249
+time: 0.101748 s
+GREP4: 38.55 27.7224
+Cycle 5:
+   Number of active cells:       10424
+   Number of degrees of freedom: 14013
+time: 0.500457 s
+GREP5: 38.55 36.8714
+Cycle 6:
+   Number of active cells:       32313
+   Number of degrees of freedom: 35727
+time: 17.3127 s
+GREP6: 38.55 46.5613
+Cycle 7:
+   Number of active cells:       100164
+   Number of degrees of freedom: 119773
+time: 61.3508 s
+GREP7: 38.55 48.1634
+   alpha: 38.575
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000132 s
+GREP0: 38.575 6.55331
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.000741 s
+GREP1: 38.575 6.56497
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.001752 s
+GREP2: 38.575 8.97594
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.007379 s
+GREP3: 38.575 14.5582
+Cycle 4:
+   Number of active cells:       3312
+   Number of degrees of freedom: 4249
+time: 0.102584 s
+GREP4: 38.575 28.1079
+Cycle 5:
+   Number of active cells:       10424
+   Number of degrees of freedom: 14013
+time: 0.508362 s
+GREP5: 38.575 37.5686
+Cycle 6:
+   Number of active cells:       32320
+   Number of degrees of freedom: 35729
+time: 18.1191 s
+GREP6: 38.575 47.691
+Cycle 7:
+   Number of active cells:       100304
+   Number of degrees of freedom: 119913
+time: 64.3714 s
+GREP7: 38.575 49.3751
+   alpha: 38.6
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000134 s
+GREP0: 38.6 6.56952
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.001989 s
+GREP1: 38.6 6.58115
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.006651 s
+GREP2: 38.6 9.0092
+Cycle 3:
+   Number of active cells:       988
+   Number of degrees of freedom: 1475
+time: 0.008386 s
+GREP3: 38.6 14.5674
+Cycle 4:
+   Number of active cells:       3060
+   Number of degrees of freedom: 3913
+time: 0.080832 s
+GREP4: 38.6 27.4717
+Cycle 5:
+   Number of active cells:       9500
+   Number of degrees of freedom: 12921
+time: 0.343845 s
+GREP5: 38.6 37.7735
+Cycle 6:
+   Number of active cells:       29464
+   Number of degrees of freedom: 33881
+time: 12.9627 s
+GREP6: 38.6 47.8473
+Cycle 7:
+   Number of active cells:       91344
+   Number of degrees of freedom: 110053
+time: 56.8121 s
+GREP7: 38.6 50.4263
+   alpha: 38.625
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000365 s
+GREP0: 38.625 6.58582
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.00491 s
+GREP1: 38.625 6.59743
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.002581 s
+GREP2: 38.625 9.04273
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.008374 s
+GREP3: 38.625 14.7549
+Cycle 4:
+   Number of active cells:       3312
+   Number of degrees of freedom: 4249
+time: 0.098738 s
+GREP4: 38.625 28.912
+Cycle 5:
+   Number of active cells:       10424
+   Number of degrees of freedom: 14013
+time: 0.527056 s
+GREP5: 38.625 39.0456
+Cycle 6:
+   Number of active cells:       32320
+   Number of degrees of freedom: 35729
+time: 17.7274 s
+GREP6: 38.625 50.1186
+Cycle 7:
+   Number of active cells:       100304
+   Number of degrees of freedom: 120057
+time: 63.1322 s
+GREP7: 38.625 51.9832
+   alpha: 38.65
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.000457 s
+GREP0: 38.65 6.60222
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0 s
+GREP1: 38.65 6.6138
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.00285 s
+GREP2: 38.65 9.07652
+Cycle 3:
+   Number of active cells:       960
+   Number of degrees of freedom: 1441
+time: 0.008604 s
+GREP3: 38.65 14.6744
+Cycle 4:
+   Number of active cells:       2976
+   Number of degrees of freedom: 3793
+time: 0.056215 s
+GREP4: 38.65 27.9003
+Cycle 5:
+   Number of active cells:       9248
+   Number of degrees of freedom: 12549
+time: 0.348236 s
+GREP5: 38.65 39.1797
+Cycle 6:
+   Number of active cells:       28736
+   Number of degrees of freedom: 33321
+time: 10.546 s
+GREP6: 38.65 49.9191
+Cycle 7:
+   Number of active cells:       89104
+   Number of degrees of freedom: 108293
+time: 41.6241 s
+GREP7: 38.65 53.0716
+   alpha: 38.675
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.00015 s
+GREP0: 38.675 6.6187
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.001185 s
+GREP1: 38.675 6.63026
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.002078 s
+GREP2: 38.675 9.11058
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.008533 s
+GREP3: 38.675 14.9571
+Cycle 4:
+   Number of active cells:       3312
+   Number of degrees of freedom: 4249
+time: 0.112707 s
+GREP4: 38.675 29.7638
+Cycle 5:
+   Number of active cells:       10424
+   Number of degrees of freedom: 14013
+time: 0.508694 s
+GREP5: 38.675 40.6439
+Cycle 6:
+   Number of active cells:       32320
+   Number of degrees of freedom: 35729
+time: 17.6492 s
+GREP6: 38.675 52.807
+Cycle 7:
+   Number of active cells:       100304
+   Number of degrees of freedom: 120057
+time: 62.5546 s
+GREP7: 38.675 54.8842
+   alpha: 38.7
+Cycle 0:
+   Number of active cells:       8
+   Number of degrees of freedom: 27
+time: 0.00025 s
+GREP0: 38.7 6.63529
+Cycle 1:
+   Number of active cells:       64
+   Number of degrees of freedom: 125
+time: 0.001041 s
+GREP1: 38.7 6.64682
+Cycle 2:
+   Number of active cells:       288
+   Number of degrees of freedom: 469
+time: 0.001926 s
+GREP2: 38.7 9.14492
+Cycle 3:
+   Number of active cells:       1016
+   Number of degrees of freedom: 1509
+time: 0.008939 s
+GREP3: 38.7 15.0603
+Cycle 4:
+   Number of active cells:       3312
+   Number of degrees of freedom: 4249
+time: 0.112228 s
+GREP4: 38.7 30.2088
+Cycle 5:
+   Number of active cells:       10284
+   Number of degrees of freedom: 13843
+time: 0.606415 s
+GREP5: 38.7 41.3827
+Cycle 6:
+   Number of active cells:       31900
+   Number of degrees of freedom: 35537
+time: 17.9066 s
+GREP6: 38.7 54.1288
+Cycle 7:
+   Number of active cells:       98820
+   Number of degrees of freedom: 118429

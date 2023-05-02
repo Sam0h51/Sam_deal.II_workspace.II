@@ -31,6 +31,10 @@ CMakeLists.txt.user
 ehthumbs.db
 Thumbs.db
 
+# Mesh files
+*.vtk
+*.vtu
+
 # configuration, executable, and output files from examples
 examples/step-*/*dat
 examples/step-*/*eps
