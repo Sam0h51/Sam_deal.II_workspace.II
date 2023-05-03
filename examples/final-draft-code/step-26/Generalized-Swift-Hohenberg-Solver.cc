@@ -306,8 +306,11 @@ namespace SwiftHohenbergSolver
       }
 
       /// @brief            The return value of the initial condition function. This function is highly overloaded to account for a variety
-      ///                   of different initial condition and mesh configurations, based on the template parameter given. The RANDOM initial
-      ///                   condition type does not change from mesh 
+      ///                   of different initial condition and mesh configurations, based on the template parameter given.
+      ///
+      ///                   The RANDOM initial condition type does not change from mesh to mesh, it just returns a random number between -sqrt(r) and sqrt(r)
+      ///
+      ///                   The HOTSPOT initial condition changes the center depending on the input mesh type so that the hotspot is on the
       /// @param p 
       /// @param component 
       /// @return 
